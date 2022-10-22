@@ -1,10 +1,14 @@
 import './App.css';
-import MainPage from './Pages/MainPage';
+import HomePage from './Pages/HomePage';
+import Navbar from "./Pages/Navbar";
+import { Projects } from './Pages/Projects';
 
 function App() {
   return (
     <div className="App">
-      <MainPage/>
+      <Navbar/>
+      <HomePage/>
+      <Projects/>
     </div>
   );
 }

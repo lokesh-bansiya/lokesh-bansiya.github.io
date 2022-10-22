@@ -1,0 +1,283 @@
+.container{
+    display: block;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/785/443/large_2x/simple-elegant-liquid-water-and-wave-and-transparent-curve-shape-for-texture-and-presentation-background-template-free-photo.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin: auto;
+    background-color: white;
+}  
+
+.container > div{
+    padding-top: 9%;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.description{
+    width: 60%;
+    padding-top: 5%;
+}
+
+.imagebox{
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: auto;
+}
+
+.profile-details-name{
+    font-size: 25px;
+    font-family: 'Poppins SemiBold';
+  }
+  
+.profile-details-role{
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.highlighted-text{
+  color: red;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+h6{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-tag-line{
+  font-size: 19px;
+  margin: 5px 0px 0px 0px;
+  font-family: 'Poppins Light';
+}
+
+.highlighted-btn{
+  margin: 3% 0 0 20px;
+  padding: 2% 3%;
+  background-color: orangered;
+  color:white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.highlighted-btn:hover{
+  margin: 3% 0 0 20px;
+  background-color: cornsilk;
+  color: black;
+}
+
+.primary-btn{
+  margin: 3% 0 0 20px;
+  padding: 2% 3%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.primary-btn:hover{
+  margin: 3% 0 0 20px;
+  background-color: cornsilk;
+  color: black;
+}
+
+.profile-picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 0px 0px red;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin: 0px 0px 0px 25px;
+}
+
+.profile-picture-background{
+  height: 92%;
+  width: 92%;
+  border-radius: 50%;
+}
+.profile-picture-background img{
+  width: 98.5%;
+  height: 99%;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.profile-picture-background img:hover{
+  transform: scale(1.06);
+  transition: 1s ease-out;
+}
+
+.primary-text{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  padding: 0%;
+  margin: 0%;
+  color: rgb(19, 5, 70);
+}
+
+h6{
+  padding: 0%;
+  margin: 0%;
+}
+
+.colz-icon{
+  display: flex;
+  gap: 2%;
+}
+  
+.colz-icon a{
+  border-radius: 5px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background-color: white;
+}  
+
+
+@media all and (min-width: 481px) and (max-width: 768px){
+  .profile-details-name{
+      font-size: 15px;
+    }
+    
+  .profile-details-role{
+    margin: 5px 0 10px 0;
+  }
+
+  .highlighted-text{
+    font-size: 20px;
+  }
+
+  h6{
+    font-size: 15px;
+  }
+
+  .profile-tag-line{
+    font-size: 17px;
+    margin: 1px 0px 0px 0px;
+  }
+
+  .profile-picture{
+    height: 260px;
+    width: 260px;
+    margin: 7% 0px 0px 10px;
+  }
+
+  .profile-picture-background{
+    height: 92%;
+    width: 92%;
+    border-radius: 50%;
+  }
+  .profile-picture-background img{
+    width: 96%;
+    height: 99%;
+  }
+
+  .primary-text{
+    font-size: 25px;
+  }
+
+  .colz-icon a{
+    border-radius: 4px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }  
+
+}
+
+@media all and (min-width: 320px) and (max-width: 480px){
+
+  .container{
+    height: auto;
+    padding-bottom: 5%;
+  }  
+
+  .container > div{
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: auto;
+  }
+
+  .description{
+      width: 90%;
+      margin: auto;
+      margin-top: 20%;
+  }
+
+  .profile-picture{
+    height: 260px;
+    width: 260px;
+    margin: auto;
+  }
+
+  .imagebox{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-top: -5%;
+  }
+
+  .profile-details-name{
+      font-size: 25px;
+  }
+    
+  .profile-details-role{
+    margin: 14px 0 24px 0;
+  }
+
+  .highlighted-text{
+    color: red;
+    font-size: 25px;
+  }
+
+  .profile-tag-line{
+    font-size: 17px;
+    color: white;
+    margin: 1px 0px 0px 0px;
+  }
+
+  h6{
+    font-size: 15px;
+  }
+
+  .profile-picture{
+    height: 360px;
+    width: 360px;
+  }
+
+  .primary-text{
+    font-size: 35px;
+    color: rgb(250, 105, 1);
+  }
+
+  h6{
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .colz-icon{
+    display: flex;
+    margin-bottom: 5%;
+    gap: 2%;
+  }
+    
+  .colz-icon a{
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: white;
+  }  
+
+}
