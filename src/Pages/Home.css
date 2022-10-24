@@ -58,6 +58,7 @@ h6{
 }
 
 .highlighted-btn{
+  cursor: pointer;
   margin: 3% 0 0 20px;
   padding: 2% 3%;
   background-color: orangered;
@@ -75,6 +76,7 @@ h6{
 .primary-btn{
   margin: 3% 0 0 20px;
   padding: 2% 3%;
+  cursor: pointer;
   background-color: white;
   color: black;
   font-weight: bold;
@@ -95,6 +97,7 @@ h6{
   box-shadow: 0 2px 0px 0px red;
   height: 400px;
   width: 400px;
+  cursor: pointer;
   border-radius: 50%;
   margin: 0px 0px 0px 25px;
 }
@@ -188,6 +191,7 @@ h6{
   }
 
   .colz-icon a{
+    cursor: pointer;
     border-radius: 4px;
     padding-left: 2%;
     padding-right: 2%;
@@ -196,10 +200,18 @@ h6{
 }
 
 @media all and (min-width: 320px) and (max-width: 480px){
-
+   
+  #Home{
+    padding-top: 100px;
+  }
   .container{
     height: auto;
-    padding-bottom: 5%;
+    background-color: rgb(230, 226, 226);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/9e923283480591.5d47400f2029b.png);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position-y: bottom;
+    padding-bottom: 5px;
   }  
 
   .container > div{
@@ -211,20 +223,21 @@ h6{
   .description{
       width: 90%;
       margin: auto;
-      margin-top: 20%;
+      margin-top: 0%;
   }
 
   .profile-picture{
     height: 260px;
     width: 260px;
     margin: auto;
+    box-shadow: 0 5px 0px 0px rgb(85, 12, 50);
   }
 
   .imagebox{
       width: 100%;
       height: auto;
       margin: auto;
-      margin-top: -5%;
+      margin-bottom: 5%;
   }
 
   .profile-details-name{
@@ -233,6 +246,7 @@ h6{
     
   .profile-details-role{
     margin: 14px 0 24px 0;
+    background-color: rgb(29, 25, 25);
   }
 
   .highlighted-text{
@@ -263,12 +277,14 @@ h6{
   h6{
     padding: 0%;
     margin: 0%;
+    color: white;
   }
 
   .colz-icon{
     display: flex;
     margin-bottom: 5%;
     gap: 2%;
+    
   }
     
   .colz-icon a{
@@ -276,6 +292,7 @@ h6{
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 1%;
+    color: black;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     background-color: white;
   }  

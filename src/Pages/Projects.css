@@ -3,16 +3,28 @@
     width: 100%;
     height: auto;
     padding-top: 6%;
+    padding-bottom: 7%;
 }
 
-h1{
+.projectheading{
+    width: 25%;
+    margin: auto;
+}
+
+.projectsContainer .projectheading h1{
     text-align: center;
-    color: rgb(7, 7, 65);
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+    font-size: 45px;
+    width: 200px;
+    margin: auto;
+    border-bottom: 2px solid rgb(19, 5, 70);
+    color: rgb(19, 5, 70);
+    margin-bottom: 5px;
 }
 
 
 .projectBox{
-    border: 1px solid red;
     padding: 5%;
 }
 
@@ -130,6 +142,12 @@ h1{
         padding-right: 3%;
     }
 
+    .projectsContainer .projectheading h1{
+        font-size: 35px;
+        width: 150px;
+        margin: auto;
+    }
+
     .projectDetails h2{
         font-size: large;
         color: rgb(128, 5, 48);
@@ -216,11 +234,21 @@ h1{
 }
 
 @media all and (min-width: 320px) and (max-width: 480px){
+
+    #Projects{
+        padding-top: 15%;
+    }
+
     .projectDetails{
         width: 100%;
         display: block;
         text-align: center;
         padding-right: 3%;
+    }
+
+    .projectsContainer .projectheading h1{
+        font-size: 35px;
+        width: 110px;
     }
 
     .projectItem1{

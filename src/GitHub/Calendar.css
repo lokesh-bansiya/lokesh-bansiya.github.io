@@ -1,0 +1,88 @@
+
+.calendarContainer{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-color: rgb(247, 247, 210);
+}
+
+.calendarContainer .calendarBox{
+    margin: auto;
+}
+
+    
+.calendarContainer .calendarBox > h3{
+    text-align: center;
+    border: 3px solid black;
+    width: 35%;
+    border-radius: 7px;
+    padding: 1%;
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    background-color: brown;
+    margin-bottom: 5%;
+}
+
+.graph{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.graph > a > img{
+    width: 100%;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    .calendarContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5%;
+    }
+    
+    .calendarContainer .calendarBox{
+        margin: auto;
+    }
+    
+        
+    .calendarContainer .calendarBox > h3{
+        border-radius: 7px;
+        font-size: 15px;
+        margin-top: 7%;
+        width: 30%;
+        background-color: white;
+        color: rgb(54, 3, 3);
+        border: 1px solid rgb(22, 4, 61);
+        margin-bottom: 6%;
+    }
+    
+    .Calendar{
+        height: 300px;
+    }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    
+    .calendarContainer .calendarBox{
+        margin: auto;
+    }
+    
+        
+    .calendarContainer .calendarBox > h3{
+        border-radius: 7px;
+        font-size: 13px;
+        margin-top: 7%;
+        width: 30%;
+        background-color: white;
+        color: rgb(54, 3, 3);
+        border: 1px solid rgb(22, 4, 61);
+        margin-bottom: 6%;
+    }
+    
+    .Calendar{
+        height: 300px;
+    }
+}

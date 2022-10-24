@@ -1,0 +1,88 @@
+
+.ContactContainer{
+    background-color: rgb(26, 25, 25);
+    height: 550px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+.contactlogotop{
+    color: rgb(246, 28, 83);
+    font-size: 25px;
+}
+.ContactContainer > div > h1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+    font-size: 45px;
+    width: 250px;
+    border-bottom: 2px solid rgb(237, 235, 243);
+    color: rgb(250, 173, 5);
+    margin: 4% auto 5% auto;
+}
+.contactlogo{
+    border: 1px solid white;
+    font-size: 40px;
+    padding: 1% 2% 1% 2%;
+    border-radius: 8px;
+    color: rgb(241, 194, 4);
+    margin: 2%;
+}
+
+.contactlogo:hover{
+    transform: scale(1.07);
+    transition: 0.5s ease-in;
+    border: 1px solid rgb(252, 4, 4);
+}
+
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    .ContactContainer{
+        background-color: rgb(26, 25, 25);
+        height: 400px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding-top: 2%;
+    }
+    .ContactContainer > div > h1{
+        font-size: 35px;
+        width: 250px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    .ContactContainer{
+        background-color: rgb(26, 25, 25);
+        height: 370px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .ContactContainer > div > div > h3{
+        font-size: 15px;
+    }
+
+    .ContactContainer > div > h1{
+        font-size: 25px;
+        width: 200px;
+        margin-bottom: 9%;
+    }
+
+    .contactlogo{
+        font-size: 30px;
+        padding: 2% 3% 2% 3%;
+        color: red;
+        margin: 2%;
+        margin-top: 5%;
+    }
+
+    .contactlogo:hover{
+        transform: scale(1.07);
+        transition: 0.5s ease-in;
+        border: 1px solid rgb(224, 224, 3);
+    }
+}

@@ -8,9 +8,10 @@ import naukari from "../Image/naukari.png";
 
 export const Projects = () => {
   return (
-    <div id="Projects" className="projectsContainer">
+    <div id="Projects">
+    <div className="projectsContainer">
       <div>
-        <div>
+        <div className="projectheading">
           <h1>Projects</h1>
         </div>
 
@@ -24,9 +25,7 @@ export const Projects = () => {
               <div className="desc">
                 <span>Description</span>
                 <br />
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti optio placeat quisquam blanditiis laborum. Nulla rem ad
-                libero alias blanditiis.
+                This is the clone of beautybebo.com website (an ecommerce website) with the help of HTML, CSS, and JavaScript, here I have implemented some functionality and a best clone UI of the original website.
               </div>
               <div className="functionality">
                 <h3>Functionality</h3>
@@ -72,14 +71,14 @@ export const Projects = () => {
                 <div className="btn">
                   <button>
                     <h3>
-                      <a href="">
+                      <a href="https://github.com/lokesh-patidar/rightful-order-9279" target="_blank">
                         <FaGithub /> GitHub Repo
                       </a>
                     </h3>
                   </button>
                   <button>
                     <h3>
-                      <a href="">
+                      <a href="https://fascinating-youtiao-fd95ce.netlify.app/" target="_blank">
                         <FaLink /> Diployed Link
                       </a>
                     </h3>
@@ -91,7 +90,7 @@ export const Projects = () => {
 
           <br />
           <br />
-          <hr color="gray"/>
+          <hr color="gray" />
           <br />
           <br />
 
@@ -104,9 +103,7 @@ export const Projects = () => {
               <div className="desc">
                 <span>Description</span>
                 <br />
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti optio placeat quisquam blanditiis laborum. Nulla rem ad
-                libero alias blanditiis.
+                This is a mini dice rolling app that I made with the help of HTML, CSS, and JavaScript, here I have generated random numbers from 1 to 6 and I gave a good UI to it. Three members can participate to play with it.
               </div>
               <div className="functionality">
                 <h3>Functionality</h3>
@@ -153,7 +150,7 @@ export const Projects = () => {
                     <h3>
                       <a
                         href="https://github.com/lokesh-patidar/Dice-App"
-                        target="blank"
+                        target="_blank"
                       >
                         <FaGithub /> GitHub Repo
                       </a>
@@ -163,7 +160,7 @@ export const Projects = () => {
                     <h3>
                       <a
                         href="https://whimsical-sorbet-723292.netlify.app/"
-                        target="blank"
+                        target="_blank"
                       >
                         <FaLink /> Diployed Link
                       </a>
@@ -176,7 +173,7 @@ export const Projects = () => {
 
           <br />
           <br />
-          <hr color="gray"/>
+          <hr color="gray" />
           <br />
           <br />
 
@@ -189,9 +186,9 @@ export const Projects = () => {
               <div className="desc">
                 <span>Description</span>
                 <br />
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti optio placeat quisquam blanditiis laborum. Nulla rem ad
-                libero alias blanditiis.
+                Harvest is a cloud-based time tracking tool designed for businesses of all sizes.
+                Key features include time and expense management, team management, project management, scheduling and invoicing. I worked on it with my team. I have assigned a team of 5 members for this project to clone getharvest.com. We have built this exactly as similar as a real website with the help of html, css and javascript.
+
               </div>
               <div className="functionality">
                 <h3>Functionality</h3>
@@ -238,7 +235,7 @@ export const Projects = () => {
                     <h3>
                       <a
                         href="https://github.com/lokesh-patidar/vigorous-ticket-1895"
-                        target="blank"
+                        target="_blank"
                       >
                         <FaGithub /> GitHub Repo
                       </a>
@@ -248,7 +245,7 @@ export const Projects = () => {
                     <h3>
                       <a
                         href="https://monumental-sprinkles-d71af9.netlify.app/"
-                        target="blank"
+                        target="_blank"
                       >
                         <FaLink /> Diployed Link
                       </a>
@@ -261,7 +258,7 @@ export const Projects = () => {
 
           <br />
           <br />
-          <hr color="gray"/>
+          <hr color="gray" />
           <br />
           <br />
 
@@ -274,9 +271,7 @@ export const Projects = () => {
               <div className="desc">
                 <span>Description</span>
                 <br />
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti optio placeat quisquam blanditiis laborum. Nulla rem ad
-                libero alias blanditiis.
+                Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies, and job seekers in India and overseas. It offers multiple products like Resume Database Access, Job Listings, and Response Management Tools. Here is the clone ofth real website that I made with the help of react, chakra-ui and javascript mostly.
               </div>
               <div className="functionality">
                 <h3>Functionality</h3>
@@ -293,11 +288,13 @@ export const Projects = () => {
                       width="60%"
                       alt="reactjs"
                     />
+
+
                     <img
-                      src="https://img.shields.io/badge/chakra ui-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white"
+                      src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
                       align="center"
-                      width="90px"
-                      alt="chakra-ui"
+                      width="50%"
+                      alt="html5"
                     />
                     <img
                       src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
@@ -306,10 +303,10 @@ export const Projects = () => {
                       alt="javascript"
                     />
                     <img
-                      src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+                      src="https://img.shields.io/badge/chakra ui-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white"
                       align="center"
-                      width="50%"
-                      alt="html5"
+                      width="90px"
+                      alt="chakra-ui"
                     />
                     <img
                       src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
@@ -342,7 +339,7 @@ export const Projects = () => {
                     <h3>
                       <a
                         href="https://github.com/lokesh-patidar/punchy-car-5123/tree/main/naukri.com"
-                        target="blank"
+                        target="_blank"
                       >
                         <FaGithub /> GitHub Repo
                       </a>
@@ -352,7 +349,7 @@ export const Projects = () => {
                     <h3>
                       <a
                         href="https://ornate-flan-0416fa.netlify.app/"
-                        target="blank"
+                        target="_blank"
                       >
                         <FaLink /> Diployed Link
                       </a>
@@ -365,7 +362,7 @@ export const Projects = () => {
 
           <br />
           <br />
-          <hr color="gray"/>
+          <hr color="gray" />
           <br />
           <br />
 
@@ -377,7 +374,7 @@ export const Projects = () => {
               />
             </div>
             <div className="projectDetails">
-              <h2>Clone of beautybebo.com website</h2>
+              <h2>Clone of Lorem, ipsum.com website</h2>
               <div className="desc">
                 <span>Description</span>
                 <br />
@@ -433,14 +430,14 @@ export const Projects = () => {
                 <div className="btn">
                   <button>
                     <h3>
-                      <a href="">
+                      <a href="#" target="_blank">
                         <FaGithub /> GitHub Repo
                       </a>
                     </h3>
                   </button>
                   <button>
                     <h3>
-                      <a href="">
+                      <a href="#" target="_blank">
                         <FaLink /> Diployed Link
                       </a>
                     </h3>
@@ -451,6 +448,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

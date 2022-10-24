@@ -1,20 +1,15 @@
 import './Home.css';
 import {
-    FaHome,
-    FaUser,
-    FaIdCard,
-    FaFolder,
     FaLinkedinIn,
     FaGithub,
-    FaList,
-    FaBook,
 } from "react-icons/fa";
 import Typical from "react-typical";
 
 
 const HomePage = () => {
     return (
-        <div id='Home' className="container">
+        <div id='Home'>
+        <div className="container">
             <div>
                 <div className="description">
                     <div className="profile-details">
@@ -66,17 +61,14 @@ const HomePage = () => {
                                 </p>
                             </span>
                             <span className="profile-tag-line">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit. Similique, voluptatibus? Lorem ipsum dolor sit
-                                amet consectetur, adipisicing eli Knack of building
-                                applications with front-end and back-end operations
+                                Aspiring MERN-Stack (MongoDB, Express, React, Node), Aspiring Full Stack Web Development at Masai School Bangaluru , KARNATAKA
                             </span>
                         </div>
 
                         <div>
-                            <button className="btn primary-btn"> Hire Me </button>
+                            <a href='#contactSection'><button className="btn primary-btn"> Hire Me </button></a>
                             <a
-                                href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing" target="_blank"
                                 download
                             >
                                 <button className="btn highlighted-btn">
@@ -97,6 +89,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }

@@ -7,9 +7,12 @@
     height: auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
+.mainNavbarBox{
+    display: none;
+    width: 0%;
+}
 
 .logo{
     padding: 0.5% 0% 1% 1%;
@@ -33,6 +36,7 @@
 
 .nav > div{
     border: 0.5px solid black;
+    cursor: pointer;
     background-color: white;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     border-radius: 10px;
@@ -45,6 +49,13 @@
     font-weight: bold;
 }
 
+.nav > div:hover{
+    transform: scale(1.04);
+    transition: 0.5s ease-out;
+    border: 1px solid rgb(224, 3, 3);
+    background-color: rgb(162, 203, 210);
+  }
+
 .nav > div > a {
     text-decoration: none;
     color: black;
@@ -53,6 +64,14 @@
 
  
 @media all and (min-width: 481px) and (max-width: 768px){
+
+    #box-2{
+        display: none;
+    }
+    .mainNavbarBox{
+        display: none;
+        width: 0%;
+    }
     .logo{
         padding: 0.2% 0% 1% 1%;
         margin-left: 1%;
@@ -83,15 +102,106 @@
     
 }
 @media all and (min-width: 320px) and (max-width: 480px){
-    .nav{
+    
+    .navbarContainer{
+        display: none;
+        height: 0%;
+        width: 0%;
+    }
+    
+    #box-1{
+        display: none;
+    }
+
+    .mainNavbarBox{
+        z-index: 10;
+        display: flex;
+        width: 100%;
+        top: -1px;
+        padding-bottom: -200px;
+        margin-bottom: -380px;
+        position: fixed;
+    }
+   
+    .burgerNav{
+        width: 100%;
+        height: 4em;
+        background-color: black;
+        display: flex;
+        border-bottom: 1px solid white;
+        justify-content: flex-start;
+        padding: 1em;
+    }
+   
+    .navlogo{
+        padding: 0.5% 0% 1% 1%;
+        width: 100px;
+        margin-left: 200%;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .navlogo > span {
+        font-size: 45px;
+        color: rgb(244, 181, 6);
+        font-family: 'Courgette', cursive;
+    }
+   
+    .navinside1{
+        padding: 0.5% 0% 1% 1%;
+        width: 350px;
+        margin-right: 10%;
+        margin-top: 3%;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .navinside1 > span {
+        font-size: 45px;
+        color: rgb(225, 10, 10);
+        font-family: 'Courgette', cursive;
+    }
+
+    .burger-menu{
+        height: 70%;
+        width: 4em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 10;
+    }
+   
+    .burger-bar{
+        width: 2.2em;
+        height: 0.3em;
+        background-color: rgb(224, 238, 237);
+        border-radius: 0.5em;
+    }
+   
+    .menu{
+        width: 100%;
+        background-color: rgb(7, 7, 7);
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+    
+    .navinside{
         display: grid;
-        width: 40%;
+        width: 80%;
+        height: auto;
+        margin-top: 25%;
         grid-template-columns: repeat(1, 1fr);
         gap: 3%;
         padding-top: 1.7%;
         padding-left: 5%;
+        z-index: 1;
     }
-    
+   
     .navbarContainer{
         z-index: 1;
         background-color: black;
@@ -102,25 +212,56 @@
         margin-right: 1%;
         height: 300px;
         display: flex;
-        border:  1px solid red;
         justify-content: space-between;
     }
-
-
-    .nav > div{
-        border: 1px solid white;
+   
+   
+    .navinside > div{
+        border-bottom: 1px solid rgb(251, 165, 5);
         background-color: black;
         color: white;
-        padding-top: 5%;
-        padding-bottom: 4%;
-        width: 150px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 120px;
         height: 20px;
         font-size: 15px;
+        text-align: center;
         font-weight: bold;
+        border-bottom-left-radius: 10px;
     }
-    .nav > div > a {
+    .navinside > div > a {
         text-decoration: none;
         color: white;
     }
+   
+    .hidden{
+        display: none;
+        height: 0px;
+    }
+   
+    .visible{
+        display: inherit;
+        height: 100vh;
+    }
+   
+    .burger-bar.clicked:nth-child(1){
+        transform: rotate(45deg)  translate(0.75em, 1.25em);
+        transition: ease-out 0.5s;
+    }
+   
+    .burger-bar.clicked:nth-child(2){
+        transform: scale(0.1);
+        transition: ease-out 0.5s;
+    }
+    .burger-bar.clicked:nth-child(3){
+        transform: rotate(135deg)  translate(-0.5em, 1em);
+        transition: ease-out 0.5s;
+    }
+   
+    .burger-bar.unclicked{
+        transform: rotate(0) translate(0);
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+    }
+
 }
   
