@@ -6,6 +6,8 @@ import {
   FaFolder,
   FaList,
   FaBook,
+  FaMobileAlt,
+  FaMobile,
 } from "react-icons/fa";
 import './Navbar.css';
 
@@ -48,7 +50,43 @@ const Navbar = () => {
             <a href="#Projects"><FaFolder /> Projects</a>
           </div>
           <div>
-            <a href="#contactSection"><FaIdCard /> Contact</a>
+            <a href="#contactSection"><FaMobile /> Contact</a>
+          </div>
+          <div>
+            <a
+              href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing"
+              target="_blank"
+              alt="Resume"
+            >
+              <FaBook />
+              &nbsp; Resume
+            </a>
+          </div>
+        </div>
+      </div>
+
+{/* ---------------------------------------------------------------------------------  */}
+      
+
+      <div id="box-1second" className="navbarContainersecond">
+        <div className="logosecond">
+          <span>P</span>ortfolio
+        </div>
+        <div className="navsecond">
+          <div>
+            <a href="#Home"><FaHome /> Home</a>
+          </div>
+          <div>
+            <a href="#aboutMe"><FaUser /> About Me</a>
+          </div>
+          <div>
+            <a href="#skills"><FaList /> Skills</a>
+          </div>
+          <div>
+            <a href="#Projects"><FaFolder /> Projects</a>
+          </div>
+          <div>
+            <a href="#contactSection"><FaMobileAlt /> Contact</a>
           </div>
           <div>
             <a
@@ -65,6 +103,9 @@ const Navbar = () => {
 
 
 
+{/* ---------------------------------------------------------------------------------  */}
+
+
       <div id="box-2" className="mainNavbarBox" style={{ width: "100%", height: "100vh" }}>
         <div className="burgerNav">
           <div className="burger-menu" onClick={updateMenu}>
@@ -78,6 +119,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+
         <div id="menu-class" style={{height: "100vh"}} className={menu_class}>
           
           <div className="navinside">
@@ -118,7 +160,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navinside1">
-             <span>L</span>okesh &nbsp;<span>P</span>atidar
+            <span>L</span>okesh &nbsp;<span>P</span>atidar
           </div>
         </div>
     </div>

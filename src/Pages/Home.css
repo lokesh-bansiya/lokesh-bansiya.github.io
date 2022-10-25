@@ -7,11 +7,16 @@
     margin: auto;
     background-color: white;
 }  
-
+.container > div {
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+}
 .container > div{
     padding-top: 9%;
     display: flex;
     width: 90%;
+    height: 100vh;
     margin: auto;
 }
 
@@ -24,8 +29,9 @@
     width: 40%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: auto;
     margin: auto;
+    margin-top: 2%;
 }
 
 .profile-details-name{
@@ -95,16 +101,16 @@ h6{
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 0px 0px red;
-  height: 400px;
-  width: 400px;
+  height: auto;
+  width: auto;
   cursor: pointer;
   border-radius: 50%;
   margin: 0px 0px 0px 25px;
 }
 
 .profile-picture-background{
-  height: 92%;
-  width: 92%;
+  height: 94%;
+  width: 94%;
   border-radius: 50%;
 }
 .profile-picture-background img{
@@ -148,10 +154,20 @@ h6{
 }  
 
 
-@media all and (min-width: 481px) and (max-width: 768px){
+@media all and (min-width: 600px) and (max-width: 1200px){
+
+  .container{
+    height: fit-content;
+  }
+  .container > div {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+  }
+
   .profile-details-name{
       font-size: 15px;
-    }
+  }
     
   .profile-details-role{
     margin: 5px 0 10px 0;
@@ -171,19 +187,93 @@ h6{
   }
 
   .profile-picture{
-    height: 260px;
-    width: 260px;
-    margin: 7% 0px 0px 10px;
+    height: auto;
+    width: auto;
+    padding: 2%;
   }
 
   .profile-picture-background{
-    height: 92%;
-    width: 92%;
+    height: 98%;
+    width: 98%;
     border-radius: 50%;
   }
   .profile-picture-background img{
     width: 96%;
     height: 99%;
+  }
+
+  .primary-text{
+    font-size: 25px;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .colz-icon a{
+    cursor: pointer;
+    border-radius: 4px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }  
+
+}
+
+@media all and (min-width: 450px) and (max-width: 600px){
+  .container{
+    height: fit-content;
+    padding-bottom: -20px;
+  }
+
+  #Home{
+    padding-top: 20%;
+  }
+  
+  .container > div {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+  }
+
+  .profile-details-name{
+      font-size: 13px;
+  }
+    
+  .profile-details-role{
+    margin: 5px 0 10px 0;
+  }
+
+  .highlighted-text{
+    font-size: 20px;
+  }
+
+  h6{
+    font-size: 15px;
+  }
+
+  .profile-tag-line{
+    font-size: 15px;
+    margin: 1px 0px 0px 0px;
+  }
+
+  .profile-picture{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 0px 0px red;
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 50%;
+    margin: 0px 0px 0px 3px;
+  }
+
+  .profile-picture-background{
+    height: 95%;
+    width: 95%;
+    border-radius: 50%;
+  }
+  .profile-picture-background img{
+    width: 96%;
+    height: 98%;
   }
 
   .primary-text{
@@ -196,14 +286,15 @@ h6{
     padding-left: 2%;
     padding-right: 2%;
   }  
-
 }
 
-@media all and (min-width: 320px) and (max-width: 480px){
+@media all and (min-width: 280px) and (max-width: 450px){
    
   #Home{
-    padding-top: 100px;
+    padding-top: 55%;
+    background-color: rgb(230, 226, 226);
   }
+
   .container{
     height: auto;
     background-color: rgb(230, 226, 226);
@@ -217,6 +308,7 @@ h6{
   .container > div{
     flex-direction: column-reverse;
     width: 100%;
+    height: 100vh;
     margin: auto;
   }
 
@@ -227,25 +319,36 @@ h6{
   }
 
   .profile-picture{
-    height: 260px;
-    width: 260px;
-    margin: auto;
-    box-shadow: 0 5px 0px 0px rgb(85, 12, 50);
+    height: auto;
+    width: auto;
+    margin: 3%;
+    padding-bottom: 2%;
+    box-shadow: 0 4px 0px 0px rgb(247, 7, 51);
   }
 
   .imagebox{
-      width: 100%;
-      height: auto;
+      width: 90%;
+      height: 90%;
       margin: auto;
-      margin-bottom: 5%;
+      margin-top: 40%;
   }
 
   .profile-details-name{
       font-size: 25px;
   }
-    
+  .profile-picture-background{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+  }
+  
+  .profile-details >div:last-child{
+    background-color: rgb(29, 25, 25);
+    margin: 0%;
+  }
   .profile-details-role{
     margin: 14px 0 24px 0;
+    border-top-right-radius: 25%;
     background-color: rgb(29, 25, 25);
   }
 
@@ -255,9 +358,10 @@ h6{
   }
 
   .profile-tag-line{
-    font-size: 17px;
+    font-size: 15px;
     color: white;
     margin: 1px 0px 0px 0px;
+    background-color: rgb(29, 25, 25);
   }
 
   h6{
@@ -265,17 +369,18 @@ h6{
   }
 
   .profile-picture{
-    height: 360px;
-    width: 360px;
+    height: auto;
+    width: auto;
   }
 
   .primary-text{
-    font-size: 35px;
+    font-size: 25px;
+    background-color: rgb(29, 25, 25);
     color: rgb(250, 105, 1);
   }
 
   h6{
-    padding: 0%;
+    padding-top: 5%;
     margin: 0%;
     color: white;
   }
@@ -297,4 +402,23 @@ h6{
     background-color: white;
   }  
 
+}
+
+@media all and (min-width: 400px) and (max-width: 450px){
+  .profile-picture-background{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+  }
+  .profile-picture{
+    height: auto;
+    width: auto;
+  }
+  .imagebox{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 40%;
+    padding-bottom: 5%;
+}
 }

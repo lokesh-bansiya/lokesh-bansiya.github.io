@@ -1,6 +1,6 @@
 import React from "react";
 import './Skills.css';
-import { FaCss3, FaGitAlt, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
 
 export const Skills = () => {
   return (

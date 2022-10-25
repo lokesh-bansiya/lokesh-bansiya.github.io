@@ -106,8 +106,10 @@
 }
 
 
-@media all and (min-width: 481px) and (max-width: 768px){
-    
+@media all and (min-width: 600px) and (max-width: 900px){
+    #skills{
+        padding-top: 1%;
+    }
     .skillContainer{
         display: flex;
         flex-direction: column;
@@ -185,9 +187,68 @@
     
 }
 
-@media all and (min-width: 320px) and (max-width: 480px){
+@media all and (min-width: 450px) and (max-width: 600px){
     #skills{
-        padding-top: 20%;
+        padding-top: 10%;
+    }
+    .skillContainer{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+    }
+
+    .skillContainer > div > h1{
+        font-size: 35px;
+        width: 100px;
+    }
+    
+    .skillsBox{
+        grid-template-columns: repeat(2,1fr);
+        gap: 5% 5%;
+        width: 90%;
+        margin: auto;
+        margin-top: 7%;
+        padding-bottom: 14%;
+    }
+    
+    .skillsBox > div{
+        font-size: 80px;
+        border-radius: 10px;
+    }
+    
+    .skillsBox > div > img{
+        width: 70px;
+    }
+
+    .skillsBox > div > h3{
+        font-size: 15px;
+    }
+    
+    .tools > h4{
+        font-size: 18px;
+        margin-top: 20%;
+        width: 20%;
+        margin-bottom: 7%;
+    }
+    
+    .toolsBox{
+        grid-template-columns: repeat(3,1fr);
+        gap: 5% 5%;
+    }
+    
+    .toolsBox > div > img{
+        width: 50px;
+    }
+    
+    .toolsBox > div > h3{
+        font-size: 11px;
+    }
+}
+
+
+@media all and (min-width: 280px) and (max-width: 450px){
+    #skills{
+        padding-top: 10%;
     }
 
     .skillContainer{
@@ -226,6 +287,7 @@
     .tools > h4{
         font-size: 18px;
         margin-top: 20%;
+        width: 20%;
         margin-bottom: 7%;
     }
     
@@ -239,7 +301,7 @@
     }
     
     .toolsBox > div > h3{
-        font-size: 13px;
+        font-size: 11px;
     }
     
 }

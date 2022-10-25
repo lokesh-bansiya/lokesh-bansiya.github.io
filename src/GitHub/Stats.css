@@ -41,6 +41,7 @@
     .statsBox > h3{
         font-size: 15px;
         margin-bottom: 5%;
+        width: fit-content;
         background-color: white;
         color: rgb(54, 3, 3);
         border: 1px solid rgb(22, 4, 61);
@@ -49,7 +50,7 @@
 }
 
 
-@media all and (min-width: 320px) and (max-width: 480px){
+@media all and (min-width: 280px) and (max-width: 480px){
     .statsContainer{
         display: block;
         width: 90%;

@@ -6,9 +6,9 @@
     padding-bottom: 7%;
 }
 
-.projectheading{
-    width: 25%;
-    margin: auto;
+.projectsContainer .projectheading{
+    width: 100%;
+    text-align: center;
 }
 
 .projectsContainer .projectheading h1{
@@ -119,6 +119,10 @@
     grid-template-columns: repeat(1,1fr);
     gap: 3%;
 }
+.techStacks{
+    display: flex;
+    gap: 2%;
+}
 
 .techStacks > .tools{
     display: flex;
@@ -133,7 +137,7 @@
 }
 
 
-@media all and (min-width: 481px) and (max-width: 768px){
+@media all and (min-width: 600px) and (max-width: 900px){
     
     .projectDetails{
         width: 55%;
@@ -233,10 +237,10 @@
     
 }
 
-@media all and (min-width: 320px) and (max-width: 480px){
+@media all and (min-width: 280px) and (max-width: 600px){
 
     #Projects{
-        padding-top: 15%;
+        padding-top: 5%;
     }
 
     .projectDetails{
@@ -245,10 +249,14 @@
         text-align: center;
         padding-right: 3%;
     }
+    .projectsContainer .projectheading{
+        width: 100%;
+    }
 
     .projectsContainer .projectheading h1{
-        font-size: 35px;
-        width: 110px;
+        font-size: 30px;
+        width: fit-content;
+        margin-bottom: 5%;
     }
 
     .projectItem1{
@@ -301,6 +309,12 @@
        font-size: medium;
        font-weight: bold;
     }
+
+    .techStacks{
+        display: flex;
+        gap: 2%;
+    }
+    
     
     .techStacks .btn{
         display: flex;
