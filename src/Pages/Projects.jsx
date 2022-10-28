@@ -449,6 +449,7 @@ export const Projects = () => {
         </div>
       </div>
     </div>
+    <hr id="contactPageSection"/>
     </div>
   );
 };

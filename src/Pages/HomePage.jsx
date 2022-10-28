@@ -68,9 +68,7 @@ const HomePage = () => {
                         <div>
                             <a href='#contactSection'><button className="btn primary-btn"> Hire Me </button></a>
                             <a
-                                href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing" target="_blank"
-                                download
-                            >
+                                href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing" download>
                                 <button className="btn highlighted-btn">
                                     Get Resume
                                 </button>
@@ -90,6 +88,7 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
+        <hr id='aboutMePageSection'/>
         </div>
     );
 }

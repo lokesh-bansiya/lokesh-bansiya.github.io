@@ -21,6 +21,7 @@ export const AboutMe = () => {
         </div>
       </div>
     </div>
+    <hr id="skillsPageSection"/>
     </div>
   );
 }

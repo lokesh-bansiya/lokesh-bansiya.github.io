@@ -2,7 +2,6 @@ import React from "react";
 import GitHubCalendar from 'react-github-calendar';
 import ReactTooltip from 'react-tooltip';
 import './Calendar.css';
-import { Stats } from "./Stats";
 
 export const Calendar = () => {
 
@@ -52,6 +51,7 @@ export const Calendar = () => {
             src="https://activity-graph.herokuapp.com/graph?username=lokesh-patidar&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
            </a>
         </div>
+        <hr id="projectsPageSection"/>
         </div>
     );
 }

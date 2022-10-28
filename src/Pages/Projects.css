@@ -1,5 +1,4 @@
 .projectsContainer{
-    background-color: whitesmoke;
     width: 100%;
     height: auto;
     padding-top: 6%;
@@ -234,7 +233,6 @@
     .techStacks > .tools div img{
         width: 70px;
     }
-    
 }
 
 @media all and (min-width: 280px) and (max-width: 600px){

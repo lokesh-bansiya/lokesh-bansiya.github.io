@@ -20,13 +20,14 @@
     padding: 0.5% 0% 1% 1%;
     margin-left: 2%;
     width: 100px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .logo > span {
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Courgette', cursive;
+    color: red;
 }
 
 .nav{
@@ -65,7 +66,7 @@
 
 
  
-@media all and (min-width: 600px) and (max-width: 900px){
+@media all and (min-width: 750px) and (max-width: 900px){
     #box-1second{
         display: none;
     }
@@ -79,12 +80,12 @@
     .logo{
         padding: 0.2% 0% 1% 1%;
         margin-left: 1%;
-        font-size: 13px;
+        font-size: 20px;
         font-weight: bolder;
     }
 
     .logo > span {
-        font-size: 30px;
+        font-size: 45px;
     }
 
     .nav{
@@ -98,6 +99,7 @@
         background-color: white;
         box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
         padding-top: 8%;
+        margin-top: 7%;
         width: 70px;
         height: 22px;
         font-size: 10px;
@@ -106,7 +108,7 @@
     
 }
 
-@media all and (min-width: 450px) and (max-width: 600px){
+@media all and (min-width: 450px) and (max-width: 750px){
 
     #box-2{
         display: none;

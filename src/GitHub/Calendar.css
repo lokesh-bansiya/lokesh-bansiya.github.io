@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     padding: 5%;
-    background-color: rgb(247, 247, 210);
+    background-color: #0d1117;
+    color: white;
 }
 
 .calendarContainer .calendarBox{
@@ -14,24 +15,28 @@
 .calendarContainer .calendarBox > h3{
     text-align: center;
     border: 3px solid black;
-    width: 35%;
+    width: fit-content;
     border-radius: 7px;
     padding: 1%;
-    color: white;
     margin: auto;
     font-size: 20px;
-    background-color: brown;
     margin-bottom: 5%;
+    background-color: rgb(53, 133, 146);
+    color: white;
 }
 
 .graph{
     width: 100%;
     margin: auto;
+    display: block;
     display: flex;
+    text-align: center;
+    background-color: #0d1117;
 }
 
-.graph > a > img{
-    width: 100%;
+.graph  img{
+    width: 95%;
+    margin: auto;
 }
 
 @media all and (min-width: 481px) and (max-width: 768px){
@@ -51,9 +56,6 @@
         border-radius: 7px;
         font-size: 15px;
         margin-top: 7%;
-        width: 30%;
-        background-color: white;
-        color: rgb(54, 3, 3);
         border: 1px solid rgb(22, 4, 61);
         margin-bottom: 6%;
     }
@@ -69,20 +71,12 @@
     .calendarContainer .calendarBox{
         margin: auto;
     }
-    
         
     .calendarContainer .calendarBox > h3{
         border-radius: 7px;
         font-size: 13px;
         margin-top: 7%;
-        width: 30%;
-        background-color: white;
-        color: rgb(54, 3, 3);
         border: 1px solid rgb(22, 4, 61);
         margin-bottom: 6%;
-    }
-    
-    .Calendar{
-        height: 300px;
     }
 }

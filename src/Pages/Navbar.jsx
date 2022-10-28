@@ -5,7 +5,6 @@ import {
   FaIdCard,
   FaFolder,
   FaList,
-  FaBook,
   FaMobileAlt,
   FaMobile,
 } from "react-icons/fa";
@@ -34,23 +33,23 @@ const Navbar = () => {
     <>
       <div id="box-1" className="navbarContainer">
         <div className="logo">
-          <span>P</span>ortfolio
+          <span>L</span>okesh
         </div>
         <div className="nav">
           <div>
             <a href="#Home"><FaHome /> Home</a>
           </div>
           <div>
-            <a href="#aboutMe"><FaUser /> About Me</a>
+            <a href="#aboutMePageSection"><FaUser /> About Me</a>
           </div>
           <div>
-            <a href="#skills"><FaList /> Skills</a>
+            <a href="#skillsPageSection"><FaList /> Skills</a>
           </div>
           <div>
-            <a href="#Projects"><FaFolder /> Projects</a>
+            <a href="#projectsPageSection"><FaFolder /> Projects</a>
           </div>
           <div>
-            <a href="#contactSection"><FaMobile /> Contact</a>
+            <a href="#contactPageSection"><FaMobile /> Contact</a>
           </div>
           <div>
             <a
@@ -58,7 +57,6 @@ const Navbar = () => {
               target="_blank"
               alt="Resume"
             >
-              <FaBook />
               &nbsp; Resume
             </a>
           </div>
@@ -70,23 +68,23 @@ const Navbar = () => {
 
       <div id="box-1second" className="navbarContainersecond">
         <div className="logosecond">
-          <span>P</span>ortfolio
+          <span>L</span>okesh
         </div>
         <div className="navsecond">
           <div>
             <a href="#Home"><FaHome /> Home</a>
           </div>
           <div>
-            <a href="#aboutMe"><FaUser /> About Me</a>
+            <a href="#aboutMePageSection"><FaUser /> About Me</a>
           </div>
           <div>
-            <a href="#skills"><FaList /> Skills</a>
+            <a href="#skillsPageSection"><FaList /> Skills</a>
           </div>
           <div>
-            <a href="#Projects"><FaFolder /> Projects</a>
+            <a href="#projectsPageSection"><FaFolder /> Projects</a>
           </div>
           <div>
-            <a href="#contactSection"><FaMobileAlt /> Contact</a>
+            <a href="#contactPageSection"><FaMobileAlt /> Contact</a>
           </div>
           <div>
             <a
@@ -94,7 +92,6 @@ const Navbar = () => {
               target="_blank"
               alt="Resume"
             >
-              <FaBook />
               &nbsp; Resume
             </a>
           </div>
@@ -115,7 +112,7 @@ const Navbar = () => {
           </div>
           <div>
             <div className="navlogo">
-              <span>P</span>ortfolio
+              <span>L</span>okesh
             </div>
           </div>
         </div>
@@ -129,22 +126,22 @@ const Navbar = () => {
               </a>
             </div>
             <div onClick={updateMenu}>
-              <a href="#aboutMe">
+              <a href="#aboutMePageSection">
                 <FaUser /> About Me
               </a>
             </div>
             <div onClick={updateMenu}>
-              <a href="#skills">
+              <a href="#skillsPageSection">
                 <FaList /> Skills
               </a>
             </div>
             <div onClick={updateMenu}>
-              <a href="#Projects">
+              <a href="#projectsPageSection">
                 <FaFolder /> Projects
               </a>
             </div>
             <div onClick={updateMenu}>
-              <a href="#contactSection">
+              <a href="#contactPageSection">
                 <FaIdCard /> Contact
               </a>
             </div>
@@ -154,7 +151,6 @@ const Navbar = () => {
                 target="_blank"
                 alt="Resume"
               >
-                <FaBook />
                 &nbsp; Resume
               </a>
             </div>

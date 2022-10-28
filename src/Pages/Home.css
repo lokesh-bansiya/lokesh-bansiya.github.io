@@ -154,7 +154,7 @@ h6{
 }  
 
 
-@media all and (min-width: 600px) and (max-width: 1200px){
+@media all and (min-width: 750px) and (max-width: 1200px){
 
   .container{
     height: fit-content;
@@ -217,7 +217,7 @@ h6{
 
 }
 
-@media all and (min-width: 450px) and (max-width: 600px){
+@media all and (min-width: 450px) and (max-width: 750px){
   .container{
     height: fit-content;
     padding-bottom: -20px;
@@ -229,7 +229,7 @@ h6{
   
   .container > div {
     display: flex;
-    height: 80vh;
+    height: 90vh;
     justify-content: space-between;
   }
 
@@ -288,29 +288,60 @@ h6{
   }  
 }
 
+/* 
+@media all and (min-width: 400px) and (max-width: 450px){
+  .profile-picture-background{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+  }
+  .profile-picture{
+    height: auto;
+    width: auto;
+  }
+  .imagebox{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 40%;
+    padding-bottom: 5%;
+}
+} */
+
 @media all and (min-width: 280px) and (max-width: 450px){
-   
+  #Home > hr{
+    margin-top: 18%;
+    margin-bottom: 10%;
+  }
   #Home{
-    padding-top: 7%;
+    padding-top: 10%;
     background-color: rgb(230, 226, 226);
   }
 
   .container{
-    height: auto;
-    background-color: rgb(230, 226, 226);
+    height: fit-content;
+    background-color: rgb(236, 236, 246);
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/9e923283480591.5d47400f2029b.png);
     background-repeat: no-repeat;
     background-size: 200%;
     background-position-y: bottom;
-    padding-bottom: 5px;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
   }  
 
   .container > div{
+    display: flex;
     flex-direction: column-reverse;
+    justify-content: space-between;
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin: auto;
+    margin-top: 3%;
   }
+/* 
+  .container > div > div{
+    border: 1px solid red;
+  } */
 
   .description{
       width: 90%;
@@ -328,9 +359,10 @@ h6{
 
   .imagebox{
       width: 90%;
+      display: block;
       height: 90%;
-      margin: auto;
-      margin-top: 40%;
+      text-align: center;
+      margin: 5%;
   }
 
   .profile-details-name{
@@ -360,7 +392,8 @@ h6{
   .profile-tag-line{
     font-size: 15px;
     color: white;
-    margin: 1px 0px 0px 0px;
+    margin: 1px 0px -10px 0px;
+    padding-bottom: 3%;
     background-color: rgb(29, 25, 25);
   }
 
@@ -402,23 +435,4 @@ h6{
     background-color: white;
   }  
 
-}
-
-@media all and (min-width: 400px) and (max-width: 450px){
-  .profile-picture-background{
-    height: 90%;
-    width: 90%;
-    border-radius: 50%;
-  }
-  .profile-picture{
-    height: auto;
-    width: auto;
-  }
-  .imagebox{
-    width: 80%;
-    height: 80%;
-    margin: auto;
-    margin-top: 40%;
-    padding-bottom: 5%;
-}
 }
