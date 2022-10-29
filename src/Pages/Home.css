@@ -155,7 +155,7 @@ h6{
 }  
 
 
-@media all and (min-width: 950px) and (max-width: 1200px){
+@media all and (min-width: 850px) and (max-width: 1200px){
 
   .container{
     height: fit-content;
@@ -218,15 +218,15 @@ h6{
 
 }
 
-@media all and (min-width: 550px) and (max-width: 950px){
+@media all and (min-width: 550px) and (max-width: 850px){
   .container{
     height: fit-content;
-    background-image: none; 
-    background-color: rgb(187, 190, 193);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkBtWCfjJ4xVqGIltIy8koeOoMZeU4d4dcQ&usqp=CAU); 
+    color: white;
   }
 
   #Home{
-    padding-top: 15%;
+    padding-top: 10%;
   }
   
   .container > div {
@@ -262,7 +262,7 @@ h6{
     width: auto;
     display: flex;
     align-items: center;
-    box-shadow: 0 2px 0px 0px red;
+    box-shadow: 0 2px 0px 0px rgb(237, 221, 6);
     cursor: pointer;
     padding: 2%;
     border-radius: 50%;
@@ -277,10 +277,12 @@ h6{
   .profile-picture-background img{
     width: 96%;
     height: 98%;
+    border: 5px solid rgb(138, 8, 58);
   }
 
   .primary-text{
     font-size: 28px;
+    color: yellow;
   }
 
   .colz-icon a{

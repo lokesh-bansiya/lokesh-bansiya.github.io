@@ -67,24 +67,25 @@ const Navbar = () => {
       
 
       <div id="box-1second" className="navbarContainersecond">
-        <div className="logosecond">
+       <div className="logosecond">
           <span>L</span>okesh
         </div>
         <div className="navsecond">
+          
           <div>
-            <a href="#Home"><FaHome /> Home</a>
+            <a href="#Home"> <span>H</span>ome</a>
           </div>
           <div>
-            <a href="#aboutMePageSection"><FaUser /> About Me</a>
+            <a href="#aboutMePageSection"> <span>A</span>bout Me</a>
           </div>
           <div>
-            <a href="#skillsPageSection"><FaList /> Skills</a>
+            <a href="#skillsPageSection"> <span>S</span>kills</a>
           </div>
           <div>
-            <a href="#projectsPageSection"><FaFolder /> Projects</a>
+            <a href="#projectsPageSection"> <span>P</span>rojects</a>
           </div>
           <div>
-            <a href="#contactPageSection"><FaMobileAlt /> Contact</a>
+            <a href="#contactPageSection"> <span>C</span>ontact</a>
           </div>
           <div>
             <a
@@ -92,7 +93,7 @@ const Navbar = () => {
               target="_blank"
               alt="Resume"
             >
-              &nbsp; Resume
+              &nbsp; <span>R</span>esume
             </a>
           </div>
         </div>
