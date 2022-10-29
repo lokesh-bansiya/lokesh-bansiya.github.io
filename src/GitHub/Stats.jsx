@@ -14,17 +14,16 @@ export const Stats = () => {
                         <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=lokesh-patidar" />
                     </a>
                 </div>
-
-                <div>
-                    <a href="https://github.com/lokesh-paidar">
-                        <img align="center" href="https://github-readme-stats.vercel.app/api/top-langs/?username=lokesh-patidar" alt="" />
-                    </a>
-
-                    <a href="https://github.com/lokesh-paidar">
-                        <img align="left" href="https://github-readme-stats.vercel.app/api/?username=lokesh-patidar&count_private=true&show_icons=true" alt="" />
-                    </a>
-                </div>
             </div>
+
+            <div className="stats-3">
+                <p align="center">
+                <a href="https://github.com/lokesh-paidar">
+                        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokesh-patidar&bg_color=0D1117" alt="" />
+                    </a>
+                </p>
+            </div>
+
             <div className="stats-2">
                 <p align="center">
                     <a href="https://github.com/lokesh-patidar/github-readme-stats">
@@ -34,6 +33,8 @@ export const Stats = () => {
                     </a>
                 </p>
             </div>
+
+            
             </div>
         </div>
 

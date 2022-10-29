@@ -15,8 +15,8 @@ export const Calendar = () => {
             const monthOfDay = date.getMonth();
 
             return (
-                date.getFullYear() === currentYear && 
-                monthOfDay > currentMonth - shownMonths && 
+                date.getFullYear() === currentYear &&
+                monthOfDay > currentMonth - shownMonths &&
                 monthOfDay <= currentMonth
             );
         });
@@ -24,34 +24,43 @@ export const Calendar = () => {
 
 
     return (
-        <div>
-        <div className="calendarContainer">
+        <div className="outerBox">
+            <div className="calendarContainer">
 
-            <div className="calendarBox">
-                <h3>GitHub Calender</h3>
-                <GitHubCalendar
-                username="lokesh-patidar"
-                transformData={selectLastHalfYear}
-                hideTotalCount
-                hideColorLegend
-                style={{
-                    height: "130px",
-                    width: "100%",
-                    cursor: "pointer"
-                }}
-                >
-                    <ReactTooltip delayShow={20}/>
-                </GitHubCalendar>
-                
+                <div className="calendarBox">
+                    <h3>GitHub Calender</h3>
+                    <GitHubCalendar
+                        username="lokesh-patidar"
+                        color="yellow"
+                        transformData={selectLastHalfYear}
+                        hideTotalCount
+                        hideColorLegend
+                        style={{
+                            width: "100%",
+                            cursor: "pointer"
+                        }}
+                    >
+                        <ReactTooltip delayShow={20} />
+                    </GitHubCalendar>
+                </div>
             </div>
-        </div>
-        <div className="graph">
-           <a href="https://github.com/lokesh-patidar/github-readme-activity-graph">
-            <img alt="lokesh-patidar Activity Graph" 
-            src="https://activity-graph.herokuapp.com/graph?username=lokesh-patidar&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
-           </a>
-        </div>
-        <hr id="projectsPageSection"/>
+            <div className="graph-1">
+                <p align="center">
+                    <a href="https://github.com/lokesh-patidar"><span>
+                        <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lokesh-patidar&theme=dracula&bg_color=0D1117" />
+                    </span></a> 
+                </p>
+            </div>
+
+            <div className="graph">
+            <p align="center">
+                <a href="https://github.com/lokesh-patidar/github-readme-activity-graph">
+                    <img alt="lokesh-patidar Activity Graph"
+                        src="https://activity-graph.herokuapp.com/graph?username=lokesh-patidar&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+                </a>
+                </p>
+            </div>
+            <hr id="projectsPageSection" />
         </div>
     );
 }

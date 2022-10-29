@@ -90,6 +90,7 @@
 .aboutmeDetails{
     padding-left: 0.2%;
     margin-top: 1%;
+    text-align: justify;
     font-weight: 500;
 }
 
@@ -201,10 +202,11 @@
     }
     
     .aboutmeDetails{
-        padding-left: 0.2%;
+        padding-right: 5%;
         margin-top: 1%;
         font-weight: 400;
         font-size: 13px;
+        
     }
 
     .aboutMeContainer .aboutMeDecription .MyDescription > .buttons{

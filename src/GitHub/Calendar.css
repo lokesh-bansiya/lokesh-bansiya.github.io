@@ -1,9 +1,12 @@
+.outerBox{
+    background-color: #0d1117;
+}
 
 .calendarContainer{
     display: flex;
     justify-content: center;
     padding: 5%;
-    background-color: #0d1117;
+    
     color: white;
 }
 
@@ -29,13 +32,21 @@
     width: 100%;
     margin: auto;
     display: block;
-    display: flex;
     text-align: center;
     background-color: #0d1117;
 }
 
 .graph  img{
-    width: 95%;
+    width: 80%;
+    margin: auto;
+}
+
+.graph-1{
+    display: block;
+    background-color: #0d1117;
+}
+.graph-1  img{
+    width: 60%;
     margin: auto;
 }
 
@@ -63,6 +74,16 @@
     .Calendar{
         height: 300px;
     }
+
+    .graph  img{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .graph-1  img{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 
@@ -78,5 +99,14 @@
         margin-top: 7%;
         border: 1px solid rgb(22, 4, 61);
         margin-bottom: 6%;
+    }
+    .graph  img{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .graph-1  img{
+        width: 80%;
+        margin: auto;
     }
 }

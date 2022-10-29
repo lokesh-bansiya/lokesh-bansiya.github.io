@@ -66,7 +66,7 @@
 
 
  
-@media all and (min-width: 750px) and (max-width: 900px){
+@media all and (min-width: 950px) and (max-width: 1100px){
     #box-1second{
         display: none;
     }
@@ -98,17 +98,21 @@
     .nav > div{
         background-color: white;
         box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-        padding-top: 8%;
+        padding-top: 4%;
         margin-top: 7%;
-        width: 70px;
+        width: 100px;
         height: 22px;
         font-size: 10px;
         font-weight: bolder;
+        border: 2px solid rgb(94, 10, 65);
+    }
+    .nav > div > a {
+        font-size: 15px;
     }
     
 }
 
-@media all and (min-width: 450px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 950px){
 
     #box-2{
         display: none;
@@ -173,7 +177,7 @@
         display: block;
         text-align: center;
         padding-top: 5%;
-        height: 20px;
+        height: 25px;
         margin: 3%;
         font-size: 12px;
         font-weight: bold;
@@ -188,11 +192,12 @@
     
     .navsecond > div > a {
         text-decoration: none;
+        font-size: 15px;
         color: black;
     }
 }
 
-@media all and (min-width: 280px) and (max-width: 450px){
+@media all and (min-width: 280px) and (max-width: 500px){
     #box-1second{
         display: none;
     }

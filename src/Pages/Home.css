@@ -46,19 +46,20 @@
 }
 
 .highlighted-text{
-  color: red;
-  font-family: 'Dancing Script', cursive;
+  color: rgb(211, 3, 190);
+  font-family: 'Source Serif Pro', serif;
   font-size: 30px;
 }
 
 h6{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: bolder;
+  font-size: 23px;
 }
 
 .profile-tag-line{
-  font-size: 19px;
+  font-size: 20px;
+  font-weight: bolder;
   margin: 5px 0px 0px 0px;
   font-family: 'Poppins Light';
 }
@@ -126,9 +127,9 @@ h6{
 }
 
 .primary-text{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Source Serif Pro', serif;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 38px;
   padding: 0%;
   margin: 0%;
   color: rgb(19, 5, 70);
@@ -154,14 +155,14 @@ h6{
 }  
 
 
-@media all and (min-width: 750px) and (max-width: 1200px){
+@media all and (min-width: 950px) and (max-width: 1200px){
 
   .container{
     height: fit-content;
   }
   .container > div {
     display: flex;
-    height: 80vh;
+    height: 70vh;
     justify-content: space-between;
   }
 
@@ -174,11 +175,11 @@ h6{
   }
 
   .highlighted-text{
-    font-size: 20px;
+    font-size: 27px;
   }
 
   h6{
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .profile-tag-line{
@@ -203,7 +204,7 @@ h6{
   }
 
   .primary-text{
-    font-size: 25px;
+    font-size: 35px;
     padding: 0%;
     margin: 0%;
   }
@@ -217,19 +218,18 @@ h6{
 
 }
 
-@media all and (min-width: 450px) and (max-width: 750px){
+@media all and (min-width: 550px) and (max-width: 950px){
   .container{
     height: fit-content;
-    padding-bottom: -20px;
   }
 
   #Home{
-    padding-top: 20%;
+    padding-top: 15%;
   }
   
   .container > div {
     display: flex;
-    height: 90vh;
+    height: 55vh;
     justify-content: space-between;
   }
 
@@ -288,27 +288,8 @@ h6{
   }  
 }
 
-/* 
-@media all and (min-width: 400px) and (max-width: 450px){
-  .profile-picture-background{
-    height: 90%;
-    width: 90%;
-    border-radius: 50%;
-  }
-  .profile-picture{
-    height: auto;
-    width: auto;
-  }
-  .imagebox{
-    width: 80%;
-    height: 80%;
-    margin: auto;
-    margin-top: 40%;
-    padding-bottom: 5%;
-}
-} */
 
-@media all and (min-width: 280px) and (max-width: 450px){
+@media all and (min-width: 280px) and (max-width: 550px){
   #Home > hr{
     margin-top: 18%;
     margin-bottom: 10%;
@@ -338,10 +319,7 @@ h6{
     margin: auto;
     margin-top: 3%;
   }
-/* 
-  .container > div > div{
-    border: 1px solid red;
-  } */
+
 
   .description{
       width: 90%;
@@ -390,15 +368,11 @@ h6{
   }
 
   .profile-tag-line{
-    font-size: 15px;
+    font-size: 17px;
     color: white;
     margin: 1px 0px -10px 0px;
     padding-bottom: 3%;
     background-color: rgb(29, 25, 25);
-  }
-
-  h6{
-    font-size: 15px;
   }
 
   .profile-picture{
@@ -407,7 +381,7 @@ h6{
   }
 
   .primary-text{
-    font-size: 25px;
+    font-size: 23px;
     background-color: rgb(29, 25, 25);
     color: rgb(250, 105, 1);
   }
@@ -416,6 +390,7 @@ h6{
     padding-top: 5%;
     margin: 0%;
     color: white;
+    font-size: 17px;
   }
 
   .colz-icon{

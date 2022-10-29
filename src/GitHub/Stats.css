@@ -33,6 +33,15 @@
     margin: auto;
 }
 
+.stats-3{
+    display: block;
+}
+
+.stats-3  img{
+    width: 20%;
+    margin: auto;
+}
+
 @media all and (min-width: 481px) and (max-width: 768px){
 
     .statsContainer{
@@ -52,7 +61,16 @@
         margin-bottom: 5%;
         border: 1px solid rgb(22, 4, 61);
     }
-    
+        
+    .stats-3{
+        display: block;
+        padding-top: 3%;
+    }
+
+    .stats-3  img{
+        width: 40%;
+        margin: auto;
+    }
 }
 
 
@@ -79,4 +97,14 @@
         margin-bottom: 5%;
         border: 1px solid rgb(22, 4, 61);
     }
+    .stats-3{
+        display: block;
+        margin-top: 5%;
+    }
+    .stats-3  img{
+        width: 60%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    
 }
