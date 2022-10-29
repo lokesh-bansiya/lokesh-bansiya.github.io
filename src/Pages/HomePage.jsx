@@ -88,7 +88,7 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-        <hr id='aboutMePageSection'/>
+        <hr color='black' id='aboutMePageSection'/>
         </div>
     );
 }

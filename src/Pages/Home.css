@@ -221,6 +221,8 @@ h6{
 @media all and (min-width: 550px) and (max-width: 950px){
   .container{
     height: fit-content;
+    background-image: none; 
+    background-color: rgb(187, 190, 193);
   }
 
   #Home{
@@ -229,7 +231,8 @@ h6{
   
   .container > div {
     display: flex;
-    height: 55vh;
+    height: fit-content;
+    padding-bottom: 5%;
     justify-content: space-between;
   }
 
@@ -242,15 +245,15 @@ h6{
   }
 
   .highlighted-text{
-    font-size: 20px;
+    font-size: 25px;
   }
 
   h6{
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .profile-tag-line{
-    font-size: 15px;
+    font-size: 20px;
     margin: 1px 0px 0px 0px;
   }
 
@@ -277,7 +280,7 @@ h6{
   }
 
   .primary-text{
-    font-size: 25px;
+    font-size: 28px;
   }
 
   .colz-icon a{
