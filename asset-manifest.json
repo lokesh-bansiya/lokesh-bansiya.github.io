@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c71a36e5.css",
-    "main.js": "/static/js/main.13b5c773.js",
+    "main.css": "/static/css/main.3e72af96.css",
+    "main.js": "/static/js/main.0d826560.js",
     "static/media/dice_app.png": "/static/media/dice_app.8fb5a00a42cd6b029dab.png",
     "static/media/beautybebo.png": "/static/media/beautybebo.3c5c6e4186f040eef54c.png",
     "static/media/getharvest.png": "/static/media/getharvest.5b60c1f380d7cc9b132f.png",
     "static/media/naukari.png": "/static/media/naukari.f664ccc8c37024883cf9.png",
     "index.html": "/index.html",
-    "main.c71a36e5.css.map": "/static/css/main.c71a36e5.css.map",
-    "main.13b5c773.js.map": "/static/js/main.13b5c773.js.map"
+    "main.3e72af96.css.map": "/static/css/main.3e72af96.css.map",
+    "main.0d826560.js.map": "/static/js/main.0d826560.js.map"
   },
   "entrypoints": [
-    "static/css/main.c71a36e5.css",
-    "static/js/main.13b5c773.js"
+    "static/css/main.3e72af96.css",
+    "static/js/main.0d826560.js"
   ]
 }
