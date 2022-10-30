@@ -29,13 +29,21 @@
 
 .projectItem{
     display: flex;
-    width: 100%;
+    padding: 5%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    width: 90%;
+    background-color: white;
+    border-radius: 17px;
 }
 
 .projectItem1{
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
+    padding: 5%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    width: 90%;
+    background-color: white;
+    border-radius: 17px;
 }
 
 .functionality{
@@ -162,13 +170,13 @@
 
     .projectItem{
         display: flex;
-        width: 100%;
+        width: 90%;
     }
     
     .projectItem1{
         display: flex;
         flex-direction: row-reverse;
-        width: 100%;
+        width: 90%;
     }
     
     .projectImage{
@@ -235,7 +243,7 @@
     }
 }
 
-@media all and (min-width: 280px) and (max-width: 600px){
+@media all and (min-width: 400px) and (max-width: 600px){
 
     #Projects{
         padding-top: 5%;
@@ -257,26 +265,20 @@
         margin-bottom: 5%;
     }
 
-    .projectItem1{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
     .projectItem{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
     }
 
     .projectItem1{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
     }
 
     .projectDetails h2{
-        font-size: large;
+        font-size: 150%;
         color: rgb(128, 5, 48);
     }
 
@@ -284,11 +286,6 @@
         font-size: medium;
     }
 
-    .projectItem{
-        display: flex;
-        width: 100%;
-    }
-    
     .projectImage{
         width: 100%;
         margin-top: 5%;
@@ -353,6 +350,144 @@
     .techStacks > .tools h3{
         font-size: 12px;
         font-weight: bolder;
+    }
+
+    .techStacks > .tools div img{
+        width: 70px;
+    }
+}
+
+@media all and (min-width: 250px) and (max-width: 400px){
+    #Projects{
+        padding-top: 5%;
+    }
+
+    .projectDetails{
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding-right: 3%;
+    }
+    .projectsContainer .projectheading{
+        width: 100%;
+    }
+
+    .projectsContainer .projectheading h1{
+        font-size: 30px;
+        width: fit-content;
+        margin-bottom: 5%;
+    }
+
+    .projectItem1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .projectItem1{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        width: 90%;
+        background-color: white;
+        border-radius: 17px;
+    }
+
+    .projectDetails h2{
+        font-size: large;
+        color: rgb(128, 5, 48);
+    }
+
+    .functionality h3{
+        font-size: medium;
+    }
+
+    .projectItem{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        width: 90%;
+        background-color: white;
+        border-radius: 17px;
+    }
+    
+    .projectImage{
+        width: 100%;
+        margin-top: 5%;
+        height: 200px;
+        margin: auto;
+    }
+    
+    .projectImage > img{
+        height: 150px;
+        width: 100%;
+        border-radius: 3px;
+        margin: auto;
+    }
+    
+    .desc > span{
+       font-size: medium;
+       font-weight: bold;
+    }
+
+    .techStacks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 2%;
+    }
+    
+    
+    .techStacks .btn{
+        display: block;
+    }
+    
+    .techStacks .btn > button{
+       width: 150px;
+       margin: 1%;
+       font-size: 12px;
+    }
+    .techStacks > .tech-stacks div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .techStacks > .tech-stacks div img{
+        width: auto;
+        margin: 1%;
+    }
+
+    .techStacks > .tech-stacks div img:nth-child(2){
+        width: 60px;
+    }
+
+    .techStacks > .tech-stacks div img:last-child{
+        width: 60px;
+    }
+
+    .techStacks > .tech-stacks h3{
+        font-size: 17px;
+        font-weight: bolder;
+    }
+
+    .desc{
+        font-size: 13px;
+    }
+
+    li{
+        font-size: 12px;
+    }
+
+    .techStacks > .tools h3{
+        font-size: 17px;
+        font-weight: bolder;
+    }
+    .techStacks > .tools div{
+        display: flex;
+        justify-content: center;
     }
 
     .techStacks > .tools div img{

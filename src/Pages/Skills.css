@@ -55,7 +55,7 @@
 }
 
 .tools{
-    padding-bottom: 5%;
+    padding-bottom: 8%;
 }
 
 .tools > h4{
@@ -145,7 +145,7 @@
     }
     
     .tools{
-        padding-bottom: 10%;
+        padding-bottom: 14%;
     }
     
     .tools > h4{
@@ -296,6 +296,39 @@
     
     .toolsBox > div > h3{
         font-size: 11px;
+    }
+    
+}
+
+@media all and (min-width: 250px) and (max-width: 280px){
+    .skillContainer{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 35%;
+    }
+
+    .toolsBox{
+        grid-template-columns: repeat(1,1fr);
+        gap: 1% 1%;
+        margin-top: 10%;
+        width: 80%;
+    }
+    .tools > h4{
+        font-size: 15px;
+        margin-top: 50%;
+        width: 20%;
+        margin-bottom: 7%;
+    }
+    .toolsBox > div > img{
+        width: 70px;
+    }
+    .skillsBox{
+        grid-template-columns: repeat(1,1fr);
+        gap: 1% 1%;
+        width: 85%;
+        margin: auto;
+        margin-top: 5%;
+        padding-bottom: 14%;
     }
     
 }

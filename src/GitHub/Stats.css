@@ -74,14 +74,13 @@
 }
 
 
-@media all and (min-width: 280px) and (max-width: 480px){
+@media all and (min-width: 250px) and (max-width: 480px){
     .statsContainer{
         display: block;
         width: 90%;
         margin: auto;
         justify-content: center;
     }
-
         
     .stats-2  img{
         width: 95%;

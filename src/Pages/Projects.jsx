@@ -90,9 +90,6 @@ export const Projects = () => {
 
           <br />
           <br />
-          <hr color="gray" />
-          <br />
-          <br />
 
           <div className="projectItem1">
             <div className="projectImage">
@@ -171,9 +168,6 @@ export const Projects = () => {
             </div>
           </div>
 
-          <br />
-          <br />
-          <hr color="gray" />
           <br />
           <br />
 
@@ -256,9 +250,6 @@ export const Projects = () => {
             </div>
           </div>
 
-          <br />
-          <br />
-          <hr color="gray" />
           <br />
           <br />
 
@@ -360,9 +351,6 @@ export const Projects = () => {
             </div>
           </div>
 
-          <br />
-          <br />
-          <hr color="gray" />
           <br />
           <br />
 

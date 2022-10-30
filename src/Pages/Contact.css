@@ -1,11 +1,13 @@
 
 .ContactContainer{
     background-color: #0d1117;
-    height: 550px;
-    display: block;
+    height: 85vh;
     color: white;
     text-align: center;
     padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .contactlogotop{
     color: rgb(246, 28, 83);
@@ -39,27 +41,29 @@
 
 @media all and (min-width: 450px) and (max-width: 800px){
     .ContactContainer{
-        background-color: rgb(26, 25, 25);
-        height: 75vh;
-        display: block;
-        color: white;
-        text-align: center;
-        padding-top: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .ContactContainer > div > h1{
         font-size: 35px;
         width: 250px;
     }
+    .contactlogo{
+        border: 1px solid white;
+        font-size: 40px;
+        padding: 1% 2% 1% 2%;
+        border-radius: 8px;
+        color: rgb(226, 250, 11);
+        margin: 2%;
+    }
 }
 
 @media all and (min-width: 280px) and (max-width: 450px){
     .ContactContainer{
-        background-color: rgb(26, 25, 25);
-        height: 70vh;
-        display: block;
-        color: white;
-        text-align: center;
-        padding-top: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .ContactContainer > div{
@@ -92,13 +96,12 @@
     }
 }
 
-@media all and (min-width: 280px) and (max-width: 370px){
+@media all and (min-width: 250px) and (max-width: 370px){
 
     .ContactContainer {
        display: flex;
        align-items: center;
        justify-content: center;
-       height: 100vh;
     }
     .ContactContainer > div > div > h3{
         font-size: 10px;

@@ -21,7 +21,7 @@ export const AboutMe = () => {
         </div>
       </div>
     </div>
-    <hr id="skillsPageSection"/>
+    <br id="skillsPageSection"/>
     </div>
   );
 }

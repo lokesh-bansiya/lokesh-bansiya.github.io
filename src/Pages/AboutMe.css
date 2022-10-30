@@ -148,7 +148,7 @@
     }
 }
 
-@media all and (min-width: 280px) and (max-width: 570px){
+@media all and (min-width: 250px) and (max-width: 570px){
     
     .aboutMeContainer{
         padding: 3% 2%;
@@ -164,7 +164,7 @@
     }
 
     .aboutMeContainer .aboutMeDecription .MyDescription > h3{
-        font-size: 20px;
+        font-size: 117%;
         margin: 2%;
     }
     

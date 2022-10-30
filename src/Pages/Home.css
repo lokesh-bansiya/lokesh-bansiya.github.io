@@ -294,9 +294,8 @@ h6{
 }
 
 
-@media all and (min-width: 280px) and (max-width: 550px){
+@media all and (min-width: 350px) and (max-width: 550px){
   #Home > hr{
-    margin-top: 18%;
     margin-bottom: 10%;
   }
   #Home{
@@ -395,6 +394,125 @@ h6{
     padding-top: 5%;
     margin: 0%;
     color: white;
+    font-size: 17px;
+  }
+
+  .colz-icon{
+    display: flex;
+    margin-bottom: 5%;
+    gap: 2%;
+    
+  }
+    
+  .colz-icon a{
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    color: black;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: white;
+  }  
+
+}
+
+@media all and (min-width: 250px) and (max-width: 350px){
+  #Home > hr{
+    margin-top: 0%;
+    margin-bottom: 10%;
+  }
+  #Home{
+    padding-top: 14%;
+    margin-top: 10%;
+    background-color: rgb(187, 190, 193);
+  }
+
+  .container{
+    height: fit-content;
+    background-image: none;
+    background-color: rgb(187, 190, 193);
+    background-color: rgb(156, 122, 59);
+
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+  }  
+
+  .container > div{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 3%;
+  }
+
+
+  .description{
+      width: 90%;
+      margin: auto;
+      margin-top: 0%;
+  }
+
+  .profile-picture{
+    height: auto;
+    width: auto;
+    margin: 3%;
+    padding-bottom: 2%;
+    box-shadow: 0 2px 0px 0px rgb(251, 251, 251);
+  }
+
+  .imagebox{
+      width: 90%;
+      display: block;
+      height: 90%;
+      text-align: center;
+      margin: 5%;
+  }
+
+  .profile-details-name{
+      font-size: 25px;
+  }
+  .profile-picture-background{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+  }
+  
+  .profile-details >div:last-child{
+    margin: 0%;
+  }
+  .profile-details-role{
+    margin: 14px 0 24px 0;
+    border-top-right-radius: 25%;
+  }
+
+  .highlighted-text{
+    color: rgb(107, 5, 68);
+    font-size: 25px;
+  }
+
+  .profile-tag-line{
+    font-size: 17px;
+    color: black;
+    margin: 1px 0px -10px 0px;
+    padding-bottom: 3%;
+  }
+
+  .profile-picture{
+    height: auto;
+    width: auto;
+  }
+
+  .primary-text{
+    font-size: 23px;
+    color: white;
+  }
+
+  h6{
+    padding-top: 5%;
+    margin: 0%;
+    color: black;
     font-size: 17px;
   }
 
