@@ -1,5 +1,6 @@
 import "./AboutMe.css";
 import React from "react";
+import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
 
 export const AboutMe = () => {
   return (
@@ -16,7 +17,11 @@ export const AboutMe = () => {
           </div>
           <div className="buttons">
             <button><a href="#contactPageSection">Hire me</a></button>
-            <button><a href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing" target="_blank">Resume</a></button>
+            <button>
+              <a href={Lokesh_Patidar_Resume} download>
+                Resume
+              </a>
+            </button>
           </div>
         </div>
       </div>

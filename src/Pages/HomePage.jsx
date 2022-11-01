@@ -4,7 +4,7 @@ import {
     FaGithub,
 } from "react-icons/fa";
 import Typical from "react-typical";
-
+import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
 
 const HomePage = () => {
     return (
@@ -68,7 +68,8 @@ const HomePage = () => {
                         <div>
                             <a href='#contactSection'><button className="btn primary-btn"> Hire Me </button></a>
                             <a
-                                href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing" download>
+                                href={Lokesh_Patidar_Resume}
+                                download>
                                 <button className="btn highlighted-btn">
                                     Get Resume
                                 </button>
