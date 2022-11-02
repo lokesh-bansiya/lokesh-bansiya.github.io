@@ -44,7 +44,7 @@ const HomePage = () => {
                                 </span>
                             </h6>
                             <span className="primary-text">
-                                <p>
+                                <>
                                     <Typical
                                         loop={Infinity}
                                         steps={[
@@ -58,7 +58,7 @@ const HomePage = () => {
                                             2000,
                                         ]}
                                     />
-                                </p>
+                                </>
                             </span>
                             <span className="profile-tag-line">
                                 Aspiring MERN-Stack (MongoDB, Express, React, Node), Aspiring Full Stack Web Development at Masai School Bangaluru , KARNATAKA

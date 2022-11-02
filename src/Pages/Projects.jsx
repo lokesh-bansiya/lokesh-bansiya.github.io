@@ -228,7 +228,7 @@ export const Projects = () => {
                   <button>
                     <h3>
                       <a
-                        href="https://github.com/lokesh-patidar/vigorous-ticket-1895"
+                        href="https://github.com/lokesh-patidar/getharvest.com"
                         target="_blank"
                       >
                         <FaGithub /> GitHub Repo
@@ -329,7 +329,7 @@ export const Projects = () => {
                   <button>
                     <h3>
                       <a
-                        href="https://github.com/lokesh-patidar/punchy-car-5123/tree/main/naukri.com"
+                        href="https://github.com/lokesh-patidar/naukari.com"
                         target="_blank"
                       >
                         <FaGithub /> GitHub Repo

@@ -162,7 +162,7 @@ h6{
   }
   .container > div {
     display: flex;
-    height: 70vh;
+    height: 90vh;
     justify-content: space-between;
   }
 
