@@ -70,7 +70,7 @@
 }
 
 .projectDetails > h2{
-    color: rgb(46, 11, 39);
+    color: rgb(6, 84, 84);
 }
 
 .projectImage{
@@ -109,7 +109,7 @@
    width: 150px;
    margin: 2%;
    border-radius: 10px;
-   background-color: rgb(58, 11, 50);
+   background-color: rgb(2, 107, 107);
    color: white;
 }
 .techStacks .btn > button > h3{

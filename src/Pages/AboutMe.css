@@ -21,13 +21,19 @@
 
 .aboutMeDecription{
     margin: auto;
-    margin-top: 2%;
+    margin-top: 5%;
     width: 90%;
     border-radius: 20px;
     background-color: whitesmoke;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     display: flex;
     padding: 3%;
+}
+
+.aboutMeDecription:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transform: scale(1.06);
+    transition: 0.5s ease-in;
 }
 
 .aboutMeContainer .aboutMeDecription .MyDescription > h3{
