@@ -143,13 +143,13 @@
     gap: 2%;
 }
 
-.techStacks > .tools{
+.techStacks > .project-tools{
     display: flex;
     flex-direction: column;
     gap: 3%;
 }
 
-.techStacks > .tools div{
+.techStacks > .project-tools div{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 3%;
@@ -245,12 +245,12 @@
         font-size: 12px;
     }
 
-    .techStacks > .tools h3{
+    .techStacks > .project-tools h3{
         font-size: 12px;
         font-weight: bolder;
     }
 
-    .techStacks > .tools div img{
+    .techStacks > .project-tools div img{
         width: 70px;
     }
 }
@@ -359,12 +359,12 @@
         font-size: 12px;
     }
 
-    .techStacks > .tools h3{
+    .techStacks > .project-tools h3{
         font-size: 12px;
         font-weight: bolder;
     }
 
-    .techStacks > .tools div img{
+    .techStacks > .project-tools div img{
         width: 70px;
     }
 }
@@ -455,6 +455,7 @@
     
     .techStacks .btn{
         display: block;
+        margin-top: 5%;
     }
     
     .techStacks .btn > button{
@@ -493,16 +494,16 @@
         font-size: 12px;
     }
 
-    .techStacks > .tools h3{
+    .techStacks > .project-tools h3{
         font-size: 17px;
         font-weight: bolder;
     }
-    .techStacks > .tools div{
+    .techStacks > .project-tools div{
         display: flex;
         justify-content: center;
     }
 
-    .techStacks > .tools div img{
+    .techStacks > .project-tools div img{
         width: 70px;
     }
 }

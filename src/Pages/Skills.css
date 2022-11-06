@@ -56,6 +56,7 @@
 
 .tools{
     padding-bottom: 8%;
+    margin-top: 5%;
 }
 
 .tools > h4{
@@ -243,7 +244,7 @@
 }
 
 
-@media all and (min-width: 280px) and (max-width: 550px){
+@media all and (min-width: 300px) and (max-width: 550px){
 
     .skillContainer{
         display: flex;
@@ -258,11 +259,12 @@
     
     .skillsBox{
         grid-template-columns: repeat(2,1fr);
-        gap: 5% 5%;
+        gap: 2% 5%;
         width: 90%;
         margin: auto;
+        height: auto;
         margin-top: 7%;
-        padding-bottom: 14%;
+        padding-bottom: 20%;
     }
     
     .skillsBox > div{
@@ -277,10 +279,14 @@
     .skillsBox > div > h3{
         font-size: 15px;
     }
+
+    .skillContainer .tools{
+        margin-top: 5%;
+    }
     
     .tools > h4{
         font-size: 18px;
-        margin-top: 20%;
+        margin-top: 5%;
         width: 20%;
         margin-bottom: 7%;
     }
@@ -300,7 +306,7 @@
     
 }
 
-@media all and (min-width: 250px) and (max-width: 280px){
+@media all and (min-width: 250px) and (max-width: 300px){
     .skillContainer{
         display: flex;
         flex-direction: column;
@@ -327,8 +333,9 @@
         gap: 1% 1%;
         width: 85%;
         margin: auto;
+        height: auto;
         margin-top: 5%;
-        padding-bottom: 14%;
+        padding-bottom: 90%;
     }
     
 }

@@ -54,7 +54,7 @@ export const Projects = () => {
                     />
                   </div>
                 </div>
-                <div className="tools">
+                <div className="project-tools">
                   <h3>Tools used</h3>
                   <div>
                     <img
@@ -128,7 +128,7 @@ export const Projects = () => {
                     />
                   </div>
                 </div>
-                <div className="tools">
+                <div className="project-tools">
                   <h3>Tools used</h3>
                   <div>
                     <img
@@ -210,7 +210,7 @@ export const Projects = () => {
                     />
                   </div>
                 </div>
-                <div className="tools">
+                <div className="project-tools">
                   <h3>Tools used</h3>
                   <div>
                     <img
@@ -307,7 +307,7 @@ export const Projects = () => {
                     />
                   </div>
                 </div>
-                <div className="tools">
+                <div className="project-tools">
                   <h3>Tools used</h3>
                   <div>
                     <img
@@ -397,7 +397,7 @@ export const Projects = () => {
                     />
                   </div>
                 </div>
-                <div className="tools">
+                <div className="project-tools">
                   <h3>Tools used</h3>
                   <div>
                     <img
