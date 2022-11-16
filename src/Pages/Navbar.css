@@ -2,12 +2,12 @@
     z-index: 1;
     position: fixed;
     margin: auto;
-    background-color: whitesmoke;
+    background-color: #171c24;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(252, 248, 248);
 }
 #box-1second{
     display: none;
@@ -23,6 +23,7 @@
     width: 100px;
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
 .logo > span {
@@ -39,7 +40,7 @@
 }
 
 .nav > div{
-    border: 0.5px solid black;
+    border: 1px solid rgb(247, 5, 5);
     cursor: pointer;
     background-color: white;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;

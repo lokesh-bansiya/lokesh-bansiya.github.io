@@ -5,7 +5,6 @@ import {
   FaIdCard,
   FaFolder,
   FaList,
-  FaMobileAlt,
   FaMobile,
 } from "react-icons/fa";
 import './Navbar.css';
@@ -63,7 +62,7 @@ const Navbar = () => {
         </div>
       </div>
 
-{/* ---------------------------------------------------------------------------------  */}
+{/* -------------------------------------moddle screen--------------------------------------------  */}
       
 
       <div id="box-1second" className="navbarContainersecond">
@@ -101,7 +100,7 @@ const Navbar = () => {
 
 
 
-{/* ---------------------------------------------------------------------------------  */}
+{/* ---------------------------------------mobile screen------------------------------------------  */}
 
 
       <div id="box-2" className="mainNavbarBox" style={{ width: "100%", height: "100vh" }}>
