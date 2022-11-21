@@ -122,27 +122,27 @@ const Navbar = () => {
           <div className="navinside">
             <div onClick={updateMenu}>
               <a href="#Home">
-                <FaHome /> Home
+                Home
               </a>
             </div>
             <div onClick={updateMenu}>
               <a href="#aboutMePageSection">
-                <FaUser /> About Me
+                About Me
               </a>
             </div>
             <div onClick={updateMenu}>
               <a href="#skillsPageSection">
-                <FaList /> Skills
+                Skills
               </a>
             </div>
             <div onClick={updateMenu}>
               <a href="#projectsPageSection">
-                <FaFolder /> Projects
+                Projects
               </a>
             </div>
             <div onClick={updateMenu}>
               <a href="#contactPageSection">
-                <FaIdCard /> Contact
+                Contact
               </a>
             </div>
             <div onClick={updateMenu}>
@@ -151,7 +151,7 @@ const Navbar = () => {
                 target="_blank"
                 alt="Resume"
               >
-                &nbsp; Resume
+                Resume
               </a>
             </div>
           </div>

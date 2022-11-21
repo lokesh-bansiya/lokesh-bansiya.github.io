@@ -303,6 +303,7 @@
         width: 70%;
         height: auto;
         margin-top: 25%;
+        justify-content: left;
         grid-template-columns: repeat(1, 1fr);
         gap: 2%;
         padding-top: 1.7%;
@@ -330,10 +331,10 @@
         color: white;
         padding-top: 2%;
         padding-bottom: 2%;
-        width: 180%;
+        padding-left: 15%;
+        width: 130%;
         height: 30px;
         font-size: 20px;
-        text-align: center;
         font-weight: bold;
         border-bottom-left-radius: 10px;
     }
