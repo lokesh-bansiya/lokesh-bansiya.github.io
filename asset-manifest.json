@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1e125de.css",
-    "main.js": "/static/js/main.55847df4.js",
+    "main.js": "/static/js/main.cfa84864.js",
     "static/media/dice_app.png": "/static/media/dice_app.8fb5a00a42cd6b029dab.png",
     "static/media/beautybebo.png": "/static/media/beautybebo.3c5c6e4186f040eef54c.png",
     "static/media/pharmaeasy.png": "/static/media/pharmaeasy.5eed01ad13bb78b38e4b.png",
@@ -10,10 +10,10 @@
     "static/media/quiz-app.png": "/static/media/quiz-app.8aac295f3a58358a6346.png",
     "index.html": "/index.html",
     "main.e1e125de.css.map": "/static/css/main.e1e125de.css.map",
-    "main.55847df4.js.map": "/static/js/main.55847df4.js.map"
+    "main.cfa84864.js.map": "/static/js/main.cfa84864.js.map"
   },
   "entrypoints": [
     "static/css/main.e1e125de.css",
-    "static/js/main.55847df4.js"
+    "static/js/main.cfa84864.js"
   ]
 }
