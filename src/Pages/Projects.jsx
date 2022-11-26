@@ -30,6 +30,7 @@ export const Projects = () => {
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
+                  <li>Authentication of users</li>
                   <li>Users can open products from home pag itself and</li>
                   <li>Users can also open product items in single item page</li>
                   <li>Users can add product items to cart </li>
