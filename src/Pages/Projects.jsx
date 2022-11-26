@@ -476,6 +476,7 @@ export const Projects = () => {
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
+                  <li>User can Sign-up and Login</li>
                   <li>Users can add product items to cart </li>
                   <li>Users can check their items in cart page </li>
                   <li>Users can remove the items as well from cart page</li>
