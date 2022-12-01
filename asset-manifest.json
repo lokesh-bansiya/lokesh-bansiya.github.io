@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.8f33d048.css",
-    "main.js": "/static/js/main.71ab4681.js",
+    "main.js": "/static/js/main.9fb0ecf0.js",
     "static/media/zoom_marathon.png": "/static/media/zoom_marathon.deda9bda5d5da540692e.png",
     "static/media/beautybebo.png": "/static/media/beautybebo.a0101bb5453b4e958fe7.png",
     "static/media/dice_app.png": "/static/media/dice_app.8fb5a00a42cd6b029dab.png",
     "static/media/pharmaeasy.png": "/static/media/pharmaeasy.5eed01ad13bb78b38e4b.png",
-    "static/media/Lokesh_Patidar_Resume.pdf": "/static/media/Lokesh_Patidar_Resume.b98171d00cb28090a72d.pdf",
+    "static/media/Lokesh_Patidar_Resume.pdf": "/static/media/Lokesh_Patidar_Resume.b5d0515ffdc72c082183.pdf",
     "static/media/getharvest.png": "/static/media/getharvest.5b60c1f380d7cc9b132f.png",
     "static/media/quiz-app.png": "/static/media/quiz-app.8aac295f3a58358a6346.png",
     "static/media/communication.png": "/static/media/communication.9ae24300b28718ddc07d.png",
     "static/media/tinder_certificate.png": "/static/media/tinder_certificate.fb9bf6d2854b30add610.png",
     "index.html": "/index.html",
     "main.8f33d048.css.map": "/static/css/main.8f33d048.css.map",
-    "main.71ab4681.js.map": "/static/js/main.71ab4681.js.map"
+    "main.9fb0ecf0.js.map": "/static/js/main.9fb0ecf0.js.map"
   },
   "entrypoints": [
     "static/css/main.8f33d048.css",
-    "static/js/main.71ab4681.js"
+    "static/js/main.9fb0ecf0.js"
   ]
 }
