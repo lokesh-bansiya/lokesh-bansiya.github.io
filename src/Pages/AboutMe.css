@@ -27,7 +27,8 @@
     background-color: whitesmoke;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     display: flex;
-    padding: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .aboutMeDecription:hover{
@@ -131,9 +132,11 @@
 }
 
 .certificate_container div{
-    width: 90%;
-    padding: 3%;
-    border: 3px solid rgb(43, 5, 196);
+    width: 85%;
+    padding: 5%;
+    border-radius: 10px;
+    border: 0.8px solid rgb(183, 3, 87);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .certificate_container div img{
@@ -141,9 +144,10 @@
     height: 100%;
 }
 
-.certificate_container div img:hover{
-    transform: scale(1.06);
-    transition: 0.5s ease-in;
+.certificate_container div:hover{
+    transform: scale(1.05);
+    transition: 0.6s ease-in;
+    border: 1px solid black;
 }
 
 @media all and (min-width: 570px) and (max-width: 900px){
@@ -223,6 +227,7 @@
 
     .aboutMeDecription{
         display: flex;
+        padding-top: 4%;
         flex-direction: column;
     }
     
@@ -292,9 +297,8 @@
     }
 
     .certificate_container div{
-        width: 90%;
-        padding: 3%;
-        border: 3px solid rgb(105, 6, 82);
+        /* width: 85%; */
+        padding: 6%;
     }
 
 }

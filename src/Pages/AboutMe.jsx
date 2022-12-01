@@ -11,7 +11,7 @@ export const AboutMe = () => {
     <div className="aboutMeContainer">
       <h1>About Me</h1>
       <div className="aboutMeDecription">
-        <div className="developerImage"><img src="https://img.freepik.com/premium-photo/developer-programmer-with-laptop-program-code-script-data-screen-young-freelancer-glasses_229760-905.jpg?w=2000" alt="developers img" /></div>
+        <div className="developerImage"><img src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=2000" alt="developers img" /></div>
         <div className="MyDescription">
           <h3>My name is Lokesh Patidar</h3>
           <h4>Mern-Stack developer</h4>
