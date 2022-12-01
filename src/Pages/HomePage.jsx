@@ -21,7 +21,7 @@ const HomePage = () => {
                                     alt="linked in"
                                 >
                                     <i className="">
-                                        <FaLinkedinIn />
+                                        <FaLinkedinIn className='icon-ease-out'/>
                                     </i>
                                 </a>
                                 <a
@@ -30,7 +30,7 @@ const HomePage = () => {
                                     alt="github"
                                 >
                                     <i className="">
-                                        <FaGithub />
+                                        <FaGithub className='icon-ease-out'/>
                                     </i>
                                 </a>
                             </div>
