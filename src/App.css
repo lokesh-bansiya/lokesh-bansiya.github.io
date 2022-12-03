@@ -9,12 +9,11 @@
   height: 56px;
   bottom: 40px;
   right: 40px;
-  background-color: #0ad254;
+  background-color: #045f25;
   color: white;
   border-radius: 50%;
   text-align: center;
   font-size: 38px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   z-index: 100;
   display: block;
 }
@@ -36,9 +35,8 @@
 
 /* for mobile */
 @media screen and (max-width: 767px) {
-  .whatsapp-icon {
-    margin: auto;
-  }
+  /* .whatsapp-icon {
+  } */
 
   .whatsapp_float {
       width: 40px;
