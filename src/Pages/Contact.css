@@ -22,6 +22,7 @@
     border-bottom: 2px solid rgb(237, 235, 243);
     color: rgb(250, 173, 5);
     margin: 4% auto 5% auto;
+    padding-top: 3%;
 }
 .contactlogo{
     border: 1px solid white;
@@ -45,6 +46,7 @@
 .thank-you{
     font-family: 'Courgette', cursive;
     color: rgb(192, 5, 86);
+    padding-bottom: 10%;
 }
 
 
