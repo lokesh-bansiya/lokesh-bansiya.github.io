@@ -19,6 +19,14 @@ function App() {
       <Calendar/>
       <Projects/>
       <Contact/>
+      <a
+        href="https://wa.me/+919993977820"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
     </div>
   );
 }

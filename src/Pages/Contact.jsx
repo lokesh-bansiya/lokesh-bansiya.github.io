@@ -6,6 +6,7 @@ import {
     FaMailBulk,
     FaMobileAlt,
     FaHome,
+    FaWhatsapp
 } from "react-icons/fa";
 
 
@@ -27,6 +28,7 @@ export const Contact = () => {
                     <a href="https://www.linkedin.com/in/lokesh-patidar-aa45a0236/" target="_blank"><FaLinkedinIn className="contactlogo"/></a>
                     <a href="https://github.com/lokesh-patidar" target="_blank"><FaGithub className="contactlogo"/></a>
                     <a href="mailto:bansiyalokesh29988@gmail.com"><FaMailBulk className="contactlogo"/></a>
+                    <a href="https://wa.me/+919993977820" target="_blank"><FaWhatsapp className="contactlogo" /></a>
                 </div>
                 <div>
                     <p className="thank-you">Thank you for visiting my portfolio!</p>

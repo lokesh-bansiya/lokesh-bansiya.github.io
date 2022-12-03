@@ -2,3 +2,49 @@
   margin: auto;
   background-color: rgb(187, 190, 193);
 }
+
+.whatsapp_float {
+  position: fixed;
+  width: 55px;
+  height: 56px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #0ad254;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 38px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 100;
+  display: block;
+}
+
+.whatsapp-icon {
+  margin-top: 4px;
+}
+
+.whatsapp_float:hover{
+  background-color: black;
+  border: 1px solid rgb(3, 149, 40);
+}
+
+.whatsapp-icon:hover{
+  color: rgb(4, 255, 0);
+  transform: scale(1.1);
+  transition: 0.4s ease-in;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin: auto;
+  }
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 29px;
+  }
+}
