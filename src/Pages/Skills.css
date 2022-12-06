@@ -22,7 +22,7 @@
 .skillsBox{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 5% 2%;
+    gap: 5% 3%;
     width: 90%;
     margin: auto;
     margin-top: 5%;
@@ -31,21 +31,20 @@
 .skillsBox > div{
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     text-align: center;
+    width: 100%;
     cursor: pointer;
-    font-size: 150px;
     background-color: white;
     border-radius: 15px;
-    padding-bottom: 6%;
 }
 
 .skillsBox > div:hover{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     transform: scale(1.06);
     transition: 0.5s ease-in;
-  }
+}
 
 .skillsBox > div > img{
-    width: 120px;
+    width: 50%;
+    margin: 5%;
 }
 .skillsBox > div > h3{
     font-size: 20px;
@@ -88,19 +87,17 @@
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     text-align: center;
     border-radius: 13px;
-    padding-top: 7%;
     background-color: white;
-    padding-bottom: 7%;
 }
 
 .toolsBox > div:hover{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     transform: scale(1.07);
     transition: 0.6s ease-in;
-  }
+}
 
 .toolsBox > div > img{
-    width: 100px;
+    width: 30%;
+    margin: 5%;
 }
 
 .toolsBox > div > h3{
@@ -126,7 +123,7 @@
     .skillsBox{
         grid-template-columns: repeat(3,1fr);
         gap: 3% 3%;
-        width: 95%;
+        width: 85%;
         margin: auto;
         margin-top: 7%;
         padding-bottom: 14%;
@@ -168,7 +165,7 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 5% 4%;
-        width: 90%;
+        width: 85%;
         margin: auto;
     }
     
