@@ -235,10 +235,9 @@
 
     .projectImage{
         width: 44%;
-        margin-top: 5%;
         height: 200px;
         margin: auto;
-        margin-top: 10%;
+        margin-top: 2%;
     }
     
     .projectItem > .projectImage{
@@ -373,7 +372,7 @@
     .projectImage{
         width: 95%;
         margin-top: 5%;
-        height: 200px;
+        height: 300px;
         margin: auto;
     }
     
@@ -417,8 +416,9 @@
 
 
     .techStacks > .tech-stacks > div{
-        width: 100%;
-        gap: 5%;
+        width: 80%;
+        margin: auto;
+        gap: 5% 3%;
     }
 
     .languages > div img{

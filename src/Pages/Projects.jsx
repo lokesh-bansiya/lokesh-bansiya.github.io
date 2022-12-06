@@ -21,6 +21,7 @@ export const Projects = () => {
           <div className="projectBox">
             <div className="projectItem">
               <div className="projectImage">
+                <h2 className="project-type">💢 Group Project</h2>
                 <img src={pharmeasy} alt="" />
               </div>
               <div className="projectDetails">
@@ -151,6 +152,7 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
+                <h2 className="project-type">💢 Group Project</h2>
                 <img src={getharvest} alt="" />
               </div>
               <div className="projectDetails">
@@ -252,6 +254,7 @@ export const Projects = () => {
 
             <div className="projectItem">
               <div className="projectImage">
+                <h2 className="project-type">💢 Individual Project</h2>
                 <img src={dice_app} alt="" />
               </div>
               <div className="projectDetails">
@@ -352,6 +355,7 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
+                <h2 className="project-type">💢 Individual Project</h2>
                 <img src={Quizapp} alt="" />
               </div>
               <div className="projectDetails">
@@ -468,6 +472,7 @@ export const Projects = () => {
 
             <div className="projectItem">
               <div className="projectImage">
+                <h2 className="project-type">💢 Individual Project</h2>
                 <img src={beautybebo} alt="" />
               </div>
               <div className="projectDetails">
@@ -565,6 +570,7 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
+                <h2 className="project-type">💢 Individual Project</h2>
                 <img src={naukarihome} alt="" />
               </div>
               <div className="projectDetails">
