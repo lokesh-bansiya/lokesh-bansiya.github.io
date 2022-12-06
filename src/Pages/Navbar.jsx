@@ -52,7 +52,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing"
+              href="https://1drv.ms/b/s!AiSQDUviI7Fkay31qnyUOYIVxt4?e=kX6eyv"
               target="_blank"
               alt="Resume"
             >
@@ -88,7 +88,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing"
+              href="https://1drv.ms/b/s!AiSQDUviI7Fkay31qnyUOYIVxt4?e=kX6eyv"
               target="_blank"
               alt="Resume"
             >
@@ -147,7 +147,7 @@ const Navbar = () => {
             </div>
             <div onClick={updateMenu}>
               <a
-                href="https://drive.google.com/file/d/1LQC4qMoLclFHtr-zcAokIuGxgoP59AU-/view?usp=sharing"
+                href="https://1drv.ms/b/s!AiSQDUviI7Fkay31qnyUOYIVxt4?e=kX6eyv"
                 target="_blank"
                 alt="Resume"
               >
