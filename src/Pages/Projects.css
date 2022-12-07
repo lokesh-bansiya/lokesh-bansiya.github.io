@@ -190,6 +190,10 @@
     gap: 2%;
 }
 
+.project-type{
+    font-size: 160%;
+    font-weight: bold;
+}
 
 @media all and (min-width: 600px) and (max-width: 900px){
     
@@ -319,6 +323,11 @@
         transform: scale(1.02);
         transition: 0.5s ease-in;
     }
+ 
+    .project-type{
+        font-size: 120%;
+        font-weight: bold;
+    }
 
 }
 
@@ -436,6 +445,12 @@
 }
 
 @media all and (min-width: 250px) and (max-width: 400px){
+
+    .project-type{
+        font-size: 100%;
+        font-weight: bold;
+    }
+
     #Projects{
         padding-top: 5%;
     }
@@ -494,7 +509,7 @@
     .projectImage{
         width: 90%;
         margin-top: 5%;
-        height: 200px;
+        height: 225px;
         margin: auto;
         margin-bottom: -20px;
     }

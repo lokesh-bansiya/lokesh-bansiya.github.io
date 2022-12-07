@@ -313,12 +313,12 @@
     .toolsBox{
         grid-template-columns: repeat(1,1fr);
         gap: 1% 1%;
-        margin-top: 10%;
+        margin-top: 1%;
         width: 80%;
     }
     .tools > h4{
         font-size: 15px;
-        margin-top: 50%;
+        margin-top: 10%;
         width: 20%;
         margin-bottom: 7%;
     }
