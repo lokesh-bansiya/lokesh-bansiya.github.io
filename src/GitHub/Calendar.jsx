@@ -56,7 +56,7 @@ export const Calendar = () => {
             <p align="center">
                 <a href="https://github.com/lokesh-patidar/github-readme-activity-graph">
                     <img alt="lokesh-patidar Activity Graph"
-                        src="https://activity-graph.herokuapp.com/graph?username=lokesh-patidar&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+                        src="https://github-readme-activity-graph.cyclic.app/graph?username=lokesh-patidar&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"/>
                 </a>
                 </p>
             </div>
