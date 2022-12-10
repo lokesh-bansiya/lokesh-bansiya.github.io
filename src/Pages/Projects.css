@@ -35,6 +35,7 @@
     margin: auto;
     background-color: white;
     border-radius: 17px;
+    padding-bottom: 5%;
 }
 
 .projectItem1{
@@ -151,7 +152,7 @@
     display: grid;
     grid-template-columns: repeat(5,1fr);
     width: 100%;
-    gap: 4%;
+    gap: 10% 4%;
 }
 
 .languages{
@@ -296,7 +297,7 @@
 
     .techStacks > .tech-stacks > div{
         width: 100%;
-        gap: 5%;
+        gap: 10% 4%;
     }
 
     .languages > div img{
@@ -427,7 +428,7 @@
     .techStacks > .tech-stacks > div{
         width: 80%;
         margin: auto;
-        gap: 5% 3%;
+        gap: 10% 4%;
     }
 
     .languages > div img{
@@ -555,7 +556,8 @@
 
     .techStacks > .tech-stacks > div{
         width: 100%;
-        gap: 5%;
+        gap: 10% 4%;
+        margin-bottom: 3%;
     }
 
     .languages > div img{
