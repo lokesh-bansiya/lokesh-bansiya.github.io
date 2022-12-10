@@ -237,7 +237,7 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://monumental-sprinkles-d71af9.netlify.app/"
+                          href="https://getharvest-website-clone.netlify.app/"
                           target="_blank"
                         >
                           <FaLink /> Diployed Link
