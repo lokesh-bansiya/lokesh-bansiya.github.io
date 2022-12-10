@@ -554,7 +554,7 @@ export const Projects = () => {
                     </button>
                     <button>
                       <h3>
-                        <a href="https://subtle-mooncake-4cbce8.netlify.app/" target="_blank">
+                        <a href="https://beautybebo-website-clone.netlify.app/" target="_blank">
                           <FaLink /> Diployed Link
                         </a>
                       </h3>
