@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a231ea3.css",
+    "main.css": "/static/css/main.2427af47.css",
     "main.js": "/static/js/main.22503eb0.js",
     "static/media/zoom_marathon.png": "/static/media/zoom_marathon.deda9bda5d5da540692e.png",
     "static/media/beautybebo.png": "/static/media/beautybebo.a0101bb5453b4e958fe7.png",
@@ -13,11 +13,11 @@
     "static/media/communication.png": "/static/media/communication.9ae24300b28718ddc07d.png",
     "static/media/tinder_certificate.png": "/static/media/tinder_certificate.fb9bf6d2854b30add610.png",
     "index.html": "/index.html",
-    "main.5a231ea3.css.map": "/static/css/main.5a231ea3.css.map",
+    "main.2427af47.css.map": "/static/css/main.2427af47.css.map",
     "main.22503eb0.js.map": "/static/js/main.22503eb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a231ea3.css",
+    "static/css/main.2427af47.css",
     "static/js/main.22503eb0.js"
   ]
 }
