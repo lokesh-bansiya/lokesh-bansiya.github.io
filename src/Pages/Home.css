@@ -78,6 +78,9 @@ h6{
   margin: 3% 0 0 20px;
   background-color: cornsilk;
   color: black;
+  transform: scale(1.06);
+  transition: 0.5s ease-in;
+  border-radius: 15px;
 }
 
 .primary-btn{
@@ -95,6 +98,9 @@ h6{
   margin: 3% 0 0 20px;
   background-color: cornsilk;
   color: black;
+  transform: scale(1.06);
+  transition: 0.5s ease-in;
+  border-radius: 10px;
 }
 
 .profile-picture{
@@ -114,6 +120,7 @@ h6{
   width: 94%;
   border-radius: 50%;
 }
+
 .profile-picture-background img{
   width: 98.5%;
   height: 99%;
@@ -124,6 +131,7 @@ h6{
 .profile-picture-background img:hover{
   transform: scale(1.06);
   transition: 1s ease-out;
+  border: 5px solid rgb(114, 3, 51);
 }
 
 .primary-text{
@@ -150,15 +158,18 @@ h6{
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 1%;
-  background-color: rgb(227, 5, 5);
+  background-color: rgb(21, 2, 105);
   border: 1px solid black;
-  color: white;
+  color: rgb(252, 227, 3);
 }  
 
 .colz-icon a:hover{
-  color: rgb(9, 0, 0);
+  border-radius: 10px;
+  color: rgb(159, 3, 3);
   background-color: white;
   border: 1px solid rgb(10, 0, 0);
+  transform: scale(1.06);
+  transition: 0.5s ease-in;
 }
 
 .icon-ease-out:hover{
@@ -227,7 +238,6 @@ h6{
     padding-left: 2%;
     padding-right: 2%;
   }  
-
 }
 
 @media all and (min-width: 550px) and (max-width: 850px){
@@ -301,8 +311,16 @@ h6{
     cursor: pointer;
     border-radius: 4px;
     padding-left: 2%;
+    border: 1px solid white;
     padding-right: 2%;
+    background-color: rgb(15, 28, 211);
+    color: yellow;
   }  
+  .colz-icon a:hover{
+    border: 1px solid red;
+    background-color: rgb(15, 28, 211);
+    color: white;
+  }
 }
 
 
@@ -420,12 +438,16 @@ h6{
     border-radius: 5px;
     padding-left: 3%;
     padding-right: 3%;
+    border: 1px solid white;
+    color: white;
     padding-top: 1%;
-    color: black;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    background-color: white;
   }  
-
+  .colz-icon a:hover{
+    background-color: rgb(16, 3, 129);
+    color: red;
+    border: 1px solid red;
+  }
 }
 
 @media all and (min-width: 250px) and (max-width: 350px){

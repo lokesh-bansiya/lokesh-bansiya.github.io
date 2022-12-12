@@ -363,7 +363,7 @@ export const Projects = () => {
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  IQ Test for kids from 7 to 16 year old, Here is the mini Quiz-App that I have created with the help of HTML, CSS , JavaScript and React.js. I have generated random numbers from 1 to 6 and I gave a good UI to it. Three members can participate to play with it.
+                  IQ Test for kids from 7 to 16 year old, Here is the mini Quiz-App that I have created with the help of HTML, CSS , JavaScript and React.js.
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
@@ -455,7 +455,7 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://merry-zuccutto-8557ee.netlify.app/"
+                          href="https://quiz-app-lokesh-patidar.vercel.app/"
                           target="_blank"
                         >
                           <FaLink /> Diployed Link

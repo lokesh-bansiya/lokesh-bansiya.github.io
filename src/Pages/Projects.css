@@ -117,7 +117,7 @@
 }
 
 .techStacks .btn > button:hover{
-    background-color: rgb(54, 53, 53);
+    background-color: rgb(8, 0, 0);
     color: rgb(255, 254, 254);
     transform: scale(1.06);
     transition: 0.4s ease-in;
@@ -164,7 +164,8 @@
 }
 
 .languages:hover{
-    transform: scale(1.04);
+    transform: scale(1.06);
+    border-radius: 20px;
     transition: 0.4s ease-in;
 }
 
@@ -177,6 +178,7 @@
     align-self: center;
     margin: auto;
     margin-top: 10%;
+    border-radius: 20%;
 }
 
 .languages > div p{

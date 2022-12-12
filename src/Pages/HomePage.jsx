@@ -5,6 +5,8 @@ import {
 } from "react-icons/fa";
 import Typical from "react-typical";
 import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
+import lokesh from "../assets/lokesh-pic.jpg";
+
 
 const HomePage = () => {
     return (
@@ -16,7 +18,7 @@ const HomePage = () => {
                         <div className="colz">
                             <div className="colz-icon">
                                 <a
-                                    href="https://www.linkedin.com/in/lokesh-patidar-aa45a0236/"
+                                    href={lokesh}
                                     target="_blank"
                                     alt="linked in"
                                 >

@@ -4,6 +4,7 @@ import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
 import zoom_marathon from "../Image/zoom_marathon.png";
 import tinder_certificate from "../Image/tinder_certificate.png";
 import communication from "../Image/communication.png";
+import logo from "../assets/img_about_me.webp";
 
 export const AboutMe = () => {
   return (
@@ -11,7 +12,7 @@ export const AboutMe = () => {
     <div className="aboutMeContainer">
       <h1>About Me</h1>
       <div className="aboutMeDecription">
-        <div className="developerImage"><img src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=2000" alt="developers img" /></div>
+        <div className="developerImage"><img src={logo} alt="developers img" /></div>
         <div className="MyDescription">
           <h3>My name is Lokesh Patidar</h3>
           <h4>Mern-Stack developer</h4>
@@ -42,3 +43,4 @@ export const AboutMe = () => {
     </div>
   );
 }
+// "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=2000" 

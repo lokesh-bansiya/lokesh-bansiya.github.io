@@ -67,14 +67,17 @@
     background-color: rgb(130, 19, 19);
     color: white;
     cursor: pointer;
-    border: 1px solid rgb(46, 7, 38);
-    border-radius: 7px;
+    border: 1px solid rgb(4, 0, 3);
+    border-radius: 5px;
     font-weight: bolder;
 }
 
 .aboutMeContainer .aboutMeDecription .MyDescription > .buttons > button:hover{
-    background-color: rgb(155, 152, 5);
-    color: rgb(95, 5, 70);
+    background-color: rgb(245, 249, 249);
+    color: rgb(123, 1, 86);
+    transform: scale(1.06);
+    transition: 0.5s ease-in;
+    border-radius: 15px;
 }
 
 .developerImage{
