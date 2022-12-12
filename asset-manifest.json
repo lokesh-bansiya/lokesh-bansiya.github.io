@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2427af47.css",
-    "main.js": "/static/js/main.963e5bbe.js",
+    "main.js": "/static/js/main.1f4b5699.js",
     "static/media/zoom_marathon.png": "/static/media/zoom_marathon.deda9bda5d5da540692e.png",
     "static/media/beautybebo.png": "/static/media/beautybebo.a0101bb5453b4e958fe7.png",
     "static/media/dice_app.png": "/static/media/dice_app.8fb5a00a42cd6b029dab.png",
@@ -12,12 +12,14 @@
     "static/media/naukarihome.png": "/static/media/naukarihome.fdb3b59194db34e0c1c7.png",
     "static/media/communication.png": "/static/media/communication.9ae24300b28718ddc07d.png",
     "static/media/tinder_certificate.png": "/static/media/tinder_certificate.fb9bf6d2854b30add610.png",
+    "static/media/img_about_me.webp": "/static/media/img_about_me.c88a45c44874ff46ffdf.webp",
+    "static/media/lokesh-pic.jpg": "/static/media/lokesh-pic.40f9acd5b1ba28e4ea3f.jpg",
     "index.html": "/index.html",
     "main.2427af47.css.map": "/static/css/main.2427af47.css.map",
-    "main.963e5bbe.js.map": "/static/js/main.963e5bbe.js.map"
+    "main.1f4b5699.js.map": "/static/js/main.1f4b5699.js.map"
   },
   "entrypoints": [
     "static/css/main.2427af47.css",
-    "static/js/main.963e5bbe.js"
+    "static/js/main.1f4b5699.js"
   ]
 }
