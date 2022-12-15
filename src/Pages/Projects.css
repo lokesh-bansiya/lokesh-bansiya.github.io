@@ -65,6 +65,10 @@
     text-align: left;
 }
 
+.functionality > p {
+    margin: 0.5%;
+}
+
 .projectDetails{
     width: 50%;
     display: block;
@@ -94,6 +98,7 @@
 
 .desc{
     text-align: left;
+    font-size: 90%;
 }
 
 .desc > span{
@@ -150,7 +155,7 @@
 }
 .techStacks > .tech-stacks > div{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
     width: 100%;
     gap: 10% 4%;
 }
@@ -165,7 +170,7 @@
 
 .languages:hover{
     transform: scale(1.06);
-    border-radius: 20px;
+    border-radius: 15px;
     transition: 0.4s ease-in;
 }
 
@@ -174,7 +179,7 @@
 }
 
 .languages > div img{
-    width: 80%;
+    width: 60%;
     align-self: center;
     margin: auto;
     margin-top: 10%;
@@ -238,8 +243,6 @@
         padding-left: 5%;
     }
 
-    
-
     .projectImage{
         width: 44%;
         height: 200px;
@@ -267,7 +270,7 @@
         border-radius: 3px;
         margin-left: 3px;
     }
-    
+
     .desc > span{
        font-size: medium;
        font-weight: bold;
@@ -278,8 +281,10 @@
     }
 
     .techStacks .btn{
-        margin-top: 10%;
         display: flex;
+        width: fit-content;
+        margin: auto;
+        margin-top: 10%;
         flex-direction: row;
     }
     
@@ -289,13 +294,6 @@
        font-size: 70%;
     }
 
-    .desc{
-        font-size: 13px;
-    }
-
-    li{
-        font-size: 12px;
-    }
 
     .techStacks > .tech-stacks > div{
         width: 100%;
@@ -314,7 +312,28 @@
         font-weight: 1000;
     }
 
-        
+    .functionality > p {
+        margin: 0.5%;
+        font-size: 70%;
+    }
+
+    .techStacks > .tech-stacks > div{
+        width: 90%;
+        margin: auto;
+        gap: 10% 4%;
+    }
+
+    .languages > div p{
+        font-size: 5.5px;
+        padding: 1%;
+        margin: 0% auto 10% auto;
+        font-weight: 1000;
+    }
+
+    .desc{
+        font-size: 70%;
+    }
+
     .projectItem:hover{
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
         transform: scale(1.02);
@@ -418,14 +437,15 @@
        margin: 1%;
        font-size: 13px;
     }
+
+    .functionality > p {
+        margin: 0.5%;
+        font-size: 70%;
+    }
+
     .desc{
-        font-size: 13px;
+        font-size: 70%;
     }
-
-    li{
-        font-size: 12px;
-    }
-
 
     .techStacks > .tech-stacks > div{
         width: 80%;
@@ -547,18 +567,20 @@
        margin: 1%;
        font-size: 13px;
     }
+
+    .functionality > p {
+        margin: 0.5%;
+        font-size: 70%;
+    }
+
     .desc{
-        font-size: 13px;
+        font-size: 70%;
     }
-
-    li{
-        font-size: 12px;
-    }
-
 
     .techStacks > .tech-stacks > div{
-        width: 100%;
+        width: 90%;
         gap: 10% 4%;
+        margin: auto;
         margin-bottom: 3%;
     }
 
@@ -568,18 +590,9 @@
     }
 
     .languages > div p{
-        font-size: 7px;
+        font-size: 6px;
         padding: 1%;
         margin: 0% auto 10% auto;
         font-weight: 1000;
     }
-
-    .desc{
-        font-size: 13px;
-    }
-
-    li{
-        font-size: 12px;
-    }
-
 }
