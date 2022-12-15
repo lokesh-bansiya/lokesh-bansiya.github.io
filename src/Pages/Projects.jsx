@@ -160,9 +160,7 @@ export const Projects = () => {
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  Harvest is a cloud-based time tracking tool designed for businesses of all sizes.
-                  Key features include time and expense management, team management, project management, scheduling and invoicing. I worked on it with my team. I have assigned a team of 5 members for this project to clone getharvest.com. We have built this exactly as similar as a real website with the help of html, css and javascript.
-
+                  Harvest is a cloud-based time-tracking tool designed for businesses of all sizes. Key features include time and expense management, team management, project management, scheduling, and invoicing. I worked on it with my team. I had assigned a team of 5 members for this project to clone getharvest.com. 
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
@@ -262,7 +260,7 @@ export const Projects = () => {
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  This is a mini dice rolling app that I made with the help of HTML, CSS, and JavaScript, here I have generated random numbers from 1 to 6 and I gave a good UI to it. Three members can participate to play with it.
+                  This is a mini dice-rolling app that I made with the help of HTML, CSS, and JavaScript, here I have generated random numbers from 1 to 6 and I gave a good UI to it. Three members can participate to play with it.
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
@@ -363,7 +361,7 @@ export const Projects = () => {
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  IQ Test for kids from 7 to 16 year old, Here is the mini Quiz-App that I have created with the help of HTML, CSS , JavaScript and React.js.
+                  IQ Test for kids from 7 to 16 years old, Here is the mini Quiz-App that I have created with the help of HTML, CSS, JavaScript, and React.js.
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
@@ -564,7 +562,6 @@ export const Projects = () => {
               </div>
             </div>
 
-
             <br />
             <br />
 
@@ -578,7 +575,7 @@ export const Projects = () => {
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies, and job seekers in India and overseas. It offers multiple products like Resume Database Access, Job Listings, and Response Management Tools. Here is the clone of the real website that I made with the help of react, chakra-ui and javascript mostly.
+                  Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies, and job seekers in India and overseas. It offers multiple products like Resume Database Access, Job Listings, and Response Management Tools. Here is the clone of the real website that I made with the help of React.Js, Chakra-UI, and JavaScript mostly.
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
