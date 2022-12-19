@@ -40,11 +40,13 @@
 }
 
 .skillsBox > div:hover{
+    
     transform: scale(1.06);
     transition: 0.5s ease-in;
     border: 3px solid rgb(103, 2, 2);
     border-radius: 30%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transform: rotateZ(360deg);
 }
 
 .skillsBox > div > img{
