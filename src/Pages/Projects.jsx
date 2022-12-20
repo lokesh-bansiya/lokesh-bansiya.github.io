@@ -30,16 +30,19 @@ export const Projects = () => {
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  Here is the time tracking website in this website I worked in a team of 5 members And I made a dynamic task management functionality so that users can manage their tasks and can plan accordingly, On our website calendar events are also there with will help full for users to tack date and month planning as well.
+                  Here is the task tracking website in this website I worked in a team of 5 members And I made a dynamic task management functionality so that users can manage their tasks and can plan accordingly, On our website calendar events are also there with will help full for users to tack date and month planning as well.
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
-                  <p>➥ Authentication of users and admin both</p>
-                  <p>➥ Users can create, edit, and delete their tasks</p>
-                  <p>➥ Users can create their sub-tasks as well</p>
-                  <p>➥ Users can track their work by creating calendar events </p>
-                  <p>➥ Admin functionality in which admin can manage the api and data</p>
-                  <p>➥ Users can remove the items as well from cart page</p>
+                  <p><span>➥</span> Fully responsive layoutes</p>
+                  <p><span>➥</span> Authentication of users and admin both</p>
+                  <p><span>➥</span> Users can create, edit, and delete their tasks</p>
+                  <p><span>➥</span> Users can create their sub-tasks as well</p>
+                  <p><span>➥</span> I created a mock API to manage the whole data</p>
+                  <p><span>➥</span> Users can track their work by creating calendar events </p>
+                  <p><span>➥</span> Admin functionality in which admin can manage the api and data</p>
+                  <p><span>➥</span> User can filter their tasks on the basis of three different tags</p>
+                  <p><span>➥</span> Users can create, update and delete calendar events according to their project planning</p>
                 </div>
                 <div className="techStacks">
                   <div className="tech-stacks">
@@ -149,12 +152,12 @@ export const Projects = () => {
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
-                  <p>➥ Authentication of users</p>
-                  <p>➥ Users can open products from home pag itself and</p>
-                  <p>➥ Users can also open product items in single item page</p>
-                  <p>➥ Users can add product items to cart </p>
-                  <p>➥ Users can check their items in cart page </p>
-                  <p>➥ Users can remove the items as well from cart page</p>
+                  <p><span>➥</span> Authentication of users</p>
+                  <p><span>➥</span> Users can open products from home pag itself and</p>
+                  <p><span>➥</span> Users can also open product items in single item page</p>
+                  <p><span>➥</span> Users can add product items to cart </p>
+                  <p><span>➥</span> Users can check their items in cart page </p>
+                  <p><span>➥</span> Users can remove the items as well from cart page</p>
                 </div>
                 <div className="techStacks">
                   <div className="tech-stacks">
@@ -280,8 +283,8 @@ export const Projects = () => {
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
-                  <p>➥ Authentication of users </p>
-                  <p>➥ Fully responsive </p>
+                  <p><span>➥</span> Authentication of users </p>
+                  <p><span>➥</span> Fully responsive </p>
                 </div>
                 <div className="techStacks">
                 <div className="tech-stacks">
@@ -380,8 +383,8 @@ export const Projects = () => {
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
-                  <p>➥ Fully responsive </p>
-                  <p>➥ Generating random numbers </p>
+                  <p><span>➥</span> Fully responsive </p>
+                  <p><span>➥</span> Generating random numbers </p>
                 </div>
                 <div className="techStacks">
                 <div className="tech-stacks">
@@ -481,9 +484,9 @@ export const Projects = () => {
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
-                  <p>➥ Fully responsive </p>
-                  <p>➥ Users can test their IQ</p>
-                  <p>➥ Automaticaly marks will shown at last according to the response</p>
+                  <p><span>➥</span> Fully responsive </p>
+                  <p><span>➥</span> Users can test their IQ</p>
+                  <p><span>➥</span> Automaticaly marks will shown at last according to the response</p>
                 </div>
                 <div className="techStacks">
                 <div className="tech-stacks">
@@ -598,10 +601,10 @@ export const Projects = () => {
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
-                  <p>➥ User can Sign-up and Login</p>
-                  <p>➥ Users can add product items to cart </p>
-                  <p>➥ Users can check their items in cart page </p>
-                  <p>➥ Users can remove the items as well from cart page</p>
+                  <p><span>➥</span> User can Sign-up and Login</p>
+                  <p><span>➥</span> Users can add product items to cart </p>
+                  <p><span>➥</span> Users can check their items in cart page </p>
+                  <p><span>➥</span> Users can remove the items as well from cart page</p>
                 </div>
                 <div className="techStacks">
                   <div className="tech-stacks">
@@ -695,8 +698,8 @@ export const Projects = () => {
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
-                  <p>➥ Authentication of users</p>
-                  <p>➥ Page Routings</p>
+                  <p><span>➥</span> Authentication of users</p>
+                  <p><span>➥</span> Page Routings</p>
                 </div>
                 <div className="techStacks">
                 <div className="tech-stacks">

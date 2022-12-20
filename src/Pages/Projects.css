@@ -67,6 +67,13 @@
 
 .functionality > p {
     margin: 0.5%;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(1, 1, 67);
+}
+
+.functionality > p > span{
+    color: rgb(246, 2, 10);
 }
 
 .projectDetails{
@@ -314,7 +321,7 @@
 
     .functionality > p {
         margin: 0.5%;
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .techStacks > .tech-stacks > div{
