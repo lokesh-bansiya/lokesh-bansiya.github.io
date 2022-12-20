@@ -118,14 +118,14 @@ export const Projects = () => {
                   <div className="btn">
                     <button>
                       <h3>
-                        <a href="https://github.com/lokesh-patidar/pharmeasy.in/tree/main/pharmeasy.in" target="_blank">
+                        <a href="https://github.com/lokesh-patidar/WebTaskit" target="_blank">
                           <FaGithub /> GitHub Repo
                         </a>
                       </h3>
                     </button>
                     <button>
                       <h3>
-                        <a href="https://holistic-remedies.netlify.app/" target="_blank">
+                        <a href="https://webtaskit-five.vercel.app/" target="_blank">
                           <FaLink /> Diployed Link
                         </a>
                       </h3>
