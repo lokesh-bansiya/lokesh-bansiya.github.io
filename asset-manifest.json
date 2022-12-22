@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.775d0277.css",
-    "main.js": "/static/js/main.456617a1.js",
+    "main.css": "/static/css/main.04f288f6.css",
+    "main.js": "/static/js/main.e14e204f.js",
     "static/media/zoom_marathon.png": "/static/media/zoom_marathon.deda9bda5d5da540692e.png",
     "static/media/beautybebo.png": "/static/media/beautybebo.a0101bb5453b4e958fe7.png",
     "static/media/dice_app.png": "/static/media/dice_app.8fb5a00a42cd6b029dab.png",
@@ -16,11 +16,11 @@
     "static/media/img_about_me.webp": "/static/media/img_about_me.c88a45c44874ff46ffdf.webp",
     "static/media/lokesh-pic.jpg": "/static/media/lokesh-pic.40f9acd5b1ba28e4ea3f.jpg",
     "index.html": "/index.html",
-    "main.775d0277.css.map": "/static/css/main.775d0277.css.map",
-    "main.456617a1.js.map": "/static/js/main.456617a1.js.map"
+    "main.04f288f6.css.map": "/static/css/main.04f288f6.css.map",
+    "main.e14e204f.js.map": "/static/js/main.e14e204f.js.map"
   },
   "entrypoints": [
-    "static/css/main.775d0277.css",
-    "static/js/main.456617a1.js"
+    "static/css/main.04f288f6.css",
+    "static/js/main.e14e204f.js"
   ]
 }
