@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.05d73770.css",
+    "main.css": "/static/css/main.4698653b.css",
     "main.js": "/static/js/main.456617a1.js",
     "static/media/zoom_marathon.png": "/static/media/zoom_marathon.deda9bda5d5da540692e.png",
     "static/media/beautybebo.png": "/static/media/beautybebo.a0101bb5453b4e958fe7.png",
@@ -16,11 +16,11 @@
     "static/media/img_about_me.webp": "/static/media/img_about_me.c88a45c44874ff46ffdf.webp",
     "static/media/lokesh-pic.jpg": "/static/media/lokesh-pic.40f9acd5b1ba28e4ea3f.jpg",
     "index.html": "/index.html",
-    "main.05d73770.css.map": "/static/css/main.05d73770.css.map",
+    "main.4698653b.css.map": "/static/css/main.4698653b.css.map",
     "main.456617a1.js.map": "/static/js/main.456617a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.05d73770.css",
+    "static/css/main.4698653b.css",
     "static/js/main.456617a1.js"
   ]
 }
