@@ -30,17 +30,7 @@ export const AboutMe = () => {
         </div>
       </div>
     </div>
-
-    <div className="certificate">
-        <h4>Certificates</h4>
-        <div className="certificate_container">
-          <div><a target="_blank" href="https://drive.google.com/file/d/1hTOsGprsY2UkkNbZCoOgRWLaYHozv191/view?usp=sharing"><img src={communication} alt="" /></a></div>
-          <div><a target="_blank" href="https://drive.google.com/file/d/15ebGKCd0W6C5kUjKL_y6aB7vl3j9gL-H/view?usp=sharing"><img src={zoom_marathon} alt="" /></a></div>
-          <div><a target="_blank" href="https://drive.google.com/file/d/1htVZsuBzVyIthaOk8c8-iNGw9iaNicRi/view?usp=sharing"><img src={tinder_certificate} alt="" /></a></div>
-        </div>
-      </div>
     <br id="skillsPageSection"/>
     </div>
   );
 }
-// "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=2000" 

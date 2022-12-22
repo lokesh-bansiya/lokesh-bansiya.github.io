@@ -1,11 +1,10 @@
 #skills{
-    padding-top: 3%;
+    padding-top: 5%;
 }
 .skillContainer{
     display: flex;
     flex-direction: column;
 }
-
 
 .skillContainer > div > h1{
     text-align: center;
