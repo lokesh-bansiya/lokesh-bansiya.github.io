@@ -447,7 +447,7 @@
 
     .functionality > p {
         margin: 0.5%;
-        font-size: 60%;
+        font-size: 50%;
     }
 
     .desc{
@@ -577,7 +577,7 @@
 
     .functionality > p {
         margin: 0.5%;
-        font-size: 50%;
+        font-size: 40%;
     }
 
     .desc{
@@ -585,7 +585,7 @@
     }
 
     .techStacks > .tech-stacks > div{
-        width: 90%;
+        width: 95%;
         gap: 10% 4%;
         margin: auto;
         margin-bottom: 3%;

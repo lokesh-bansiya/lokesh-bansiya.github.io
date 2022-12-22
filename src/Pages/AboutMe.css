@@ -157,9 +157,9 @@
 @media all and (min-width: 250px) and (max-width: 570px){
     
     .aboutMeContainer{
-        padding: 3% 2%;
+        padding: auto;
     }
-    
+
     .aboutMeContainer > h1{
         font-size: 35px;
         width: 150px;
@@ -170,17 +170,18 @@
     }
 
     .aboutMeContainer .aboutMeDecription .MyDescription > h3{
-        font-size: 117%;
+        font-size: 100%;
         margin: 2%;
     }
     
     .aboutMeContainer .aboutMeDecription .MyDescription > h4{
-        font-size: 16px;
+        font-size: 12px;
         margin-bottom: 2%;
     }
 
     .aboutMeDecription{
         display: flex;
+        padding: auto;
         padding-top: 4%;
         flex-direction: column;
     }
@@ -189,6 +190,7 @@
         width: 80%;
         margin: auto;
         display: flex;
+        margin-top: 3%;
         align-items: center;
     }
     
@@ -200,7 +202,7 @@
     
     
     .MyDescription{
-        width: 100%;
+        width: fit-content;
         padding: 3%;
         display: flex;
         align-items: center;
@@ -209,11 +211,11 @@
     }
     
     .aboutmeDetails{
-        padding-right: 5%;
-        margin-top: 1%;
         font-weight: 400;
-        font-size: 13px;
-        
+        margin: auto;
+        margin-top: 1%;
+        padding: auto;
+        font-size: 11px;
     }
 
     .aboutMeContainer .aboutMeDecription .MyDescription > .buttons{
