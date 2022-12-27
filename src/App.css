@@ -25,12 +25,12 @@
   margin-bottom: 15%;
 }
 
-.whatsapp_float:hover{
+.whatsapp_float:hover {
   background-color: rgb(37, 36, 36);
   border: 1px solid rgb(3, 149, 40);
 }
 
-.whatsapp-icon:hover{
+.whatsapp-icon:hover {
   color: rgb(4, 255, 0);
   transform: scale(1.1);
   transition: 0.4s ease-in;
@@ -38,10 +38,10 @@
 
 @media screen and (max-width: 767px) {
   .whatsapp_float {
-      width: 40px;
-      height: fit-content;
-      bottom: 20px;
-      right: 15px;
-      font-size: 29px;
+    width: 40px;
+    height: fit-content;
+    bottom: 20px;
+    right: 15px;
+    font-size: 29px;
   }
 }

@@ -1,4 +1,4 @@
-.navbarContainer{
+.navbarContainer {
     z-index: 1;
     position: fixed;
     margin: auto;
@@ -9,15 +9,17 @@
     justify-content: space-between;
     border-bottom: 1px solid rgb(252, 248, 248);
 }
-#box-1second{
+
+#box-1second {
     display: none;
 }
-.mainNavbarBox{
+
+.mainNavbarBox {
     display: none;
     width: 0%;
 }
 
-.logo{
+.logo {
     padding: 0.5% 0% 1% 1%;
     margin-left: 2%;
     width: 100px;
@@ -26,20 +28,20 @@
     color: white;
 }
 
-.logo > span {
+.logo>span {
     font-size: 45px;
     font-family: 'Courgette', cursive;
     color: red;
 }
 
-.nav{
+.nav {
     display: grid;
     width: 60%;
     grid-template-columns: repeat(6, 1fr);
     padding-top: 1.7%;
 }
 
-.nav > div{
+.nav>div {
     border: 1px solid rgb(247, 5, 5);
     cursor: pointer;
     background-color: white;
@@ -55,50 +57,53 @@
     font-weight: bold;
 }
 
-.nav > div:hover{
+.nav>div:hover {
     transform: scale(1.04);
     transition: 0.5s ease-out;
     border: 1px solid rgb(224, 3, 3);
     background-color: rgb(1, 20, 23);
     color: white;
-  }
+}
 
-.nav > div > a {
+.nav>div>a {
     text-decoration: none;
     color: inherit;
 }
 
- 
-@media all and (min-width: 951px) and (max-width: 1100px){
-    #box-1second{
+
+@media all and (min-width: 951px) and (max-width: 1100px) {
+    #box-1second {
         display: none;
     }
-    #box-2{
+
+    #box-2 {
         display: none;
     }
-    .mainNavbarBox{
+
+    .mainNavbarBox {
         display: none;
         width: 0%;
     }
-    .logo{
+
+    .logo {
         padding: 0.2% 0% 1% 1%;
         margin-left: 1%;
         font-size: 20px;
         font-weight: bolder;
     }
 
-    .logo > span {
+    .logo>span {
         font-size: 45px;
     }
 
-    .nav{
+    .nav {
         display: grid;
         width: 75%;
         grid-template-columns: repeat(6, 1fr);
         padding-top: 1%;
     }
 
-    .nav > div{
+    .nav>div {
         background-color: white;
         box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
         padding-top: 4%;
@@ -109,34 +114,36 @@
         font-weight: bolder;
         border: 2px solid rgb(94, 10, 65);
     }
-    .nav > div > a {
+
+    .nav>div>a {
         font-size: 15px;
     }
-    
+
 }
 
-@media all and (min-width: 550px) and (max-width: 950px){
+@media all and (min-width: 550px) and (max-width: 950px) {
 
-    #box-2{
+    #box-2 {
         display: none;
-        
+
     }
-    .mainNavbarBox{
+
+    .mainNavbarBox {
         display: none;
         width: 0%;
     }
-    
-    #box-1{
+
+    #box-1 {
         display: none;
     }
 
-    .mainNavbarBox{
+    .mainNavbarBox {
         display: none;
         width: 0%;
     }
-    
 
-    #box-1second{
+
+    #box-1second {
         position: fixed;
         z-index: 1;
         display: flex;
@@ -148,7 +155,7 @@
         padding-bottom: 2%;
     }
 
-    .logosecond{
+    .logosecond {
         padding: 0.5% 0% 1% 1%;
         margin-left: 2%;
         margin-right: 3%;
@@ -157,22 +164,22 @@
         font-weight: bold;
         color: white;
     }
-    
-    .logosecond > span {
+
+    .logosecond>span {
         font-size: 45px;
         color: red;
         font-family: 'Courgette', cursive;
     }
-    
-    .navsecond{
+
+    .navsecond {
         display: grid;
         width: 100%;
         grid-template-columns: repeat(6, 1fr);
         padding-top: 2.7%;
         margin-right: 2%;
     }
-    
-    .navsecond > div{
+
+    .navsecond>div {
         border: 0.5px solid black;
         cursor: pointer;
         background-color: white;
@@ -186,41 +193,41 @@
         font-size: 12px;
         font-weight: bold;
     }
-    
-    .navsecond > div:hover{
+
+    .navsecond>div:hover {
         transform: scale(1.04);
         transition: 0.5s ease-out;
         border: 1px solid rgb(224, 3, 3);
         background-color: rgb(162, 203, 210);
-      }
-    
-    .navsecond > div > a {
+    }
+
+    .navsecond>div>a {
         text-decoration: none;
         font-size: 15px;
         color: black;
     }
 
-    .navsecond > div span{
+    .navsecond>div span {
         color: rgb(206, 3, 108);
     }
 }
 
-@media all and (min-width: 250px) and (max-width: 550px){
-    #box-1second{
+@media all and (min-width: 250px) and (max-width: 550px) {
+    #box-1second {
         display: none;
     }
 
-    .navbarContainer{
+    .navbarContainer {
         display: none;
         height: 0%;
         width: 0%;
     }
-    
-    #box-1{
+
+    #box-1 {
         display: none;
     }
 
-    .mainNavbarBox{
+    .mainNavbarBox {
         z-index: 10;
         display: flex;
         width: 100%;
@@ -229,8 +236,8 @@
         margin-bottom: -380px;
         position: fixed;
     }
-   
-    .burgerNav{
+
+    .burgerNav {
         width: 100%;
         height: 4em;
         background-color: black;
@@ -240,8 +247,8 @@
         padding: 1em;
     }
 
-   
-    .navlogo{
+
+    .navlogo {
         padding: 0.5% 0% 1% 1%;
         width: 100%;
         align-self: right;
@@ -249,14 +256,14 @@
         font-size: 20px;
         font-weight: bold;
     }
-    
-    .navlogo > span {
+
+    .navlogo>span {
         font-size: 45px;
         color: rgb(244, 181, 6);
         font-family: 'Courgette', cursive;
     }
-   
-    .navinside1{
+
+    .navinside1 {
         padding: 0.5% 2% 1% 1%;
         width: 200%;
         margin-right: 0%;
@@ -267,13 +274,13 @@
         font-weight: bold;
     }
 
-    .navinside1 > span {
+    .navinside1>span {
         font-size: 45px;
         color: rgb(225, 10, 10);
         font-family: 'Courgette', cursive;
     }
 
-    .burger-menu{
+    .burger-menu {
         height: 70%;
         width: 4em;
         display: flex;
@@ -283,23 +290,23 @@
         cursor: pointer;
         z-index: 10;
     }
-   
-    .burger-bar{
+
+    .burger-bar {
         width: 2.2em;
         height: 0.3em;
         background-color: rgb(224, 238, 237);
         border-radius: 0.5em;
     }
-   
-    .menu{
+
+    .menu {
         width: 100%;
         background-color: rgb(7, 7, 7);
         position: absolute;
         top: 0;
         z-index: 1;
     }
-    
-    .navinside{
+
+    .navinside {
         display: grid;
         width: 70%;
         height: auto;
@@ -311,8 +318,8 @@
         padding-left: 5%;
         z-index: 1;
     }
-   
-    .navbarContainer{
+
+    .navbarContainer {
         z-index: 1;
         background-color: black;
         position: relative;
@@ -324,9 +331,9 @@
         display: flex;
         justify-content: space-between;
     }
-   
-   
-    .navinside > div{
+
+
+    .navinside>div {
         border-bottom: 1px solid rgb(251, 165, 5);
         background-color: black;
         color: white;
@@ -340,39 +347,39 @@
         border-bottom-left-radius: 10px;
     }
 
-    .navinside > div > a {
+    .navinside>div>a {
         text-decoration: none;
         color: white;
     }
-   
-    .hidden{
+
+    .hidden {
         display: none;
         height: 0px;
     }
-   
-    .visible{
+
+    .visible {
         display: inherit;
         height: 100vh;
     }
-   
-    .burger-bar.clicked:nth-child(1){
-        transform: rotate(45deg)  translate(0.75em, 1.25em);
+
+    .burger-bar.clicked:nth-child(1) {
+        transform: rotate(45deg) translate(0.75em, 1.25em);
         transition: ease-out 0.5s;
     }
-   
-    .burger-bar.clicked:nth-child(2){
+
+    .burger-bar.clicked:nth-child(2) {
         transform: scale(0.1);
         transition: ease-out 0.5s;
     }
-    .burger-bar.clicked:nth-child(3){
-        transform: rotate(135deg)  translate(-0.5em, 1em);
+
+    .burger-bar.clicked:nth-child(3) {
+        transform: rotate(135deg) translate(-0.5em, 1em);
         transition: ease-out 0.5s;
     }
-   
-    .burger-bar.unclicked{
+
+    .burger-bar.unclicked {
         transform: rotate(0) translate(0);
         transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
     }
 
 }
-  

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import {
   FaHome,
   FaUser,
@@ -7,10 +7,9 @@ import {
   FaList,
   FaMobile,
 } from "react-icons/fa";
-import './Navbar.css';
+import "./Navbar.css";
 
 const Navbar = () => {
-
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
   const [menu_class, setMenuClass] = useState("menu hidden");
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -27,7 +26,6 @@ const Navbar = () => {
     setIsMenuClicked(!isMenuClicked);
   };
 
-
   return (
     <>
       <div id="box-1" className="navbarContainer">
@@ -36,19 +34,29 @@ const Navbar = () => {
         </div>
         <div className="nav">
           <div>
-            <a href="#Home"><FaHome /> Home</a>
+            <a href="#Home">
+              <FaHome /> Home
+            </a>
           </div>
           <div>
-            <a href="#aboutMePageSection"><FaUser /> About Me</a>
+            <a href="#aboutMePageSection">
+              <FaUser /> About Me
+            </a>
           </div>
           <div>
-            <a href="#skillsPageSection"><FaList /> Skills</a>
+            <a href="#skillsPageSection">
+              <FaList /> Skills
+            </a>
           </div>
           <div>
-            <a href="#projectsPageSection"><FaFolder /> Projects</a>
+            <a href="#projectsPageSection">
+              <FaFolder /> Projects
+            </a>
           </div>
           <div>
-            <a href="#contactPageSection"><FaMobile /> Contact</a>
+            <a href="#contactPageSection">
+              <FaMobile /> Contact
+            </a>
           </div>
           <div>
             <a
@@ -62,29 +70,42 @@ const Navbar = () => {
         </div>
       </div>
 
-{/* -------------------------------------moddle screen--------------------------------------------  */}
-      
+      {/* -------------------------------------moddle screen--------------------------------------------  */}
 
       <div id="box-1second" className="navbarContainersecond">
-       <div className="logosecond">
+        <div className="logosecond">
           <span>L</span>okesh
         </div>
         <div className="navsecond">
-          
           <div>
-            <a href="#Home"> <span>H</span>ome</a>
+            <a href="#Home">
+              {" "}
+              <span>H</span>ome
+            </a>
           </div>
           <div>
-            <a href="#aboutMePageSection"> <span>A</span>bout Me</a>
+            <a href="#aboutMePageSection">
+              {" "}
+              <span>A</span>bout Me
+            </a>
           </div>
           <div>
-            <a href="#skillsPageSection"> <span>S</span>kills</a>
+            <a href="#skillsPageSection">
+              {" "}
+              <span>S</span>kills
+            </a>
           </div>
           <div>
-            <a href="#projectsPageSection"> <span>P</span>rojects</a>
+            <a href="#projectsPageSection">
+              {" "}
+              <span>P</span>rojects
+            </a>
           </div>
           <div>
-            <a href="#contactPageSection"> <span>C</span>ontact</a>
+            <a href="#contactPageSection">
+              {" "}
+              <span>C</span>ontact
+            </a>
           </div>
           <div>
             <a
@@ -98,12 +119,13 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* ---------------------------------------mobile screen------------------------------------------  */}
 
-
-{/* ---------------------------------------mobile screen------------------------------------------  */}
-
-
-      <div id="box-2" className="mainNavbarBox" style={{ width: "100%", height: "100vh" }}>
+      <div
+        id="box-2"
+        className="mainNavbarBox"
+        style={{ width: "100%", height: "100vh" }}
+      >
         <div className="burgerNav">
           <div className="burger-menu" onClick={updateMenu}>
             <div className={burger_class}></div>
@@ -117,33 +139,22 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div id="menu-class" style={{height: "100vh"}} className={menu_class}>
-          
+        <div id="menu-class" style={{ height: "100vh" }} className={menu_class}>
           <div className="navinside">
             <div onClick={updateMenu}>
-              <a href="#Home">
-                Home
-              </a>
+              <a href="#Home">Home</a>
             </div>
             <div onClick={updateMenu}>
-              <a href="#aboutMePageSection">
-                About Me
-              </a>
+              <a href="#aboutMePageSection">About Me</a>
             </div>
             <div onClick={updateMenu}>
-              <a href="#skillsPageSection">
-                Skills
-              </a>
+              <a href="#skillsPageSection">Skills</a>
             </div>
             <div onClick={updateMenu}>
-              <a href="#projectsPageSection">
-                Projects
-              </a>
+              <a href="#projectsPageSection">Projects</a>
             </div>
             <div onClick={updateMenu}>
-              <a href="#contactPageSection">
-                Contact
-              </a>
+              <a href="#contactPageSection">Contact</a>
             </div>
             <div onClick={updateMenu}>
               <a
@@ -159,9 +170,9 @@ const Navbar = () => {
             <span>L</span>okesh &nbsp;<span>P</span>atidar
           </div>
         </div>
-    </div>
+      </div>
     </>
   );
-}
+};
 
 export default Navbar;

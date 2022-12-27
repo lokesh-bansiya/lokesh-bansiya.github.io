@@ -1,12 +1,13 @@
-#skills{
+#skills {
     padding-top: 5%;
 }
-.skillContainer{
+
+.skillContainer {
     display: flex;
     flex-direction: column;
 }
 
-.skillContainer > div > h1{
+.skillContainer>div>h1 {
     text-align: center;
     font-family: 'Courgette', cursive;
     font-weight: bolder;
@@ -18,16 +19,16 @@
     margin-bottom: 5px;
 }
 
-.skillsBox{
+.skillsBox {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5% 3%;
     width: 85%;
     margin: auto;
     margin-top: 5%;
 }
 
-.skillsBox > div{
+.skillsBox>div {
     text-align: center;
     width: 90%;
     height: auto;
@@ -38,7 +39,7 @@
     margin: auto;
 }
 
-.skillsBox > div:hover{
+.skillsBox>div:hover {
     transform: scale(1.06);
     transition: 0.5s ease-in;
     border: 3px solid rgb(103, 2, 2);
@@ -46,13 +47,13 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.skillsBox > div > img{
+.skillsBox>div>img {
     width: 30%;
     margin: 10%;
     margin-top: 15%;
 }
 
-.skillsBox > div > h3{
+.skillsBox>div>h3 {
     font-size: 15px;
     margin: 1%;
     margin-bottom: 15%;
@@ -60,12 +61,12 @@
     color: rgb(133, 22, 22);
 }
 
-.tools{
+.tools {
     padding-bottom: 8%;
     margin-top: 5%;
 }
 
-.tools > h4{
+.tools>h4 {
     font-size: 30px;
     text-align: center;
     width: 10%;
@@ -81,15 +82,15 @@
     border: 1px solid rgb(198, 154, 8);
 }
 
-.toolsBox{
+.toolsBox {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 7% 0%;
     width: 85%;
     margin: auto;
 }
 
-.toolsBox > div{
+.toolsBox>div {
     text-align: center;
     margin: auto;
     width: 85%;
@@ -99,7 +100,7 @@
     border: 3px solid rgb(104, 5, 5);
 }
 
-.toolsBox > div:hover{
+.toolsBox>div:hover {
     cursor: pointer;
     transform: scale(1.07);
     transition: 0.6s ease-in;
@@ -107,13 +108,13 @@
     border: 3px solid rgb(30, 4, 126);
 }
 
-.toolsBox > div > img{
+.toolsBox>div>img {
     width: 30%;
     margin: 5%;
     margin-top: 10%;
 }
 
-.toolsBox > div > h3{
+.toolsBox>div>h3 {
     font-size: 15px;
     margin-bottom: 10%;
     color: rgb(133, 22, 22);
@@ -121,52 +122,52 @@
 }
 
 
-@media all and (min-width: 601px) and (max-width: 900px){
-    
-    .skillContainer{
+@media all and (min-width: 601px) and (max-width: 900px) {
+
+    .skillContainer {
         display: flex;
         flex-direction: column;
     }
 
-    .skillContainer > div > h1{
+    .skillContainer>div>h1 {
         font-size: 35px;
         width: 100px;
     }
-    
-    .skillsBox{
-        grid-template-columns: repeat(3,1fr);
+
+    .skillsBox {
+        grid-template-columns: repeat(3, 1fr);
         gap: 3% 0%;
         width: 85%;
         margin: auto;
         margin-top: 7%;
         padding-bottom: 10%;
     }
-    
-    .skillsBox > div{
+
+    .skillsBox>div {
         border-radius: 10px;
         border: 3px solid rgb(1, 1, 101);
         height: fit-content;
         width: 90%;
     }
 
-    .skillsBox > div:hover{
+    .skillsBox>div:hover {
         border: 3px solid rgb(123, 2, 2);
     }
-    
-    .skillsBox > div > img{
+
+    .skillsBox>div>img {
         width: 30%;
     }
 
-    .skillsBox > div > h3{
+    .skillsBox>div>h3 {
         font-size: 14px;
         margin-bottom: 7%;
     }
-    
-    .tools{
+
+    .tools {
         padding-bottom: 14%;
     }
-    
-    .tools > h4{
+
+    .tools>h4 {
         font-size: 25px;
         text-align: center;
         width: 10%;
@@ -180,59 +181,59 @@
         color: rgb(244, 237, 243);
         border: 1px solid rgb(198, 154, 8);
     }
-    
-    .toolsBox{
+
+    .toolsBox {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 3% 0%;
         width: 85%;
         margin: auto;
     }
-    
-    .toolsBox > div{
+
+    .toolsBox>div {
         border-radius: 10px;
         width: 85%;
         height: auto;
         padding-bottom: 5%;
         border: 3px solid rgb(104, 2, 2);
     }
-    
-    .toolsBox > div > img{
+
+    .toolsBox>div>img {
         width: 50%;
         margin: auto;
         margin-top: 8%;
     }
-    
-    .toolsBox > div > h3{
+
+    .toolsBox>div>h3 {
         font-size: 17px;
     }
-    
+
 }
 
-@media all and (min-width: 551px) and (max-width: 600px){
-    
-    .skillContainer{
+@media all and (min-width: 551px) and (max-width: 600px) {
+
+    .skillContainer {
         display: flex;
         flex-direction: column;
         padding-bottom: 5%;
     }
 
-    .skillContainer > div > h1{
+    .skillContainer>div>h1 {
         font-size: 35px;
         width: 100px;
     }
-    
-    .skillsBox{
-        grid-template-columns: repeat(3,1fr);
+
+    .skillsBox {
+        grid-template-columns: repeat(3, 1fr);
         gap: 5% 5%;
         width: 90%;
         margin: auto;
         margin-top: 7%;
         padding-bottom: 10%;
     }
-    
-    .skillsBox{
-        grid-template-columns: repeat(3,1fr);
+
+    .skillsBox {
+        grid-template-columns: repeat(3, 1fr);
         gap: 5% 0%;
         width: 90%;
         margin: auto;
@@ -240,8 +241,8 @@
         margin-top: 7%;
         padding-bottom: 12%;
     }
-    
-    .skillsBox > div{
+
+    .skillsBox>div {
         width: 85%;
         margin: auto;
         border-radius: 10px;
@@ -249,49 +250,50 @@
         height: fit-content;
     }
 
-        
-    .skillsBox > div:hover{
+
+    .skillsBox>div:hover {
         border: 3px solid rgb(103, 2, 2);
     }
-        
-    .skillsBox > div > img{
+
+    .skillsBox>div>img {
         width: 30%;
         margin-bottom: 5%;
         margin-top: 10%;
     }
 
-    .skillsBox > div > h3{
+    .skillsBox>div>h3 {
         font-size: 15px;
         margin-bottom: 7%;
     }
 
-    .tools > h4{
+    .tools>h4 {
         font-size: 18px;
         margin-top: 1%;
         width: 20%;
         margin-bottom: 7%;
     }
-    
-    .toolsBox{
-        grid-template-columns: repeat(3,1fr);
+
+    .toolsBox {
+        grid-template-columns: repeat(3, 1fr);
         gap: 5% 0%;
     }
-    .toolsBox > div{
+
+    .toolsBox>div {
         border: 3px solid rgb(85, 1, 1);
         border-radius: 10px;
     }
-        
-    .toolsBox > div:hover{
+
+    .toolsBox>div:hover {
         border: 3px solid rgb(30, 4, 126);
     }
-    
-    .toolsBox > div > img{
+
+    .toolsBox>div>img {
         width: 30%;
         margin-bottom: 2%;
         margin-top: 10%;
     }
-    
-    .toolsBox > div > h3{
+
+    .toolsBox>div>h3 {
         font-size: 15px;
         margin-top: 2%;
         margin-bottom: 7%;
@@ -299,21 +301,21 @@
 }
 
 
-@media all and (min-width: 301px) and (max-width: 550px){
+@media all and (min-width: 301px) and (max-width: 550px) {
 
-    .skillContainer{
+    .skillContainer {
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
     }
 
-    .skillContainer > div > h1{
+    .skillContainer>div>h1 {
         font-size: 35px;
         width: 100px;
     }
-    
-    .skillsBox{
-        grid-template-columns: repeat(2,1fr);
+
+    .skillsBox {
+        grid-template-columns: repeat(2, 1fr);
         gap: 2% 0%;
         width: 90%;
         margin: auto;
@@ -321,98 +323,101 @@
         margin-top: 7%;
         padding-bottom: 20%;
     }
-    
-    .skillsBox > div{
+
+    .skillsBox>div {
         font-size: 80px;
         border-radius: 10px;
         border: 3px solid rgb(3, 1, 90);
         height: 150px;
     }
 
-        
-    .skillsBox > div:hover{
+
+    .skillsBox>div:hover {
         border: 3px solid rgb(103, 2, 2);
     }
-        
-    .skillsBox > div > img{
+
+    .skillsBox>div>img {
         width: 30%;
         margin-bottom: 5%;
         margin-top: 10%;
     }
 
-    .skillsBox > div > h3{
+    .skillsBox>div>h3 {
         font-size: 15px;
     }
 
-    .skillContainer .tools{
+    .skillContainer .tools {
         margin-top: 5%;
     }
-    
-    .tools > h4{
+
+    .tools>h4 {
         font-size: 18px;
         margin-top: 5%;
         width: 20%;
         margin-bottom: 7%;
     }
-    
-    .toolsBox{
-        grid-template-columns: repeat(3,1fr);
+
+    .toolsBox {
+        grid-template-columns: repeat(3, 1fr);
         gap: 5% 0%;
     }
-    .toolsBox > div{
+
+    .toolsBox>div {
         border: 3px solid rgb(85, 1, 1);
         border-radius: 10px;
     }
-        
-    .toolsBox > div:hover{
+
+    .toolsBox>div:hover {
         border: 3px solid rgb(30, 4, 126);
     }
-    
-    .toolsBox > div > img{
+
+    .toolsBox>div>img {
         width: 30%;
         margin-bottom: 2%;
         margin-top: 5%;
     }
-    
-    .toolsBox > div > h3{
+
+    .toolsBox>div>h3 {
         font-size: 11px;
         margin-top: 2%;
         margin-bottom: 7%;
     }
-    
+
 }
 
-@media all and (min-width: 250px) and (max-width: 300px){
-    .skillContainer{
+@media all and (min-width: 250px) and (max-width: 300px) {
+    .skillContainer {
         display: flex;
         flex-direction: column;
         padding-bottom: 35%;
     }
 
-    .toolsBox{
-        grid-template-columns: repeat(1,1fr);
+    .toolsBox {
+        grid-template-columns: repeat(1, 1fr);
         gap: 1% 1%;
         margin-top: 1%;
         width: 80%;
     }
-    .tools > h4{
+
+    .tools>h4 {
         font-size: 15px;
         margin-top: 10%;
         width: 20%;
         margin-bottom: 7%;
     }
 
-    .toolsBox > div{
+    .toolsBox>div {
         border: 3px solid rgb(105, 1, 1);
     }
-    .toolsBox > div > img{
+
+    .toolsBox>div>img {
         width: 50%;
         margin: auto;
         margin-top: 5%;
     }
 
-    .skillsBox{
-        grid-template-columns: repeat(1,1fr);
+    .skillsBox {
+        grid-template-columns: repeat(1, 1fr);
         gap: 1% 1%;
         width: 85%;
         margin: auto;
@@ -420,14 +425,15 @@
         margin-top: 5%;
         padding-bottom: 90%;
     }
-    .skillsBox > div img{
+
+    .skillsBox>div img {
         width: 50%;
         margin: auto;
         margin-top: 10%;
     }
 
-    .skillsBox > div{
+    .skillsBox>div {
         border: 3px solid rgb(24, 1, 105);
     }
-    
+
 }

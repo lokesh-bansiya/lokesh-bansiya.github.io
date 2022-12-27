@@ -11,14 +11,14 @@ import { Contact } from './Pages/Contact';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <HomePage/>
-      <AboutMe/>
-      <Skills/>
-      <Stats/>
-      <Calendar/>
-      <Projects/>
-      <Contact/>
+      <Navbar />
+      <HomePage />
+      <AboutMe />
+      <Skills />
+      <Stats />
+      <Calendar />
+      <Projects />
+      <Contact />
       <a
         href="https://wa.me/+919993977820"
         className="whatsapp_float"

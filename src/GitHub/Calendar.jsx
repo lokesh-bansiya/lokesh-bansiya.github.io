@@ -48,16 +48,16 @@ export const Calendar = () => {
                 <p align="center">
                     <a href="https://github.com/lokesh-patidar"><span>
                         <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lokesh-patidar&theme=dracula&bg_color=0D1117" />
-                    </span></a> 
+                    </span></a>
                 </p>
             </div>
 
             <div className="graph">
-            <p align="center">
-                <a href="https://github.com/lokesh-patidar/github-readme-activity-graph">
-                    <img alt="lokesh-patidar Activity Graph"
-                        src="https://github-readme-activity-graph.cyclic.app/graph?username=lokesh-patidar&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"/>
-                </a>
+                <p align="center">
+                    <a href="https://github.com/lokesh-patidar/github-readme-activity-graph">
+                        <img alt="lokesh-patidar Activity Graph"
+                            src="https://github-readme-activity-graph.cyclic.app/graph?username=lokesh-patidar&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+                    </a>
                 </p>
             </div>
             <hr id="projectsPageSection" />

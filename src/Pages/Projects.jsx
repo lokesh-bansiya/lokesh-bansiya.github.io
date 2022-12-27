@@ -20,7 +20,7 @@ export const Projects = () => {
 
           <div className="projectBox">
 
-          <div className="projectItem1">
+            <div className="projectItem1">
               <div className="projectImage">
                 <h2 className="project-type"><span>🡆</span> Group Project</h2>
                 <img src={webtaskit} alt="" />
@@ -112,7 +112,7 @@ export const Projects = () => {
                           <p>GitHub</p>
                         </div>
                       </div>
-                      
+
                     </div>
                   </div>
                   <div className="btn">
@@ -165,7 +165,7 @@ export const Projects = () => {
                     <div>
                       <div className="languages">
                         <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
                         </div>
                         <div>
                           <p>HTML</p>
@@ -245,7 +245,7 @@ export const Projects = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="btn">
                     <button>
                       <h3>
@@ -279,7 +279,7 @@ export const Projects = () => {
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  Harvest is a cloud-based time-tracking tool designed for businesses of all sizes. Key features include time and expense management, team management, project management, scheduling, and invoicing. I worked on it with my team. I had assigned a team of 5 members for this project to clone getharvest.com. 
+                  Harvest is a cloud-based time-tracking tool designed for businesses of all sizes. Key features include time and expense management, team management, project management, scheduling, and invoicing. I worked on it with my team. I had assigned a team of 5 members for this project to clone getharvest.com.
                 </div>
                 <div className="functionality">
                   <h3>Functionality</h3>
@@ -287,12 +287,12 @@ export const Projects = () => {
                   <p><span>➥</span> Fully responsive </p>
                 </div>
                 <div className="techStacks">
-                <div className="tech-stacks">
+                  <div className="tech-stacks">
                     <h3>Tech-Stacks & Tools used</h3>
                     <div>
                       <div className="languages">
                         <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
                         </div>
                         <div>
                           <p>HTML</p>
@@ -387,12 +387,12 @@ export const Projects = () => {
                   <p><span>➥</span> Generating random numbers </p>
                 </div>
                 <div className="techStacks">
-                <div className="tech-stacks">
+                  <div className="tech-stacks">
                     <h3>Tech-Stacks & Tools used</h3>
                     <div>
                       <div className="languages">
                         <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
                         </div>
                         <div>
                           <p>HTML</p>
@@ -489,12 +489,12 @@ export const Projects = () => {
                   <p><span>➥</span> Automaticaly marks will shown at last according to the response</p>
                 </div>
                 <div className="techStacks">
-                <div className="tech-stacks">
+                  <div className="tech-stacks">
                     <h3>Tech-Stacks & Tools used</h3>
                     <div>
                       <div className="languages">
                         <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
                         </div>
                         <div>
                           <p>HTML</p>
@@ -612,7 +612,7 @@ export const Projects = () => {
                     <div>
                       <div className="languages">
                         <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
                         </div>
                         <div>
                           <p>HTML</p>
@@ -660,7 +660,7 @@ export const Projects = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="btn">
                     <button>
                       <h3>
@@ -702,12 +702,12 @@ export const Projects = () => {
                   <p><span>➥</span> Page Routings</p>
                 </div>
                 <div className="techStacks">
-                <div className="tech-stacks">
+                  <div className="tech-stacks">
                     <h3>Tech-Stacks & Tools used</h3>
                     <div>
                       <div className="languages">
                         <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3V0WmaHi7hLENYgmyF3iKWD7BP4bn82grA&usqp=CAU" alt="html" />
                         </div>
                         <div>
                           <p>HTML</p>
@@ -753,7 +753,7 @@ export const Projects = () => {
                           <p>Chakra UI</p>
                         </div>
                       </div>
-                      
+
                       <div className="languages">
                         <div>
                           <img src="data:image/png;base64,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" alt="NPM" />
@@ -805,7 +805,7 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>

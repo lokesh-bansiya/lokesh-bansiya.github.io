@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,9 +8,9 @@
   background-size: cover;
   margin: auto;
   background-color: white;
-}  
+}
 
-.container > div{
+.container>div {
   display: flex;
   justify-content: center;
   width: 90%;
@@ -20,11 +20,11 @@
   margin-bottom: 2%;
 }
 
-.description{
+.description {
   width: 60%;
 }
 
-.imagebox{
+.imagebox {
   width: 40%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,277 +32,274 @@
   margin: auto;
 }
 
-.profile-details-name{
+.profile-details-name {
   font-size: 200%;
   font-family: 'Poppins SemiBold';
 }
 
-.profile-details-role{
-display: flex;
-flex-direction: column;
-margin: 14px 0 24px 0;
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
 }
 
-.highlighted-text{
-color: rgb(211, 3, 190);
-font-family: 'Source Serif Pro', serif;
-font-size: 170%;
+.highlighted-text {
+  color: rgb(211, 3, 190);
+  font-family: 'Source Serif Pro', serif;
+  font-size: 170%;
 }
 
-h6{
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-weight: bolder;
-font-size: 100%;
+h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 100%;
 }
 
-.profile-tag-line{
-font-size: 100%;
-font-weight: bolder;
-margin: 5px 0px 0px 0px;
-font-family: 'Poppins Light';
+.profile-tag-line {
+  font-size: 100%;
+  font-weight: bolder;
+  margin: 5px 0px 0px 0px;
+  font-family: 'Poppins Light';
 }
 
-.highlighted-btn{
-cursor: pointer;
-margin: 3% 0 0 20px;
-padding: 2% 3%;
-background-color: orangered;
-color:white;
-font-weight: bold;
-border-radius: 20px;
+.highlighted-btn {
+  cursor: pointer;
+  margin: 3% 0 0 20px;
+  padding: 2% 3%;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
 }
 
-.highlighted-btn:hover{
-margin: 3% 0 0 20px;
-background-color: cornsilk;
-color: black;
-transform: scale(1.06);
-transition: 0.5s ease-in;
-border-radius: 15px;
+.highlighted-btn:hover {
+  margin: 3% 0 0 20px;
+  background-color: cornsilk;
+  color: black;
+  transform: scale(1.06);
+  transition: 0.5s ease-in;
+  border-radius: 15px;
 }
 
-.primary-btn{
-margin: 3% 0 0 20px;
-padding: 2% 3%;
-cursor: pointer;
-background-color: white;
-color: black;
-font-weight: bold;
-border-radius: 20px;
-box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+.primary-btn {
+  margin: 3% 0 0 20px;
+  padding: 2% 3%;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
-.primary-btn:hover{
-margin: 3% 0 0 20px;
-background-color: cornsilk;
-color: black;
-transform: scale(1.06);
-transition: 0.5s ease-in;
-border-radius: 10px;
+.primary-btn:hover {
+  margin: 3% 0 0 20px;
+  background-color: cornsilk;
+  color: black;
+  transform: scale(1.06);
+  transition: 0.5s ease-in;
+  border-radius: 10px;
 }
 
-.profile-picture{
-display: flex;
-align-items: center;
-justify-content: center;
-box-shadow: 0 2px 0px 0px red;
-height: auto;
-width: auto;
-cursor: pointer;
-border-radius: 50%;
-margin: 0px 0px 0px 25px;
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 0px 0px red;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0px 0px 0px 25px;
 }
 
-.profile-picture-background{
-height: 94%;
-width: 94%;
-border-radius: 50%;
+.profile-picture-background {
+  height: 94%;
+  width: 94%;
+  border-radius: 50%;
 }
 
-.profile-picture-background img{
-width: 98.5%;
-height: 99%;
-border-radius: 50%;
-border: 5px solid black;
+.profile-picture-background img {
+  width: 98.5%;
+  height: 99%;
+  border-radius: 50%;
+  border: 5px solid black;
 }
 
-.profile-picture-background img:hover{
-transform: scale(1.06);
-transition: 1s ease-out;
-border: 5px solid rgb(114, 3, 51);
+.profile-picture-background img:hover {
+  transform: scale(1.06);
+  transition: 1s ease-out;
+  border: 5px solid rgb(114, 3, 51);
 }
 
-.primary-text{
-font-family: 'Source Serif Pro', serif;
-font-weight: bolder;
-font-size: 40px;
-padding: 0%;
-margin: 0%;
-color: rgb(19, 5, 70);
+.primary-text {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 0%;
+  margin: 0%;
+  color: rgb(19, 5, 70);
 }
 
-h6{
-padding: 0%;
-margin: 0%;
+h6 {
+  padding: 0%;
+  margin: 0%;
 }
 
-.colz-icon{
-display: flex;
-gap: 2%;
+.colz-icon {
+  display: flex;
+  gap: 2%;
 }
 
-.colz-icon a{
-border-radius: 5px;
-padding-left: 2%;
-padding-right: 2%;
-padding-top: 1%;
-background-color: rgb(21, 2, 105);
-border: 1px solid black;
-color: rgb(252, 227, 3);
-}  
-
-.colz-icon a:hover{
-border-radius: 10px;
-color: rgb(159, 3, 3);
-background-color: white;
-border: 1px solid rgb(10, 0, 0);
-transform: scale(1.06);
-transition: 0.5s ease-in;
+.colz-icon a {
+  border-radius: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  background-color: rgb(21, 2, 105);
+  border: 1px solid black;
+  color: rgb(252, 227, 3);
 }
 
-.icon-ease-out:hover{
+.colz-icon a:hover {
+  border-radius: 10px;
+  color: rgb(159, 3, 3);
+  background-color: white;
+  border: 1px solid rgb(10, 0, 0);
+  transform: scale(1.06);
+  transition: 0.5s ease-in;
+}
+
+.icon-ease-out:hover {
   transform: scale(1.3);
   transition: 0.5s ease-in;
 }
 
 
 
-@media all and (min-width: 1501px) and (max-width: 2000px){
-  .container{
+@media all and (min-width: 1501px) and (max-width: 2000px) {
+  .container {
     height: fit-content;
     padding-top: 8%;
     padding-bottom: 3%;
-  }  
-  
-  .container > div{
-      height: fit-content;
-      margin-top: auto;
-      margin-bottom: auto;
-      padding-bottom: auto;
   }
 
-  .description{
-      width: 60%;
+  .container>div {
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: auto;
   }
-    
-  .highlighted-text{
+
+  .description {
+    width: 60%;
+  }
+
+  .highlighted-text {
     font-size: 200%;
   }
 
-  h6{
+  .profile-picture {
+    box-shadow: 0 3px 0px 0px red;
+  }
+
+  h6 {
     font-size: 150%;
   }
 
-  .profile-tag-line{
+  .profile-tag-line {
     font-size: 170%;
   }
 
-  .primary-text{
+  .primary-text {
     font-size: 300%;
   }
 
-  .colz-icon{
+  .colz-icon {
     width: 20%;
     gap: 4%;
   }
-    
-  .colz-icon a{
+
+  .colz-icon a {
     font-size: 150%;
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 4%;
     padding-bottom: 2%;
-  }  
-
-  .colz-icon a:hover{
-    border-radius: 10px;
-    color: rgb(159, 3, 3);
-    background-color: white;
-    border: 1px solid rgb(10, 0, 0);
-    transform: scale(1.06);
-    transition: 0.5s ease-in;
   }
+
 }
 
-@media all and (min-width: 951px) and (max-width: 1500px){
+@media all and (min-width: 951px) and (max-width: 1500px) {
 
-  .container{
+  .container {
     height: auto;
     padding-top: 2%;
     padding-bottom: 5%;
   }
 
-  .container > div {
+  .container>div {
     display: flex;
     height: fit-content;
     justify-content: space-between;
   }
 
-  .profile-details-name{
-      font-size: 15px;
+  .profile-details-name {
+    font-size: 15px;
   }
-    
-  .profile-details-role{
+
+  .profile-details-role {
     margin: 5px 0 10px 0;
   }
 
-  .highlighted-text{
+  .highlighted-text {
     font-size: 27px;
   }
 
-  h6{
+  h6 {
     font-size: 20px;
   }
 
-  .profile-tag-line{
+  .profile-tag-line {
     font-size: 17px;
     margin: 1px 0px 0px 0px;
   }
 
-  .profile-picture{
+  .profile-picture {
     height: auto;
     width: auto;
     padding: 2%;
   }
 
-  .profile-picture-background{
+  .profile-picture-background {
     height: 98%;
     width: 98%;
     border-radius: 50%;
   }
-  .profile-picture-background img{
+
+  .profile-picture-background img {
     width: 96%;
     height: 99%;
   }
 
-  .primary-text{
+  .primary-text {
     font-size: 35px;
     padding: 0%;
     margin: 0%;
   }
 
-  .colz-icon a{
+  .colz-icon a {
     cursor: pointer;
     border-radius: 4px;
     padding-left: 2%;
     padding-right: 2%;
-  }  
+  }
 }
 
-@media all and (min-width: 551px) and (max-width: 950px){
-  .container{
+@media all and (min-width: 551px) and (max-width: 950px) {
+  .container {
     height: fit-content;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkBtWCfjJ4xVqGIltIy8koeOoMZeU4d4dcQ&usqp=CAU); 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkBtWCfjJ4xVqGIltIy8koeOoMZeU4d4dcQ&usqp=CAU);
     color: white;
     display: flex;
     justify-content: center;
@@ -310,38 +307,38 @@ transition: 0.5s ease-in;
     padding-bottom: 3%;
   }
 
-  #Home{
+  #Home {
     padding-top: 10%;
   }
-  
-  .container > div {
+
+  .container>div {
     display: flex;
     height: fit-content;
     justify-content: space-between;
   }
 
-  .profile-details-name{
-      font-size: 13px;
+  .profile-details-name {
+    font-size: 13px;
   }
-    
-  .profile-details-role{
+
+  .profile-details-role {
     margin: 5px 0 10px 0;
   }
 
-  .highlighted-text{
+  .highlighted-text {
     font-size: 25px;
   }
 
-  h6{
+  h6 {
     font-size: 20px;
   }
 
-  .profile-tag-line{
+  .profile-tag-line {
     font-size: 100%;
     margin: 1px 0px 0px 0px;
   }
 
-  .profile-picture{
+  .profile-picture {
     height: auto;
     width: auto;
     display: flex;
@@ -353,23 +350,24 @@ transition: 0.5s ease-in;
     margin: 0px 0px 0px 3px;
   }
 
-  .profile-picture-background{
+  .profile-picture-background {
     height: 95%;
     width: 95%;
     border-radius: 50%;
   }
-  .profile-picture-background img{
+
+  .profile-picture-background img {
     width: 96%;
     height: 98%;
     border: 5px solid rgb(138, 8, 58);
   }
 
-  .primary-text{
+  .primary-text {
     font-size: 28px;
     color: yellow;
   }
 
-  .colz-icon a{
+  .colz-icon a {
     cursor: pointer;
     border-radius: 4px;
     padding-left: 2%;
@@ -377,8 +375,9 @@ transition: 0.5s ease-in;
     padding-right: 2%;
     background-color: rgb(15, 28, 211);
     color: yellow;
-  }  
-  .colz-icon a:hover{
+  }
+
+  .colz-icon a:hover {
     border: 1px solid red;
     background-color: rgb(15, 28, 211);
     color: white;
@@ -386,16 +385,17 @@ transition: 0.5s ease-in;
 }
 
 
-@media all and (min-width: 351px) and (max-width: 550px){
-  #Home > hr{
+@media all and (min-width: 351px) and (max-width: 550px) {
+  #Home>hr {
     margin-bottom: 10%;
   }
-  #Home{
+
+  #Home {
     padding-top: 10%;
     background-color: rgb(230, 226, 226);
   }
 
-  .container{
+  .container {
     height: fit-content;
     background-color: rgb(236, 236, 246);
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/9e923283480591.5d47400f2029b.png);
@@ -404,9 +404,9 @@ transition: 0.5s ease-in;
     background-position-y: bottom;
     padding-bottom: 5%;
     margin-bottom: 0%;
-  }  
+  }
 
-  .container > div{
+  .container>div {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -417,13 +417,13 @@ transition: 0.5s ease-in;
   }
 
 
-  .description{
-      width: 90%;
-      margin: auto;
-      margin-top: 0%;
+  .description {
+    width: 90%;
+    margin: auto;
+    margin-top: 0%;
   }
 
-  .profile-picture{
+  .profile-picture {
     height: auto;
     width: auto;
     margin: 3%;
@@ -431,39 +431,41 @@ transition: 0.5s ease-in;
     box-shadow: 0 4px 0px 0px rgb(247, 7, 51);
   }
 
-  .imagebox{
-      width: 90%;
-      display: block;
-      height: 90%;
-      text-align: center;
-      margin: 5%;
+  .imagebox {
+    width: 90%;
+    display: block;
+    height: 90%;
+    text-align: center;
+    margin: 5%;
   }
 
-  .profile-details-name{
-      font-size: 25px;
+  .profile-details-name {
+    font-size: 25px;
   }
-  .profile-picture-background{
+
+  .profile-picture-background {
     height: 90%;
     width: 90%;
     border-radius: 50%;
   }
-  
-  .profile-details >div:last-child{
+
+  .profile-details>div:last-child {
     background-color: rgb(29, 25, 25);
     margin: 0%;
   }
-  .profile-details-role{
+
+  .profile-details-role {
     margin: 14px 0 24px 0;
     border-top-right-radius: 25%;
     background-color: rgb(29, 25, 25);
   }
 
-  .highlighted-text{
+  .highlighted-text {
     color: red;
     font-size: 25px;
   }
 
-  .profile-tag-line{
+  .profile-tag-line {
     font-size: 17px;
     color: white;
     margin: 1px 0px -10px 0px;
@@ -471,32 +473,32 @@ transition: 0.5s ease-in;
     background-color: rgb(29, 25, 25);
   }
 
-  .profile-picture{
+  .profile-picture {
     height: auto;
     width: auto;
   }
 
-  .primary-text{
+  .primary-text {
     font-size: 23px;
     background-color: rgb(29, 25, 25);
     color: rgb(250, 105, 1);
   }
 
-  h6{
+  h6 {
     padding-top: 5%;
     margin: 0%;
     color: white;
     font-size: 17px;
   }
 
-  .colz-icon{
+  .colz-icon {
     display: flex;
     margin-bottom: 5%;
     gap: 2%;
-    
+
   }
-    
-  .colz-icon a{
+
+  .colz-icon a {
     border-radius: 5px;
     padding-left: 3%;
     padding-right: 3%;
@@ -504,36 +506,37 @@ transition: 0.5s ease-in;
     color: white;
     padding-top: 1%;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  }  
-  .colz-icon a:hover{
+  }
+
+  .colz-icon a:hover {
     background-color: rgb(16, 3, 129);
     color: red;
     border: 1px solid red;
   }
 }
 
-@media all and (min-width: 250px) and (max-width: 350px){
-  #Home > hr{
+@media all and (min-width: 250px) and (max-width: 350px) {
+  #Home>hr {
     margin-top: 0%;
     margin-bottom: 10%;
   }
 
-  #Home{
+  #Home {
     padding-top: 14%;
     margin-top: 10%;
     background-color: rgb(187, 190, 193);
   }
 
-  .container{
+  .container {
     height: fit-content;
     background-image: none;
     background-color: rgb(187, 190, 193);
     background-color: rgb(156, 122, 59);
     padding-bottom: 5%;
     margin-bottom: 0%;
-  }  
+  }
 
-  .container > div{
+  .container>div {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -544,13 +547,13 @@ transition: 0.5s ease-in;
   }
 
 
-  .description{
-      width: 90%;
-      margin: auto;
-      margin-top: 0%;
+  .description {
+    width: 90%;
+    margin: auto;
+    margin-top: 0%;
   }
 
-  .profile-picture{
+  .profile-picture {
     height: auto;
     width: auto;
     margin: 3%;
@@ -558,68 +561,70 @@ transition: 0.5s ease-in;
     box-shadow: 0 2px 0px 0px rgb(251, 251, 251);
   }
 
-  .imagebox{
-      width: 90%;
-      display: block;
-      height: 90%;
-      text-align: center;
-      margin: 5%;
+  .imagebox {
+    width: 90%;
+    display: block;
+    height: 90%;
+    text-align: center;
+    margin: 5%;
   }
 
-  .profile-details-name{
-      font-size: 25px;
+  .profile-details-name {
+    font-size: 25px;
   }
-  .profile-picture-background{
+
+  .profile-picture-background {
     height: 90%;
     width: 90%;
     border-radius: 50%;
   }
-  
-  .profile-details >div:last-child{
+
+  .profile-details>div:last-child {
     margin: 0%;
   }
-  .profile-details-role{
+
+  .profile-details-role {
     margin: 14px 0 24px 0;
     border-top-right-radius: 25%;
   }
 
-  .highlighted-text{
+  .highlighted-text {
     color: rgb(107, 5, 68);
     font-size: 20px;
   }
 
-  .profile-tag-line{
+  .profile-tag-line {
     font-size: 17px;
     color: black;
     margin: 1px 0px -10px 0px;
     padding-bottom: 3%;
   }
 
-  .profile-picture{
+  .profile-picture {
     height: auto;
     width: auto;
   }
 
-  .primary-text{
+  .primary-text {
     font-size: 23px;
     color: white;
   }
 
-  h6{
+  h6 {
     padding-top: 5%;
     margin: 0%;
     color: black;
     font-size: 17px;
   }
 
-  .colz-icon{
+  .colz-icon {
     display: flex;
     margin-bottom: 5%;
     gap: 2%;
-    
+
   }
-    
-  .colz-icon a{
+
+  .colz-icon a {
     border-radius: 5px;
     padding-left: 3%;
     padding-right: 3%;
@@ -627,6 +632,6 @@ transition: 0.5s ease-in;
     color: black;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     background-color: white;
-  }  
+  }
 
 }
