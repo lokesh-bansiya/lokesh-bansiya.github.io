@@ -266,9 +266,8 @@ h6 {
   }
 
   .profile-picture {
-    height: auto;
-    width: auto;
-    padding: 2%;
+    padding-left: 2%;
+    margin: 0px 5px 0px 5px;
   }
 
   .profile-picture-background {
