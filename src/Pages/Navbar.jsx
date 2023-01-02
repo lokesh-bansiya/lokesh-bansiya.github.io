@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://1drv.ms/b/s!AiSQDUviI7Fkay31qnyUOYIVxt4?e=kX6eyv"
+              href="https://onedrive.live.com/?authkey=%21AC31qnyUOYIVxt4&cid=64B123E24B0D9024&id=64B123E24B0D9024%21107&parId=64B123E24B0D9024%21106&o=OneUp"
               target="_blank"
               alt="Resume"
             >
@@ -109,7 +109,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://1drv.ms/b/s!AiSQDUviI7Fkay31qnyUOYIVxt4?e=kX6eyv"
+              href="https://onedrive.live.com/?authkey=%21AC31qnyUOYIVxt4&cid=64B123E24B0D9024&id=64B123E24B0D9024%21107&parId=64B123E24B0D9024%21106&o=OneUp"
               target="_blank"
               alt="Resume"
             >
@@ -158,7 +158,7 @@ const Navbar = () => {
             </div>
             <div onClick={updateMenu}>
               <a
-                href="https://1drv.ms/b/s!AiSQDUviI7Fkay31qnyUOYIVxt4?e=kX6eyv"
+                href="https://onedrive.live.com/?authkey=%21AC31qnyUOYIVxt4&cid=64B123E24B0D9024&id=64B123E24B0D9024%21107&parId=64B123E24B0D9024%21106&o=OneUp"
                 target="_blank"
                 alt="Resume"
               >
