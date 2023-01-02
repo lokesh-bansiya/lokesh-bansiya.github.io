@@ -212,6 +212,10 @@
     font-weight: bold;
 }
 
+.project-type>span {
+    color: blue;
+}
+
 @media all and (min-width: 651px) and (max-width: 900px) {
 
     #Projects {

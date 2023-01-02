@@ -22,7 +22,7 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
-                <h2 className="project-type"><span>🡆</span> Group Project</h2>
+                <h2 className="project-type"><span>☆</span> Group Project</h2>
                 <img src={webtaskit} alt="" />
               </div>
               <div className="projectDetails">
@@ -140,11 +140,11 @@ export const Projects = () => {
 
             <div className="projectItem">
               <div className="projectImage">
-                <h2 className="project-type"><span>🡆</span> Group Project</h2>
+                <h2 className="project-type"><span>☆</span> Group Project</h2>
                 <img src={pharmeasy} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>Clone of pharmeasy.in website</h2>
+                <h2>pharmeasy.in website</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -249,7 +249,7 @@ export const Projects = () => {
                   <div className="btn">
                     <button>
                       <h3>
-                        <a href="https://github.com/lokesh-patidar/pharmeasy.in/tree/main/pharmeasy.in" target="_blank">
+                        <a href="https://github.com/lokesh-patidar/pharmeasy.in" target="_blank">
                           <FaGithub /> GitHub Repo
                         </a>
                       </h3>
@@ -271,11 +271,11 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
-                <h2 className="project-type"><span>🡆</span> Group Project</h2>
+                <h2 className="project-type"><span>☆</span> Group Project</h2>
                 <img src={getharvest} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>Clone of getharvest.com website</h2>
+                <h2>getharvest.com website</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -371,7 +371,7 @@ export const Projects = () => {
 
             <div className="projectItem">
               <div className="projectImage">
-                <h2 className="project-type"><span>🡆</span> Individual Project</h2>
+                <h2 className="project-type"><span>☆</span> Individual Project</h2>
                 <img src={dice_app} alt="" />
               </div>
               <div className="projectDetails">
@@ -472,7 +472,7 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
-                <h2 className="project-type"><span>🡆</span> Individual Project</h2>
+                <h2 className="project-type"><span>☆</span> Individual Project</h2>
                 <img src={Quizapp} alt="" />
               </div>
               <div className="projectDetails">
@@ -562,7 +562,7 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://github.com/lokesh-patidar/Assessment_test_quiz-App/tree/main/Quiz-App"
+                          href="https://github.com/lokesh-patidar/Assessment_test_quiz-App"
                           target="_blank"
                         >
                           <FaGithub /> GitHub Repo
@@ -589,11 +589,11 @@ export const Projects = () => {
 
             <div className="projectItem">
               <div className="projectImage">
-                <h2 className="project-type"><span>🡆</span> Individual Project</h2>
+                <h2 className="project-type"><span>☆</span> Individual Project</h2>
                 <img src={beautybebo} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>Clone of beautybebo.com website</h2>
+                <h2>beautybebo.com website</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -686,11 +686,11 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
-                <h2 className="project-type"><span>🡆</span> Individual Project</h2>
+                <h2 className="project-type"><span>☆</span> Individual Project</h2>
                 <img src={naukarihome} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>cloneOfnaukari.com</h2>
+                <h2>naukari.com</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />

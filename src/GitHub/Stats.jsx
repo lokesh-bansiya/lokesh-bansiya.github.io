@@ -10,7 +10,7 @@ export const Stats = () => {
                 <div className="statsContainer">
                     <div>
                         <a href="https://github.com/lokesh-patidar">
-                            <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=lokesh-patidar" />
+                            <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=lokesh-patidar&theme=neon-dark" />
                         </a>
                     </div>
                 </div>
