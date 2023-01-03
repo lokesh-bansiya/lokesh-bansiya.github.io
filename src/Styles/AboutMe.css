@@ -1,10 +1,6 @@
 .aboutMeContainer {
     padding: 2%;
-    padding-top: 5%;
-}
-
-#aboutMe>hr {
-    color: rgb(187, 190, 193);
+    padding-top: 3%;
 }
 
 .aboutMeContainer>h1 {
@@ -16,12 +12,11 @@
     margin: auto;
     border-bottom: 2px solid rgb(19, 5, 70);
     color: rgb(19, 5, 70);
-    margin-bottom: 5px;
 }
 
 .aboutMeDecription {
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 85%;
     border-radius: 20px;
     background-color: whitesmoke;

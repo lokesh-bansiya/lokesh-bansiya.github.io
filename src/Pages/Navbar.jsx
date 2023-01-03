@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import {
   FaHome,
   FaUser,
-  FaIdCard,
   FaFolder,
   FaList,
   FaMobile,
 } from "react-icons/fa";
-import "./Navbar.css";
+import "../Styles//Navbar.css";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
   const [menu_class, setMenuClass] = useState("menu hidden");
   const [isMenuClicked, setIsMenuClicked] = useState(false);
+
 
   const updateMenu = () => {
     if (!isMenuClicked) {
@@ -34,28 +35,30 @@ const Navbar = () => {
         </div>
         <div className="nav">
           <div>
-            <a href="#Home">
-              <FaHome /> Home
+            <a>
+              <Link activeClass="active" smooth spy to="home" offset={-100}><FaHome /> Home </Link>
             </a>
           </div>
           <div>
-            <a href="#aboutMePageSection">
-              <FaUser /> About Me
+            <a>
+              <Link activeClass="active" smooth spy to="aboutme" duration={600} offset={-100}>
+                <FaUser /> About Me
+              </Link>
             </a>
           </div>
           <div>
-            <a href="#skillsPageSection">
-              <FaList /> Skills
+            <a>
+              <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100}><FaList /> Skills</Link>
             </a>
           </div>
           <div>
-            <a href="#projectsPageSection">
-              <FaFolder /> Projects
+            <a>
+              <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100}><FaFolder /> Projects </Link>
             </a>
           </div>
           <div>
-            <a href="#contactPageSection">
-              <FaMobile /> Contact
+            <a>
+              <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100}><FaMobile /> Contact </Link>
             </a>
           </div>
           <div>
@@ -78,33 +81,33 @@ const Navbar = () => {
         </div>
         <div className="navsecond">
           <div>
-            <a href="#Home">
+            <a>
               {" "}
-              <span>H</span>ome
+              <Link activeClass="active" smooth spy to="home" offset={-100}><span>H</span>ome</Link>
             </a>
           </div>
           <div>
-            <a href="#aboutMePageSection">
+            <a>
               {" "}
-              <span>A</span>bout Me
+              <Link activeClass="active" smooth spy to="aboutme" duration={600} offset={-100}><span>A</span>bout Me </Link>
             </a>
           </div>
           <div>
-            <a href="#skillsPageSection">
+            <a>
               {" "}
-              <span>S</span>kills
+              <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100}><span>S</span>kills</Link>
             </a>
           </div>
           <div>
-            <a href="#projectsPageSection">
+            <a>
               {" "}
-              <span>P</span>rojects
+              <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100}><span>P</span>rojects </Link>
             </a>
           </div>
           <div>
-            <a href="#contactPageSection">
+            <a>
               {" "}
-              <span>C</span>ontact
+              <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100}><span>C</span>ontact </Link>
             </a>
           </div>
           <div>
@@ -141,20 +144,20 @@ const Navbar = () => {
 
         <div id="menu-class" style={{ height: "100vh" }} className={menu_class}>
           <div className="navinside">
-            <div onClick={updateMenu}>
-              <a href="#Home">Home</a>
+            <div>
+              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="home" offset={-100}><span>H</span>ome</Link></a>
             </div>
-            <div onClick={updateMenu}>
-              <a href="#aboutMePageSection">About Me</a>
+            <div>
+              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="aboutme" duration={600} offset={-100}><span>A</span>bout Me </Link></a>
             </div>
-            <div onClick={updateMenu}>
-              <a href="#skillsPageSection">Skills</a>
+            <div>
+              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="skills" duration={800} offset={-100}><span>S</span>kills</Link></a>
             </div>
-            <div onClick={updateMenu}>
-              <a href="#projectsPageSection">Projects</a>
+            <div>
+              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="projects" duration={2500} offset={-100}><span>P</span>rojects </Link></a>
             </div>
-            <div onClick={updateMenu}>
-              <a href="#contactPageSection">Contact</a>
+            <div>
+              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="contact" duration={3500} offset={-100}><span>C</span>ontact </Link></a>
             </div>
             <div onClick={updateMenu}>
               <a

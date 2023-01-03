@@ -32,7 +32,6 @@ export const Calendar = () => {
                     <GitHubCalendar
                         username="lokesh-patidar"
                         color="yellow"
-                        transformData={selectLastHalfYear}
                         hideTotalCount
                         hideColorLegend
                         style={{

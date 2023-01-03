@@ -1,9 +1,6 @@
-import "./AboutMe.css";
+import "../Styles/AboutMe.css";
 import React from "react";
 import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
-import zoom_marathon from "../Image/zoom_marathon.png";
-import tinder_certificate from "../Image/tinder_certificate.png";
-import communication from "../Image/communication.png";
 import logo from "../assets/img_about_me.webp";
 
 export const AboutMe = () => {
@@ -36,7 +33,6 @@ export const AboutMe = () => {
           </div>
         </div>
       </div>
-      <br id="skillsPageSection" />
     </div>
   );
 }

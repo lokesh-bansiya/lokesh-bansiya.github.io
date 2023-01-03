@@ -4,3 +4,4 @@
 - `npm i react-icons`
 - `npm i react-github-calendar`
 - `npm install react-tooltip`
+- `npm i react-scroll`

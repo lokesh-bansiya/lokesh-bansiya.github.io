@@ -1,5 +1,5 @@
 import React from "react";
-import './Contact.css';
+import '../Styles/Contact.css';
 import {
     FaLinkedinIn,
     FaGithub,

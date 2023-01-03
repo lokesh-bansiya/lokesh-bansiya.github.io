@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "../Styles/Projects.css";
 import { FaGithub, FaLink } from "react-icons/fa";
 import beautybebo from "../Image/beautybebo.png";
 import dice_app from "../Image/dice_app.png";
@@ -22,11 +22,11 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
-                <h2 className="project-type"><span>☆</span> Group Project</h2>
+                <h2 className="project-type"><span>☆</span> WebTaskit website</h2>
                 <img src={webtaskit} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>WebTaskit website</h2>
+                <h2>Collaborative Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -140,11 +140,11 @@ export const Projects = () => {
 
             <div className="projectItem">
               <div className="projectImage">
-                <h2 className="project-type"><span>☆</span> Group Project</h2>
+                <h2 className="project-type"><span>☆</span> pharmeasy.in website </h2>
                 <img src={pharmeasy} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>pharmeasy.in website</h2>
+                <h2>Collaborative Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -271,11 +271,11 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
-                <h2 className="project-type"><span>☆</span> Group Project</h2>
+                <h2 className="project-type"><span>☆</span> getharvest.com website</h2>
                 <img src={getharvest} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>getharvest.com website</h2>
+                <h2>Collaborative Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -371,11 +371,11 @@ export const Projects = () => {
 
             <div className="projectItem">
               <div className="projectImage">
-                <h2 className="project-type"><span>☆</span> Individual Project</h2>
+                <h2 className="project-type"><span>☆</span> Dice Rolling App</h2>
                 <img src={dice_app} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>Dice Rolling App</h2>
+                <h2>Individual Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -472,11 +472,11 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
-                <h2 className="project-type"><span>☆</span> Individual Project</h2>
+                <h2 className="project-type"><span>☆</span> Assessment-test Quiz-App</h2>
                 <img src={Quizapp} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>Assessment-test Quiz-App</h2>
+                <h2>Individual Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -589,11 +589,11 @@ export const Projects = () => {
 
             <div className="projectItem">
               <div className="projectImage">
-                <h2 className="project-type"><span>☆</span> Individual Project</h2>
+                <h2 className="project-type"><span>☆</span> beautybebo.com website</h2>
                 <img src={beautybebo} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>beautybebo.com website</h2>
+                <h2>Individual Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
@@ -686,11 +686,11 @@ export const Projects = () => {
 
             <div className="projectItem1">
               <div className="projectImage">
-                <h2 className="project-type"><span>☆</span> Individual Project</h2>
+                <h2 className="project-type"><span>☆</span> naukari.com website</h2>
                 <img src={naukarihome} alt="" />
               </div>
               <div className="projectDetails">
-                <h2>naukari.com</h2>
+                <h2>Individual Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />

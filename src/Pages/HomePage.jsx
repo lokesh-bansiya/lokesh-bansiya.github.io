@@ -1,4 +1,4 @@
-import './Home.css';
+import '../Styles/Home.css';
 import {
     FaLinkedinIn,
     FaGithub,

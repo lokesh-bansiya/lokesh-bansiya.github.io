@@ -1,8 +1,8 @@
 .projectsContainer {
     width: 100%;
     height: auto;
-    padding-top: 6%;
-    padding-bottom: 7%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 .projectsContainer .projectheading {
@@ -29,24 +29,27 @@
 
 .projectItem {
     display: flex;
+    justify-content: space-evenly;
     padding: 2%;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     width: 90%;
     margin: auto;
     background-color: white;
     border-radius: 17px;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 
 .projectItem1 {
     display: flex;
+    justify-content: space-evenly;
     margin: auto;
     flex-direction: row-reverse;
-    padding: 5% 0% 5% 4%;
+    padding: 2%;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     width: 90%;
     background-color: white;
     border-radius: 17px;
+    padding-bottom: 4%;
 }
 
 .projectItem:hover {
@@ -62,6 +65,7 @@
 }
 
 .functionality {
+    display: none;
     text-align: left;
 }
 
@@ -77,27 +81,22 @@
 }
 
 .projectDetails {
-    width: 50%;
+    width: 45%;
     display: block;
-    padding-right: 3%;
     text-align: center;
 }
 
 .projectDetails>h2 {
+    display: flex;
     color: rgb(6, 84, 84);
 }
 
 .projectImage {
     width: 45%;
     display: block;
-    height: 400px;
-    padding-top: 3%;
-    margin-right: 3%;
-    margin-left: 2%;
 }
 
 .projectImage>img {
-    height: 340px;
     width: 100%;
     border: 3px solid black;
     border-radius: 20px;
@@ -145,10 +144,6 @@
     color: inherit;
 }
 
-.techStacks {
-    display: flex;
-    justify-content: space-around;
-}
 
 .techStacks>.tech-stacks {
     display: flex;
@@ -202,18 +197,38 @@
     color: rgb(153, 6, 69);
 }
 
+
 .techStacks {
     display: flex;
+    justify-content: space-evenly;
     gap: 2%;
 }
 
 .project-type {
     font-size: 160%;
+    color: rgb(153, 6, 69);
+    ;
     font-weight: bold;
 }
 
 .project-type>span {
     color: blue;
+}
+
+@media all and (min-width: 901px) and (max-width: 1150px) {
+
+    .techStacks {
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+    }
+
+    .techStacks .btn {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4%;
+        justify-content: center;
+    }
 }
 
 @media all and (min-width: 651px) and (max-width: 900px) {
@@ -256,8 +271,8 @@
     }
 
     .projectDetails h2 {
-        font-size: 150%;
-        color: rgb(128, 5, 48);
+        font-size: 200%;
+        color: rgb(3, 101, 101);
     }
 
     .functionality h3 {
@@ -267,12 +282,11 @@
     .projectImage {
         width: 95%;
         margin-top: 5%;
-        height: 400px;
+        height: 40%;
         margin: auto;
     }
 
     .projectImage>img {
-        height: 300px;
         width: 100%;
         border-radius: 3px;
         margin: auto;
@@ -308,7 +322,11 @@
     }
 
     .desc {
-        font-size: 90%;
+        font-size: 110%;
+    }
+
+    .desc>span {
+        font-size: 150%;
     }
 
     .techStacks>.tech-stacks>div {
@@ -329,6 +347,12 @@
         font-weight: 1000;
     }
 
+    .project-type {
+        font-size: 230%;
+        color: rgb(153, 6, 69);
+        ;
+        font-weight: bold;
+    }
 }
 
 @media all and (min-width: 400px) and (max-width: 650px) {
