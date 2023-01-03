@@ -350,7 +350,6 @@
     .project-type {
         font-size: 230%;
         color: rgb(153, 6, 69);
-        ;
         font-weight: bold;
     }
 }
@@ -396,7 +395,7 @@
 
     .projectDetails h2 {
         font-size: 150%;
-        color: rgb(128, 5, 48);
+        color: rgb(1, 70, 87);
     }
 
     .functionality h3 {
@@ -467,7 +466,6 @@
         margin: 0% auto 10% auto;
         font-weight: 1000;
     }
-
 }
 
 @media all and (min-width: 250px) and (max-width: 400px) {
@@ -516,7 +514,7 @@
 
     .projectDetails h2 {
         font-size: large;
-        color: rgb(128, 5, 48);
+        color: rgb(34, 4, 201);
     }
 
     .functionality h3 {
