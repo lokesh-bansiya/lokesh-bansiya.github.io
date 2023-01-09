@@ -10,15 +10,15 @@ export const Stats = () => {
                 <div className="statsContainer">
                     <div>
                         <a href="https://github.com/lokesh-patidar">
-                            <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=lokesh-patidar&theme=neon-dark" />
+                            <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=lokesh-patidar&theme=neon-dark" alt="lokesh-patidar Github Stats"/>
                         </a>
                     </div>
                 </div>
 
                 <div className="stats-3">
                     <p align="center">
-                        <a href="https://github.com/lokesh-paidar">
-                            <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokesh-patidar&bg_color=0D1117" alt="" />
+                        <a href="https://github.com/lokesh-patidar/github-readme-stats">
+                            <img alt="lokesh-patidar Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokesh-patidar&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
                         </a>
                     </p>
                 </div>

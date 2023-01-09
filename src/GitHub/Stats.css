@@ -29,7 +29,7 @@
 }
 
 .stats-2 img {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .stats-3 img {
-    width: 20%;
+    width: 30%;
     margin: auto;
 }
 
@@ -71,6 +71,11 @@
         width: 40%;
         margin: auto;
     }
+    
+    .stats-2 img {
+        width: 65%;
+        margin: auto;
+    }
 }
 
 
@@ -83,7 +88,7 @@
     }
 
     .stats-2 img {
-        width: 95%;
+        width: 85%;
         margin: auto;
     }
 

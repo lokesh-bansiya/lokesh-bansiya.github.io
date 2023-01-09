@@ -5,22 +5,22 @@ import './Calendar.css';
 
 export const Calendar = () => {
 
-    const selectLastHalfYear = (contributions) => {
-        const currentYear = new Date().getFullYear();
-        const currentMonth = new Date().getMonth();
-        const shownMonths = 12;
+    // const selectLastHalfYear = (contributions) => {
+    //     const currentYear = new Date().getFullYear();
+    //     const currentMonth = new Date().getMonth();
+    //     const shownMonths = 12;
 
-        return contributions.filter((day) => {
-            const date = new Date(day.date);
-            const monthOfDay = date.getMonth();
+    //     return contributions.filter((day) => {
+    //         const date = new Date(day.date);
+    //         const monthOfDay = date.getMonth();
 
-            return (
-                date.getFullYear() === currentYear &&
-                monthOfDay > currentMonth - shownMonths &&
-                monthOfDay <= currentMonth
-            );
-        });
-    };
+    //         return (
+    //             date.getFullYear() === currentYear &&
+    //             monthOfDay > currentMonth - shownMonths &&
+    //             monthOfDay <= currentMonth
+    //         );
+    //     });
+    // };
 
 
     return (
@@ -42,13 +42,6 @@ export const Calendar = () => {
                         <ReactTooltip delayShow={20} />
                     </GitHubCalendar>
                 </div>
-            </div>
-            <div className="graph-1">
-                <p align="center">
-                    <a href="https://github.com/lokesh-patidar"><span>
-                        <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lokesh-patidar&theme=dracula&bg_color=0D1117" />
-                    </span></a>
-                </p>
             </div>
 
             <div className="graph">

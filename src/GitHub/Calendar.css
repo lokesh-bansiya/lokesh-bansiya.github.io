@@ -41,16 +41,6 @@
     margin: auto;
 }
 
-.graph-1 {
-    display: block;
-    background-color: #0d1117;
-}
-
-.graph-1 img {
-    width: 60%;
-    margin: auto;
-}
-
 @media all and (min-width: 481px) and (max-width: 768px) {
     .calendarContainer {
         display: flex;
