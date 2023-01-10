@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e888981e.css",
+    "main.css": "/static/css/main.8f8f393c.css",
     "main.js": "/static/js/main.674fc151.js",
     "static/media/beautybebo.png": "/static/media/beautybebo.a0101bb5453b4e958fe7.png",
     "static/media/dice_app.png": "/static/media/dice_app.8fb5a00a42cd6b029dab.png",
@@ -13,11 +13,11 @@
     "static/media/img_about_me.webp": "/static/media/img_about_me.c88a45c44874ff46ffdf.webp",
     "static/media/lokesh-pic.jpg": "/static/media/lokesh-pic.40f9acd5b1ba28e4ea3f.jpg",
     "index.html": "/index.html",
-    "main.e888981e.css.map": "/static/css/main.e888981e.css.map",
+    "main.8f8f393c.css.map": "/static/css/main.8f8f393c.css.map",
     "main.674fc151.js.map": "/static/js/main.674fc151.js.map"
   },
   "entrypoints": [
-    "static/css/main.e888981e.css",
+    "static/css/main.8f8f393c.css",
     "static/js/main.674fc151.js"
   ]
 }
