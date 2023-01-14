@@ -18,7 +18,7 @@ export const Stats = () => {
                 <div className="stats-3">
                     <p align="center">
                         <a href="https://github.com/lokesh-patidar/github-readme-stats">
-                            <img alt="lokesh-patidar Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokesh-patidar&langs_count=8&count_private=true&layout=compact&theme=great-gatsby&hide_border=true&bg_color=0D1117" />
+                            <img alt="lokesh-patidar Top Languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lokesh-patidar&langs_count=8&count_private=true&layout=compact&theme=great-gatsby&hide_border=true&bg_color=0D1117" />
                         </a>
                     </p>
                 </div>
@@ -27,7 +27,7 @@ export const Stats = () => {
                     <p align="center">
                         <a href="https://github.com/lokesh-patidar/github-readme-stats">
                             <img alt="lokesh-patidar Github Stats"
-                                src="https://github-readme-stats.vercel.app/api?username=lokesh-patidar&show_icons=true&locale=en&theme=highcontrast&hide_border=true&bg_color=0D1117"
+                                src="https://github-readme-stats-sigma-five.vercel.app/api?username=lokesh-patidar&show_icons=true&locale=en&theme=highcontrast&hide_border=true&bg_color=0D1117"
                             />
                         </a>
                     </p>
