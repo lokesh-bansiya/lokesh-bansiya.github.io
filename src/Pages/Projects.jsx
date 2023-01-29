@@ -125,7 +125,7 @@ export const Projects = () => {
                     </button>
                     <button>
                       <h3>
-                        <a href="https://webtaskit-five.vercel.app/" target="_blank">
+                        <a href="https://web-taskit-ynzg.vercel.app/" target="_blank">
                           <FaLink /> Diployed Link
                         </a>
                       </h3>
