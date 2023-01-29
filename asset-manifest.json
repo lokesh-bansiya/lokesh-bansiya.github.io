@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.522f3240.css",
-    "main.js": "/static/js/main.a70d18c1.js",
+    "main.js": "/static/js/main.0ff4e34d.js",
     "static/media/beautybebo.png": "/static/media/beautybebo.a0101bb5453b4e958fe7.png",
     "static/media/dice_app.png": "/static/media/dice_app.8fb5a00a42cd6b029dab.png",
     "static/media/pharmaeasy.png": "/static/media/pharmaeasy.5eed01ad13bb78b38e4b.png",
@@ -14,10 +14,10 @@
     "static/media/lokesh-pic.jpg": "/static/media/lokesh-pic.40f9acd5b1ba28e4ea3f.jpg",
     "index.html": "/index.html",
     "main.522f3240.css.map": "/static/css/main.522f3240.css.map",
-    "main.a70d18c1.js.map": "/static/js/main.a70d18c1.js.map"
+    "main.0ff4e34d.js.map": "/static/js/main.0ff4e34d.js.map"
   },
   "entrypoints": [
     "static/css/main.522f3240.css",
-    "static/js/main.a70d18c1.js"
+    "static/js/main.0ff4e34d.js"
   ]
 }
