@@ -18,7 +18,7 @@ const HomePage = () => {
                             <div className="colz">
                                 <div className="colz-icon">
                                     <a
-                                        href={lokesh}
+                                        href="https://www.linkedin.com/in/lokesh-patidar-aa45a0236/"
                                         target="_blank"
                                         alt="linked in"
                                     >
