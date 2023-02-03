@@ -6,6 +6,7 @@ import {
 import Typical from "react-typical";
 import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
 import lokesh from "../assets/lokesh-pic.jpg";
+import { DownloadIcon } from '@chakra-ui/icons';
 
 
 const HomePage = () => {
@@ -73,7 +74,7 @@ const HomePage = () => {
                                     href={Lokesh_Patidar_Resume}
                                     download>
                                     <button className="btn highlighted-btn">
-                                        Get Resume
+                                        Get Resume<DownloadIcon/>
                                     </button>
                                 </a>
                             </div>

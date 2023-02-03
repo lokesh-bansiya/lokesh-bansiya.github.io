@@ -8,12 +8,20 @@ import {
 } from "react-icons/fa";
 import "../Styles//Navbar.css";
 import { Link } from "react-scroll";
+import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
+import { DownloadIcon } from '@chakra-ui/icons'
 
 const Navbar = () => {
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
   const [menu_class, setMenuClass] = useState("menu hidden");
   const [isMenuClicked, setIsMenuClicked] = useState(false);
 
+  const onClickhandler = () => {
+    return window.open(
+      "https://onedrive.live.com/?authkey=%21AC31qnyUOYIVxt4&cid=64B123E24B0D9024&id=64B123E24B0D9024%21107&parId=64B123E24B0D9024%21106&o=OneUp",
+      "_blank"
+    );
+  };
 
   const updateMenu = () => {
     if (!isMenuClicked) {
@@ -63,11 +71,14 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://onedrive.live.com/?authkey=%21AC31qnyUOYIVxt4&cid=64B123E24B0D9024&id=64B123E24B0D9024%21107&parId=64B123E24B0D9024%21106&o=OneUp"
+              // href=""
               target="_blank"
               alt="Resume"
+              href={Lokesh_Patidar_Resume}
+              download={true}
+              onClick={onClickhandler}
             >
-              &nbsp; Resume
+              <DownloadIcon/> Resume
             </a>
           </div>
         </div>
@@ -112,11 +123,13 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://onedrive.live.com/?authkey=%21AC31qnyUOYIVxt4&cid=64B123E24B0D9024&id=64B123E24B0D9024%21107&parId=64B123E24B0D9024%21106&o=OneUp"
+              href={Lokesh_Patidar_Resume}
+              download={true}
+              onClick={onClickhandler}
               target="_blank"
               alt="Resume"
             >
-              &nbsp; <span>R</span>esume
+              <span>R</span>esume
             </a>
           </div>
         </div>
@@ -161,11 +174,13 @@ const Navbar = () => {
             </div>
             <div onClick={updateMenu}>
               <a
-                href="https://onedrive.live.com/?authkey=%21AC31qnyUOYIVxt4&cid=64B123E24B0D9024&id=64B123E24B0D9024%21107&parId=64B123E24B0D9024%21106&o=OneUp"
+                href={Lokesh_Patidar_Resume}
+                download={true}
+                onClick={onClickhandler}
                 target="_blank"
                 alt="Resume"
               >
-                Resume
+                <DownloadIcon marginRight="5%"/>Resume
               </a>
             </div>
           </div>

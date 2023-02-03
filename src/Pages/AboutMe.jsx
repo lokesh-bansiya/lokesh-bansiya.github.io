@@ -2,6 +2,7 @@ import "../Styles/AboutMe.css";
 import React from "react";
 import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
 import logo from "../assets/img_about_me.webp";
+import { DownloadIcon } from "@chakra-ui/icons";
 
 export const AboutMe = () => {
   return (
@@ -26,7 +27,7 @@ export const AboutMe = () => {
               </button>
               <button>
                 <a href={Lokesh_Patidar_Resume} download>
-                  Resume
+                  Resume<DownloadIcon/>
                 </a>
               </button>
             </div>
