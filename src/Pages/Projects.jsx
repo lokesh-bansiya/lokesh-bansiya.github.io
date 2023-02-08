@@ -1,13 +1,13 @@
 import React from "react";
 import "../Styles/Projects.css";
 import { FaGithub, FaLink } from "react-icons/fa";
-import beautybebo from "../Image/beautybebo.png";
-import dice_app from "../Image/dice_app.png";
-import getharvest from "../Image/getharvest.png";
-import pharmeasy from "../Image/pharmaeasy.png";
-import Quizapp from "../Image/quiz-app.png";
-import GroceryMartHomePage from "../Image/GroceryMartHomePage.png";
-import webtaskit from "../Image/webtaskit_home_page.png"
+import { Grocery } from "../Components/GroceryCarousel";
+import { AssessmentTest } from "../Components/AssessmentTest";
+import { BeautyBebo } from "../Components/BeautyBebo";
+import { DiceRolling } from "../Components/DiceRolling";
+import { GetHarvest } from "../Components/GetHarvest";
+import { Webtaskit } from "../Components/Webtaskit";
+import { PharmaEasy } from "../Components/PharmaEasy";
 
 export const Projects = () => {
   return (
@@ -22,7 +22,8 @@ export const Projects = () => {
           <div className="projectItem">
               <div className="projectImage">
                 <h2 className="project-type"><span>☆</span> Grocery Mart </h2>
-                <img src={GroceryMartHomePage} alt="" />
+                {/* <img src={GroceryMartHomePage} alt="" /> */}
+                  <Grocery/>
               </div>
               <div className="projectDetails">
                 <h2>Individual Project</h2>
@@ -162,7 +163,7 @@ export const Projects = () => {
             <div className="projectItem1">
               <div className="projectImage">
                 <h2 className="project-type"><span>☆</span> WebTaskit website</h2>
-                <img src={webtaskit} alt="" />
+                <Webtaskit/>
               </div>
               <div className="projectDetails">
                 <h2>Collaborative Project</h2>
@@ -269,7 +270,7 @@ export const Projects = () => {
             <div className="projectItem">
               <div className="projectImage">
                 <h2 className="project-type"><span>☆</span> pharmeasy.in website </h2>
-                <img src={pharmeasy} alt="" />
+                <PharmaEasy/>
               </div>
               <div className="projectDetails">
                 <h2>Collaborative Project</h2>
@@ -392,7 +393,7 @@ export const Projects = () => {
             <div className="projectItem1">
               <div className="projectImage">
                 <h2 className="project-type"><span>☆</span> getharvest.com website</h2>
-                <img src={getharvest} alt="" />
+                <GetHarvest/>
               </div>
               <div className="projectDetails">
                 <h2>Collaborative Project</h2>
@@ -488,7 +489,7 @@ export const Projects = () => {
             <div className="projectItem">
               <div className="projectImage">
                 <h2 className="project-type"><span>☆</span> Dice Rolling App</h2>
-                <img src={dice_app} alt="" />
+                <DiceRolling/>
               </div>
               <div className="projectDetails">
                 <h2>Individual Project</h2>
@@ -585,7 +586,7 @@ export const Projects = () => {
             <div className="projectItem1">
               <div className="projectImage">
                 <h2 className="project-type"><span>☆</span> Assessment-test Quiz-App</h2>
-                <img src={Quizapp} alt="" />
+                <AssessmentTest/>
               </div>
               <div className="projectDetails">
                 <h2>Individual Project</h2>
@@ -697,7 +698,7 @@ export const Projects = () => {
             <div className="projectItem">
               <div className="projectImage">
                 <h2 className="project-type"><span>☆</span> beautybebo.com website</h2>
-                <img src={beautybebo} alt="" />
+                <BeautyBebo/>
               </div>
               <div className="projectDetails">
                 <h2>Individual Project</h2>
