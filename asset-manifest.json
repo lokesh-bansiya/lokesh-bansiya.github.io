@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.522f3240.css",
-    "main.js": "/static/js/main.da55e173.js",
+    "main.css": "/static/css/main.46fe17f0.css",
+    "main.js": "/static/js/main.4ee304cd.js",
     "static/media/beautybebo.png": "/static/media/beautybebo.a0101bb5453b4e958fe7.png",
     "static/media/dice_app.png": "/static/media/dice_app.8fb5a00a42cd6b029dab.png",
     "static/media/pharmaeasy.png": "/static/media/pharmaeasy.5eed01ad13bb78b38e4b.png",
@@ -13,11 +13,11 @@
     "static/media/img_about_me.webp": "/static/media/img_about_me.c88a45c44874ff46ffdf.webp",
     "static/media/lokesh-pic.jpg": "/static/media/lokesh-pic.40f9acd5b1ba28e4ea3f.jpg",
     "index.html": "/index.html",
-    "main.522f3240.css.map": "/static/css/main.522f3240.css.map",
-    "main.da55e173.js.map": "/static/js/main.da55e173.js.map"
+    "main.46fe17f0.css.map": "/static/css/main.46fe17f0.css.map",
+    "main.4ee304cd.js.map": "/static/js/main.4ee304cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.522f3240.css",
-    "static/js/main.da55e173.js"
+    "static/css/main.46fe17f0.css",
+    "static/js/main.4ee304cd.js"
   ]
 }
