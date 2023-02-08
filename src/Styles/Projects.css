@@ -64,22 +64,6 @@
     transition: 0.5s ease-in;
 }
 
-.functionality {
-    display: none;
-    text-align: left;
-}
-
-.functionality>p {
-    margin: 0.5%;
-    font-weight: 500;
-    font-size: 12px;
-    color: rgb(1, 1, 67);
-}
-
-.functionality>p>span {
-    color: rgb(246, 2, 10);
-}
-
 .projectDetails {
     width: 45%;
     display: block;
@@ -275,10 +259,6 @@
         color: rgb(3, 101, 101);
     }
 
-    .functionality h3 {
-        font-size: medium;
-    }
-
     .projectImage {
         width: 95%;
         margin-top: 5%;
@@ -314,11 +294,6 @@
         width: 150px;
         margin: 1%;
         font-size: 13px;
-    }
-
-    .functionality>p {
-        margin: 0.5%;
-        font-size: 76%;
     }
 
     .desc {
@@ -398,10 +373,6 @@
         color: rgb(1, 70, 87);
     }
 
-    .functionality h3 {
-        font-size: medium;
-    }
-
     .projectImage {
         width: 95%;
         margin-top: 5%;
@@ -438,11 +409,6 @@
         width: 150px;
         margin: 1%;
         font-size: 13px;
-    }
-
-    .functionality>p {
-        margin: 0.5%;
-        font-size: 50%;
     }
 
     .desc {
@@ -517,10 +483,6 @@
         color: rgb(34, 4, 201);
     }
 
-    .functionality h3 {
-        font-size: medium;
-    }
-
     .projectItem {
         display: flex;
         flex-direction: column;
@@ -569,11 +531,6 @@
         color: white;
         margin: 1%;
         font-size: 13px;
-    }
-
-    .functionality>p {
-        margin: 0.5%;
-        font-size: 40%;
     }
 
     .desc {
