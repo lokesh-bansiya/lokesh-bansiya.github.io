@@ -27,7 +27,7 @@ const Webtaskit = () => {
   };
 
   return (
-    <Slider border="1px solid red" {...settings}>
+    <Slider {...settings}>
       <div>
         <Image width="100%" height="100%" src={img1} alt="img1" />
       </div>

@@ -18,7 +18,7 @@ const Navbar = () => {
 
   const onClickhandler = () => {
     return window.open(
-      "https://onedrive.live.com/?authkey=%21AC31qnyUOYIVxt4&cid=64B123E24B0D9024&id=64B123E24B0D9024%21107&parId=64B123E24B0D9024%21106&o=OneUp",
+      "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=TZ8Gho",
       "_blank"
     );
   };
