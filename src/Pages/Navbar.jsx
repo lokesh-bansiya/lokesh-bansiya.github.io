@@ -71,14 +71,13 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              // href=""
               target="_blank"
               alt="Resume"
               href={Lokesh_Patidar_Resume}
               download={true}
               onClick={onClickhandler}
             >
-              <DownloadIcon/> Resume
+              <DownloadIcon /> Resume
             </a>
           </div>
         </div>
@@ -180,7 +179,7 @@ const Navbar = () => {
                 target="_blank"
                 alt="Resume"
               >
-                <DownloadIcon marginRight="5%"/>Resume
+                <DownloadIcon marginRight="5%" />Resume
               </a>
             </div>
           </div>
