@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import "../Styles//Navbar.css";
 import { Link } from "react-scroll";
-import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
+import Lokesh_Patidar_Resume from "../download/Lokesh-Patidar-Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons'
 
 const Navbar = () => {

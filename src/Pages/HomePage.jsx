@@ -4,8 +4,7 @@ import {
     FaGithub,
 } from "react-icons/fa";
 import Typical from "react-typical";
-import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
-import lokesh from "../assets/lokesh-pic.jpg";
+import Lokesh_Patidar_Resume from "../download/Lokesh-Patidar-Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons';
 
 
