@@ -1,6 +1,6 @@
 import "../Styles/AboutMe.css";
 import React from "react";
-import Lokesh_Patidar_Resume from "../download/Lokesh-Patidar-Resume.pdf";
+import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
 import logo from "../assets/img_about_me.webp";
 import { DownloadIcon } from "@chakra-ui/icons";
 

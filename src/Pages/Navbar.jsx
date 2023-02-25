@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import "../Styles//Navbar.css";
 import { Link } from "react-scroll";
-import Lokesh_Patidar_Resume from "../download/Lokesh-Patidar-Resume.pdf";
+import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons'
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
 
   const onClickhandler = () => {
     return window.open(
-      "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=TZ8Gho",
+      "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
       "_blank"
     );
   };
