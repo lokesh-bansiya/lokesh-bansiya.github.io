@@ -26,6 +26,7 @@
     width: 85%;
     margin: auto;
     margin-top: 5%;
+    padding-bottom: 5%;
 }
 
 .skillsBox>div {
@@ -241,7 +242,7 @@
         margin: auto;
         height: auto;
         margin-top: 7%;
-        padding-bottom: 12%;
+        padding-bottom: 20%;
     }
 
     .skillsBox>div {
@@ -323,7 +324,7 @@
         margin: auto;
         height: auto;
         margin-top: 7%;
-        padding-bottom: 20%;
+        padding-bottom: 30%;
     }
 
     .skillsBox>div {
@@ -425,7 +426,7 @@
         margin: auto;
         height: auto;
         margin-top: 5%;
-        padding-bottom: 90%;
+        padding-bottom: 120%;
     }
 
     .skillsBox>div img {
