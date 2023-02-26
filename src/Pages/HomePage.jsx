@@ -6,7 +6,7 @@ import {
 import Typical from "react-typical";
 import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons';
-
+import lokesh from "../Image/lokesh_profile.jpg";
 
 const HomePage = () => {
     return (
@@ -83,7 +83,7 @@ const HomePage = () => {
                         <div className="profile-picture">
                             <div className="profile-picture-background">
                                 <img
-                                    src="https://avatars.githubusercontent.com/u/105616033?v=4"
+                                    src={lokesh}
                                     alt="lokesh-patidar"
                                 />
                             </div>
