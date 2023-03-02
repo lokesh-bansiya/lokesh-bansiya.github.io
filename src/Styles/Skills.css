@@ -399,6 +399,7 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 1% 1%;
         margin-top: 1%;
+        padding-bottom: 10%;
         width: 80%;
     }
 
