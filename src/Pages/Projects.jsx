@@ -11,27 +11,19 @@ import { PharmaEasy } from "../Components/PharmaEasy";
 import { GitStar } from "../Components/GitStar";
 
 import cyclic_logo from "../assets/cyclic-logo.png";
-import postman from "../assets/postman.png";
-import git from "../assets/git.png";
 import github from "../assets/github.png";
 import npm from "../assets/npm.png";
 import vercel from "../assets/vercel.png";
 import netlify from "../assets/netlify.png";
-import axios from "../assets/axios.png";
 import chakraui from "../assets/chakraui.jpg";
-import codesandbox from "../assets/codesandbox.png";
 import css from "../assets/css.png";
-import deployment from "../assets/deployment.png";
 import expressjs from "../assets/expressjs.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
-import json from "../assets/json.jpg";
 import mongodb from "../assets/mongodb.png";
 import nodejs from "../assets/nodejs.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
-import restapi from "../assets/restapi.png";
-import typescript from "../assets/typescript.png";
 import vscode from "../assets/vscode.png";
 
 export const Projects = () => {

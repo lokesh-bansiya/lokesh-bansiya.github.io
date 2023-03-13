@@ -15,7 +15,7 @@ import deployment from "../assets/deployment.png";
 import expressjs from "../assets/expressjs.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
-import json from "../assets/json.jpg";
+import json from "../assets/json.png";
 import mongodb from "../assets/mongodb.png";
 import nodejs from "../assets/nodejs.png";
 import react from "../assets/react.png";
