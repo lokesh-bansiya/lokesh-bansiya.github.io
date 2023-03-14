@@ -40,7 +40,7 @@
     margin: auto;
     animation: shake 2s infinite;
     animation-direction: alternate;
-    transform: skew(3deg);
+    transform: skew(5deg);
     overflow: hidden;
     box-shadow: rgba(251, 249, 249, 0.853) 0px -23px 25px 0px inset,
         rgba(252, 247, 247, 0.913) 0px -36px 30px 0px inset,
@@ -51,12 +51,17 @@
 
 @keyframes shake {
     0% {
-        transform: skewY(3deg);
+        transform: skewY(5deg);
     }
 
     100% {
-        transform: skewY(-3deg);
+        transform: skewY(-5deg);
     }
+}
+
+.skillsBox>div:hover{
+    background-color: rgb(3, 224, 254);
+    box-shadow: none;
 }
 
 .skillsBox>div>img {
