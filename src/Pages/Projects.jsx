@@ -165,6 +165,7 @@ export const Projects = () => {
                         <a
                           href="https://github.com/lokesh-patidar/GroceryMarket"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaGithub /> GitHub Repo
                         </a>
@@ -175,6 +176,7 @@ export const Projects = () => {
                         <a
                           href="https://web-taskit-kan3.vercel.app/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaLink /> Diployed Link
                         </a>
@@ -284,6 +286,7 @@ export const Projects = () => {
                         <a
                           href="https://github.com/lokesh-patidar/WebTaskit"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaGithub /> GitHub Repo
                         </a>
@@ -294,6 +297,7 @@ export const Projects = () => {
                         <a
                           href="https://web-taskit-ynzg.vercel.app/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaLink /> Diployed Link
                         </a>
@@ -419,6 +423,7 @@ export const Projects = () => {
                         <a
                           href="https://github.com/lokesh-patidar/pharmeasy.in"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaGithub /> GitHub Repo
                         </a>
@@ -429,6 +434,7 @@ export const Projects = () => {
                         <a
                           href="https://pharmeasy-in.vercel.app/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaLink /> Diployed Link
                         </a>
@@ -521,6 +527,7 @@ export const Projects = () => {
                         <a
                           href="https://github.com/lokesh-patidar/getharvest.com"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaGithub /> GitHub Repo
                         </a>
@@ -531,6 +538,7 @@ export const Projects = () => {
                         <a
                           href="https://getharvest-com.vercel.app/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaLink /> Diployed Link
                         </a>
@@ -657,8 +665,9 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://github.com/lokesh-patidar/Dice-App"
+                          href="https://github.com/lokesh-patidar/Figmatic_LLP/tree/main/Assignment-1"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaGithub /> GitHub Repo
                         </a>
@@ -667,8 +676,9 @@ export const Projects = () => {
                     <button>
                       <h3>
                         <a
-                          href="https://lokesh-patidat-dice-rolling-app.netlify.app/"
+                          href="https://figmatic-llp-legz.vercel.app"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaLink /> Diployed Link
                         </a>
@@ -778,6 +788,7 @@ export const Projects = () => {
                         <a
                           href="https://github.com/lokesh-patidar/Assessment_test_quiz-App"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaGithub /> GitHub Repo
                         </a>
@@ -788,6 +799,7 @@ export const Projects = () => {
                         <a
                           href="https://quiz-app-lokesh-patidar.vercel.app/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaLink /> Diployed Link
                         </a>
@@ -882,6 +894,7 @@ export const Projects = () => {
                         <a
                           href="https://github.com/lokesh-patidar/rightful-order-9279"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaGithub /> GitHub Repo
                         </a>
@@ -892,6 +905,7 @@ export const Projects = () => {
                         <a
                           href="https://beautybebo-website-clone.netlify.app/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaLink /> Diployed Link
                         </a>
@@ -999,6 +1013,7 @@ export const Projects = () => {
                         <a
                           href="https://github.com/lokesh-patidar/GitStar"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaGithub /> GitHub Repo
                         </a>
@@ -1009,6 +1024,7 @@ export const Projects = () => {
                         <a
                           href="https://git-star-six.vercel.app/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <FaLink /> Diployed Link
                         </a>
