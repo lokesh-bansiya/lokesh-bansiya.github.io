@@ -4,7 +4,7 @@ import { FaGithub, FaLink } from "react-icons/fa";
 import { Grocery } from "../Components/GroceryCarousel";
 import { AssessmentTest } from "../Components/AssessmentTest";
 import { BeautyBebo } from "../Components/BeautyBebo";
-import { DiceRolling } from "../Components/DiceRolling";
+import { Calculator } from "../Components/Calculator";
 import { GetHarvest } from "../Components/GetHarvest";
 import { Webtaskit } from "../Components/Webtaskit";
 import { PharmaEasy } from "../Components/PharmaEasy";
@@ -547,33 +547,22 @@ export const Projects = () => {
             <div className="projectItem">
               <div className="projectImage">
                 <h2 className="project-type">
-                  <span>☆</span> Dice Rolling App
+                  <span>☆</span> Figmatic Calculator App
                 </h2>
-                <DiceRolling />
+                <Calculator />
               </div>
               <div className="projectDetails">
                 <h2>Individual Project</h2>
                 <div className="desc">
                   <span>Description</span>
                   <br />
-                  This is a mini dice-rolling app that I made with the help of
-                  HTML, CSS, and JavaScript, here I have generated random
-                  numbers from 1 to 6 and I gave a good UI to it. Three members
-                  can participate to play with it.
+                  This is a Figmatic Calculator App that I made with the help of MERN tech stacks, here user can add more pages to the table and the total amount or the of all the pages will be displayed in the top right section and the total amount of particular page in that particular row. Users can also delete the page and update the status in that page section. Here I also implemented the pagination or displayed 5 table data per page.
                 </div>
 
                 <div className="techStacks">
                   <div className="tech-stacks">
                     <h3>Tech-Stacks & Tools used</h3>
                     <div>
-                      <div className="languages">
-                        <div>
-                          <img src={html} alt="html" />
-                        </div>
-                        <div>
-                          <p>HTML</p>
-                        </div>
-                      </div>
                       <div className="languages">
                         <div>
                           <img src={css} alt="CSS" />
@@ -592,18 +581,58 @@ export const Projects = () => {
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={netlify} alt="netlify" />
+                          <img src={vercel} alt="vercel" />
                         </div>
                         <div>
-                          <p>Netlify</p>
+                          <p>Vercel</p>
                         </div>
                       </div>
                       <div className="languages">
                         <div>
-                          <img src={github} alt="github" />
+                          <img src={react} alt="react" />
                         </div>
                         <div>
-                          <p>GitHub</p>
+                          <p>React.js</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={chakraui} alt="Chakra ui" />
+                        </div>
+                        <div>
+                          <p>Chakra UI</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={expressjs} alt="express.js" />
+                        </div>
+                        <div>
+                          <p>Express.js</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={nodejs} alt="node" />
+                        </div>
+                        <div>
+                          <p>Node.js</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={mongodb} alt="MongoDB" />
+                        </div>
+                        <div>
+                          <p>Mongo DB</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={npm} alt="NPM" />
+                        </div>
+                        <div>
+                          <p>NPM</p>
                         </div>
                       </div>
                       <div className="languages">
@@ -612,6 +641,14 @@ export const Projects = () => {
                         </div>
                         <div>
                           <p>VS-Code</p>
+                        </div>
+                      </div>
+                      <div className="languages">
+                        <div>
+                          <img src={github} alt="github" />
+                        </div>
+                        <div>
+                          <p>GitHub</p>
                         </div>
                       </div>
                     </div>
