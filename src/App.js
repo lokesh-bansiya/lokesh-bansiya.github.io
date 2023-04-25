@@ -15,7 +15,7 @@ function App() {
       <section id="home">
         <HomePage />
       </section>
-      <section id="aboutme">
+      <section id="about" class="about section">
         <AboutMe />
       </section>
       <section id="skills">
@@ -25,7 +25,7 @@ function App() {
         <Stats />
         <Calendar />
       </section>
-      <section id="projects">
+      <section id="projects" >
         <Projects />
       </section>
       <section id="contact">

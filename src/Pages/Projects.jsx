@@ -5,7 +5,7 @@ import { ProjectItem } from "../Components/ProjectItem";
 
 export const Projects = () => {
   return (
-    <div id="Projects">
+    <div id="Projects" className="nav-link projects">
       <div className="projectsContainer">
         <div>
           <div className="projectheading">

@@ -4,16 +4,16 @@ import "../Styles/Projects.css";
 const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo, deployedLink }) => {
     return (
         <>
-            <div className={id%2 !== 0 ? "projectItem" : "projectItem1"}>
+            <div className={id%2 !== 0 ? "projectItem project-card" : "projectItem1 project-card"}>
                 <div className="projectImage">
-                    <h2 className="project-type">
+                    <h2 className="project-type project-title">
                         <span>☆</span> {title}{" "}
                     </h2>
                     {carousel}
                 </div>
                 <div className="projectDetails">
                     <h2>{type}</h2>
-                    <div className="desc">
+                    <div className="desc project-description">
                         <span>Description</span>
                         <br />
                         {desc}
@@ -22,7 +22,7 @@ const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo,
                     <div className="techStacks">
                         <div className="tech-stacks">
                             <h3>Tech-Stacks & Tools used</h3>
-                            <div>
+                            <div className="project-tech-stack">
                                 {
                                     teck_stacks.map((elem, i) => {
                                         return (
@@ -48,6 +48,7 @@ const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo,
                                         href={githubRepo}
                                         target="_blank"
                                         rel="noreferrer"
+                                        className="project-github-link"
                                     >
                                         <FaGithub /> GitHub Repo
                                     </a>
@@ -59,6 +60,7 @@ const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo,
                                         href={deployedLink}
                                         target="_blank"
                                         rel="noreferrer"
+                                        className="project-deployed-link"
                                     >
                                         <FaLink /> Diployed Link
                                     </a>

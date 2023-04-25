@@ -9,8 +9,17 @@ import { DownloadIcon } from '@chakra-ui/icons';
 import lokesh from "../Image/lokesh_profile.jpg";
 
 const HomePage = () => {
+
+    const onClickhandler = () => {
+        return window.open(
+          "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
+          "_blank"
+        );
+    };
+
+
     return (
-        <div id='Home'>
+        <div id='Home' className="nav-link home">
             <div className="container">
                 <div>
                     <div className="description">
@@ -21,6 +30,7 @@ const HomePage = () => {
                                         href="https://www.linkedin.com/in/lokesh-patidar-aa45a0236/"
                                         target="_blank"
                                         alt="linked in"
+                                        rel="noreferrer"
                                     >
                                         <i className="">
                                             <FaLinkedinIn className='icon-ease-out' />
@@ -30,6 +40,7 @@ const HomePage = () => {
                                         href="https://github.com/lokesh-patidar"
                                         target="_blank"
                                         alt="github"
+                                        rel="noreferrer"
                                     >
                                         <i className="">
                                             <FaGithub className='icon-ease-out' />
@@ -70,10 +81,16 @@ const HomePage = () => {
                             <div>
                                 <a href='#contactSection'><button className="btn primary-btn"> Hire Me </button></a>
                                 <a
+                                    target="_blank"
+                                    alt="Resume"
                                     href={Lokesh_Patidar_Resume}
-                                    download>
-                                    <button className="btn highlighted-btn">
-                                        Get Resume<DownloadIcon/>
+                                    download={true}
+                                    onClick={onClickhandler}
+                                    id="resume-link-1"
+                                    rel="noreferrer"
+                                >
+                                    <button className="btn highlighted-btn" id="resume-button-1">
+                                        Get Resume<DownloadIcon />
                                     </button>
                                 </a>
                             </div>
@@ -84,6 +101,7 @@ const HomePage = () => {
                             <div className="profile-picture-background">
                                 <img
                                     src={lokesh}
+                                    className='home-img'
                                     alt="lokesh-patidar"
                                 />
                             </div>

@@ -37,41 +37,35 @@ const Navbar = () => {
 
   return (
     <>
-      <div id="box-1" className="navbarContainer">
+      <div 
+        id="nav-menu" 
+        className="navbarContainer"
+      >
         <div className="logo">
           <span>L</span>okesh
         </div>
         <div className="nav">
           <div>
-            <a>
-              <Link activeClass="active" smooth spy to="home" offset={-100}><FaHome /> Home </Link>
-            </a>
+              <Link activeClass="active" smooth spy to="home" offset={-100} className="nav-link home"><FaHome /> Home </Link>
           </div>
           <div>
-            <a>
-              <Link activeClass="active" smooth spy to="aboutme" duration={600} offset={-100}>
+              <Link activeClass="active" smooth spy to="about" duration={600} offset={-100} className="nav-link about" >
                 <FaUser /> About Me
               </Link>
-            </a>
           </div>
           <div>
-            <a>
-              <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100}><FaList /> Skills</Link>
-            </a>
+              <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100} className="nav-link skills"><FaList /> Skills</Link>
           </div>
           <div>
-            <a>
-              <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100}><FaFolder /> Projects </Link>
-            </a>
+              <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100} className="nav-link projects"><FaFolder /> Projects </Link>
           </div>
           <div>
-            <a>
-              <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100}><FaMobile /> Contact </Link>
-            </a>
+              <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100} className="nav-link contact"><FaMobile /> Contact </Link>
           </div>
-          <div>
+          <div className="nav-link resume">
             <a
               target="_blank"
+              rel="noreferrer"
               alt="Resume"
               href={Lokesh_Patidar_Resume}
               download={true}
@@ -91,41 +85,32 @@ const Navbar = () => {
         </div>
         <div className="navsecond">
           <div>
-            <a>
               {" "}
-              <Link activeClass="active" smooth spy to="home" offset={-100}><span>H</span>ome</Link>
-            </a>
+              <Link activeClass="active" smooth spy to="home" offset={-100} className="nav-link home"><span>H</span>ome</Link>
           </div>
           <div>
-            <a>
               {" "}
-              <Link activeClass="active" smooth spy to="aboutme" duration={600} offset={-100}><span>A</span>bout Me </Link>
-            </a>
+              <Link activeClass="active" smooth spy to="about" className="nav-link about" duration={600} offset={-100}><span>A</span>bout Me </Link>
           </div>
           <div>
-            <a>
               {" "}
-              <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100}><span>S</span>kills</Link>
-            </a>
+              <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100} className="nav-link skills"><span>S</span>kills</Link>
           </div>
           <div>
-            <a>
               {" "}
-              <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100}><span>P</span>rojects </Link>
-            </a>
+              <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100} className="nav-link projects"><span>P</span>rojects </Link>
           </div>
           <div>
-            <a>
               {" "}
-              <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100}><span>C</span>ontact </Link>
-            </a>
+              <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100} className="nav-link contact"><span>C</span>ontact </Link>
           </div>
-          <div>
+          <div className="nav-link resume">
             <a
               href={Lokesh_Patidar_Resume}
               download={true}
               onClick={onClickhandler}
               target="_blank"
+              rel="noreferrer"
               alt="Resume"
             >
               <span>R</span>esume
@@ -157,26 +142,27 @@ const Navbar = () => {
         <div id="menu-class" style={{ height: "100vh" }} className={menu_class}>
           <div className="navinside">
             <div>
-              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="home" offset={-100}><span>H</span>ome</Link></a>
+              <Link onClick={updateMenu} activeClass="active" smooth spy to="home" offset={-100} className="nav-link home"><span>H</span>ome</Link>
             </div>
             <div>
-              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="aboutme" duration={600} offset={-100}><span>A</span>bout Me </Link></a>
+              <Link onClick={updateMenu} activeClass="active" smooth spy to="about" duration={600} offset={-100} className="nav-link about"><span>A</span>bout Me </Link>
             </div>
             <div>
-              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="skills" duration={800} offset={-100}><span>S</span>kills</Link></a>
+              <Link onClick={updateMenu} activeClass="active" smooth spy to="skills" duration={800} offset={-100} className="nav-link skills"><span>S</span>kills</Link>
             </div>
             <div>
-              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="projects" duration={2500} offset={-100}><span>P</span>rojects </Link></a>
+              <Link onClick={updateMenu} activeClass="active" smooth spy to="projects" duration={2500} offset={-100} className="nav-link projects"><span>P</span>rojects </Link>
             </div>
             <div>
-              <a><Link onClick={updateMenu} activeClass="active" smooth spy to="contact" duration={3500} offset={-100}><span>C</span>ontact </Link></a>
+              <Link onClick={updateMenu} activeClass="active" smooth spy to="contact" duration={3500} offset={-100} className="nav-link contact"><span>C</span>ontact </Link>
             </div>
-            <div onClick={updateMenu}>
+            <div onClick={updateMenu} className="nav-link resume">
               <a
                 href={Lokesh_Patidar_Resume}
                 download={true}
                 onClick={onClickhandler}
                 target="_blank"
+                rel="noreferrer"
                 alt="Resume"
               >
                 <DownloadIcon marginRight="5%" />Resume

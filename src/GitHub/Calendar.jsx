@@ -38,6 +38,7 @@ export const Calendar = () => {
                             width: "100%",
                             cursor: "pointer"
                         }}
+                        className="react-activity-calendar"
                     >
                         <ReactTooltip delayShow={20} />
                     </GitHubCalendar>
