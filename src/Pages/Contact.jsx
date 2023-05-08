@@ -17,7 +17,7 @@ export const Contact = () => {
                 <h1>Contact Me</h1>
                 <div>
                     <h3 id="contact-phone"><FaMobileAlt className="contactlogotop" />&nbsp;Contact No.&nbsp; › &nbsp;<span>9993977820</span></h3>
-                    <h3>
+                    <h3 id="contact-email">
                         <a href="mailto:bansiyalokesh29988@gmail.com" target="_blank" rel="noreferrer">
                             <FaMailBulk className="contactlogotop" />&nbsp;&nbsp;Email Id &nbsp; › &nbsp;<span>bansiyalokesh29988@gmail.com</span>
                         </a>
