@@ -8,8 +8,9 @@ import {
 } from "react-icons/fa";
 import "../Styles//Navbar.css";
 import { Link } from "react-scroll";
-import Lokesh_Patidar_Resume from "../download/Lokesh_Patidar_Resume.pdf";
-import { DownloadIcon } from '@chakra-ui/icons'
+import Lokesh_Patidar_Resume from "../download/Lokesh-Patidar-Resume.pdf";
+import { DownloadIcon } from '@chakra-ui/icons';
+
 
 const Navbar = () => {
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
@@ -37,8 +38,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div 
-        id="nav-menu" 
+      <div
+        id="nav-menu"
         className="navbarContainer"
       >
         <div className="logo">
@@ -46,21 +47,21 @@ const Navbar = () => {
         </div>
         <div className="nav">
           <div>
-              <Link activeClass="active" smooth spy to="home" offset={-100} className="nav-link home"><FaHome /> Home </Link>
+            <Link activeClass="active" smooth spy to="home" offset={-100} className="nav-link home"><FaHome /> Home </Link>
           </div>
           <div>
-              <Link activeClass="active" smooth spy to="about" duration={600} offset={-100} className="nav-link about" >
-                <FaUser /> About Me
-              </Link>
+            <Link activeClass="active" smooth spy to="about" duration={600} offset={-100} className="nav-link about" >
+              <FaUser /> About Me
+            </Link>
           </div>
           <div>
-              <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100} className="nav-link skills"><FaList /> Skills</Link>
+            <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100} className="nav-link skills"><FaList /> Skills</Link>
           </div>
           <div>
-              <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100} className="nav-link projects"><FaFolder /> Projects </Link>
+            <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100} className="nav-link projects"><FaFolder /> Projects </Link>
           </div>
           <div>
-              <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100} className="nav-link contact"><FaMobile /> Contact </Link>
+            <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100} className="nav-link contact"><FaMobile /> Contact </Link>
           </div>
           <div className="nav-link resume">
             <a
@@ -85,24 +86,24 @@ const Navbar = () => {
         </div>
         <div className="navsecond">
           <div>
-              {" "}
-              <Link activeClass="active" smooth spy to="home" offset={-100} className="nav-link home"><span>H</span>ome</Link>
+            {" "}
+            <Link activeClass="active" smooth spy to="home" offset={-100} className="nav-link home"><span>H</span>ome</Link>
           </div>
           <div>
-              {" "}
-              <Link activeClass="active" smooth spy to="about" className="nav-link about" duration={600} offset={-100}><span>A</span>bout Me </Link>
+            {" "}
+            <Link activeClass="active" smooth spy to="about" className="nav-link about" duration={600} offset={-100}><span>A</span>bout Me </Link>
           </div>
           <div>
-              {" "}
-              <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100} className="nav-link skills"><span>S</span>kills</Link>
+            {" "}
+            <Link activeClass="active" smooth spy to="skills" duration={800} offset={-100} className="nav-link skills"><span>S</span>kills</Link>
           </div>
           <div>
-              {" "}
-              <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100} className="nav-link projects"><span>P</span>rojects </Link>
+            {" "}
+            <Link activeClass="active" smooth spy to="projects" duration={2500} offset={-100} className="nav-link projects"><span>P</span>rojects </Link>
           </div>
           <div>
-              {" "}
-              <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100} className="nav-link contact"><span>C</span>ontact </Link>
+            {" "}
+            <Link activeClass="active" smooth spy to="contact" duration={3500} offset={-100} className="nav-link contact"><span>C</span>ontact </Link>
           </div>
           <div className="nav-link resume">
             <a
