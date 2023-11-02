@@ -12,8 +12,8 @@ const HomePage = () => {
 
     const onClickhandler = () => {
         return window.open(
-          "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
-          "_blank"
+            "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
+            "_blank"
         );
     };
 
@@ -74,7 +74,7 @@ const HomePage = () => {
                                     </>
                                 </span>
                                 <span className="profile-tag-line">
-                                    Aspiring MERN-Stack (MongoDB, Express, React, Node), Aspiring Full Stack Web Development at Masai School Bangaluru , KARNATAKA
+                                    I am a MERN-Stack (MongoDB, Express, React, Node), I have completed Full Stack Web Development at Masai School Bangaluru, KARNATAKA
                                 </span>
                             </div>
 
