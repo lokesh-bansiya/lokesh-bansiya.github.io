@@ -21,12 +21,10 @@
 
 .skillsBox {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20% 3%;
+    grid-template-columns: repeat(6, 1fr);
     width: 85%;
     margin: auto;
     margin-top: 5%;
-    padding-bottom: 5%;
 }
 
 .skillsBox>div {
@@ -37,7 +35,7 @@
     background-color: white;
     border-radius: 15px;
     border: 5px solid rgb(11, 1, 102);
-    margin: auto;
+    margin: 4%;
     animation: shake 2s infinite;
     animation-direction: alternate;
     transform: skew(5deg);
@@ -59,7 +57,7 @@
     }
 }
 
-.skillsBox>div:hover{
+.skillsBox>div:hover {
     background-color: rgb(3, 224, 254);
     box-shadow: none;
 }
@@ -106,8 +104,7 @@
 
 .toolsBox {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 7% 0%;
+    grid-template-columns: repeat(6, 1fr);
     width: 85%;
     margin: auto;
 }
@@ -119,6 +116,7 @@
     height: auto;
     border-radius: 20px;
     background-color: white;
+    margin: 4%;
     border: 5px solid rgb(132, 3, 59);
     box-shadow: rgba(251, 249, 249, 0.853) 0px -23px 25px 0px inset,
         rgba(252, 247, 247, 0.913) 0px -36px 30px 0px inset,
@@ -160,12 +158,10 @@
     }
 
     .skillsBox {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10% 0%;
+        grid-template-columns: repeat(5, 1fr);
         width: 85%;
         margin: auto;
-        margin-top: 7%;
-        padding-bottom: 10%;
+        margin-top: 5%;
     }
 
     .skillsBox>div {
@@ -209,8 +205,7 @@
 
     .toolsBox {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 3% 0%;
+        grid-template-columns: repeat(5, 1fr);
         width: 85%;
         margin: auto;
     }
@@ -219,7 +214,6 @@
         border-radius: 10px;
         width: 85%;
         height: auto;
-        padding-bottom: 5%;
         border: 3px solid rgb(104, 2, 2);
     }
 
@@ -247,18 +241,15 @@
     }
 
     .skillsBox {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 18% 0%;
+        grid-template-columns: repeat(4, 1fr);
         width: 90%;
         margin: auto;
         height: auto;
         margin-top: 7%;
-        padding-bottom: 20%;
     }
 
     .skillsBox>div {
         width: 85%;
-        margin: auto;
         border-radius: 10px;
         border: 3px solid rgb(3, 1, 90);
         height: fit-content;
@@ -287,8 +278,7 @@
     }
 
     .toolsBox {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 5% 0%;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .toolsBox>div {
@@ -326,20 +316,18 @@
     }
 
     .skillsBox {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.7% 0%;
+        grid-template-columns: repeat(4, 1fr);
         width: 90%;
         margin: auto;
         height: auto;
         margin-top: 7%;
-        padding-bottom: 30%;
     }
 
     .skillsBox>div {
-        font-size: 80px;
+        font-size: 70px;
         border-radius: 10px;
         border: 3px solid rgb(3, 1, 90);
-        height: 150px;
+        height: auto;
     }
 
     .skillsBox>div:hover {
@@ -348,8 +336,8 @@
 
     .skillsBox>div>img {
         width: 30%;
-        margin-bottom: 5%;
-        margin-top: 10%;
+        margin-top: 0%;
+        margin-bottom: 1%;
     }
 
     .skillsBox>div>h3 {
@@ -369,7 +357,6 @@
 
     .toolsBox {
         grid-template-columns: repeat(3, 1fr);
-        gap: 5% 0%;
     }
 
     .toolsBox>div {
@@ -402,10 +389,8 @@
     }
 
     .toolsBox {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1% 1%;
+        grid-template-columns: repeat(2, 1fr);
         margin-top: 1%;
-        padding-bottom: 10%;
         width: 80%;
     }
 
@@ -417,6 +402,7 @@
     }
 
     .toolsBox>div {
+        padding: 2%;
         border: 3px solid rgb(105, 1, 1);
     }
 
@@ -427,17 +413,15 @@
     }
 
     .skillsBox {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 7% 1%;
+        grid-template-columns: repeat(2, 1fr);
         width: 85%;
         margin: auto;
         height: auto;
         margin-top: 5%;
-        padding-bottom: 60%;
     }
 
     .skillsBox>div img {
-        width: 50%;
+        width: 40%;
         margin: auto;
         margin-top: 10%;
     }

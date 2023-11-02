@@ -218,7 +218,7 @@
 @media all and (min-width: 651px) and (max-width: 900px) {
 
     #Projects {
-        padding-top: 5%;
+        padding-top: 1%;
     }
 
     .projectDetails {
@@ -235,7 +235,7 @@
     .projectsContainer .projectheading h1 {
         font-size: 30px;
         width: fit-content;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
     }
 
     .projectItem {
@@ -331,7 +331,7 @@
 @media all and (min-width: 400px) and (max-width: 650px) {
 
     #Projects {
-        padding-top: 5%;
+        padding-top: 2%;
     }
 
     .projectDetails {
@@ -348,7 +348,7 @@
     .projectsContainer .projectheading h1 {
         font-size: 30px;
         width: fit-content;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
 
     .projectItem {
@@ -375,7 +375,6 @@
     .projectImage {
         width: 95%;
         margin-top: 5%;
-        /* height: 300px; */
         height: auto;
         margin: auto;
     }

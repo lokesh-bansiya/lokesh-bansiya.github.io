@@ -17,7 +17,6 @@
   height: fit-content;
   margin: auto;
   margin-top: 10%;
-  margin-bottom: 2%;
 }
 
 .description {
@@ -56,7 +55,7 @@ h6 {
 }
 
 .profile-tag-line {
-  font-size: 100%;
+  font-size: 200%;
   font-weight: bolder;
   margin: 5px 0px 0px 0px;
   font-family: 'Poppins Light';
@@ -208,7 +207,7 @@ h6 {
   }
 
   .profile-tag-line {
-    font-size: 170%;
+    font-size: 190%;
   }
 
   .primary-text {
@@ -261,7 +260,7 @@ h6 {
   }
 
   .profile-tag-line {
-    font-size: 17px;
+    font-size: 20px;
     margin: 1px 0px 0px 0px;
   }
 

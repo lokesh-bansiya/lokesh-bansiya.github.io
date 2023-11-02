@@ -2,7 +2,7 @@ import React from "react";
 import '../Styles/Skills.css';
 import { SkillItems } from "../Components/SkillsItems";
 import { SkillCard } from "../Components/SkillCard";
-import {ToolItems} from "../Components/ToolsItems";
+import { ToolItems } from "../Components/ToolsItems";
 
 export const Skills = () => {
   return (
