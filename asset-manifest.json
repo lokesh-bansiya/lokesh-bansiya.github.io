@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e2620940.css",
-    "main.js": "/static/js/main.ba19a080.js",
+    "main.js": "/static/js/main.56a119a9.js",
     "static/media/grocery3.png": "/static/media/grocery3.4fe5a6605d714c508933.png",
     "static/media/beautybebo6.png": "/static/media/beautybebo6.17099deff7e1777b5769.png",
     "static/media/beautybebo4.png": "/static/media/beautybebo4.e51d55f3c90131481a1e.png",
@@ -40,8 +40,8 @@
     "static/media/pharma9.png": "/static/media/pharma9.6712be14eb685fc64bb4.png",
     "static/media/webtaskit1.png": "/static/media/webtaskit1.59873a1694cabc61d553.png",
     "static/media/pharma10.png": "/static/media/pharma10.1fdc59d0e79bf945bf88.png",
-    "static/media/Lokesh_Patidar_Resume.pdf": "/static/media/Lokesh_Patidar_Resume.a2dca4d94bdb3120aae5.pdf",
     "static/media/harvest11.png": "/static/media/harvest11.e2eae7adb2c7fa913f48.png",
+    "static/media/Lokesh-Patidar-Resume.pdf": "/static/media/Lokesh-Patidar-Resume.aaad77210bb091b4a24c.pdf",
     "static/media/webtaskit8.png": "/static/media/webtaskit8.512dc899f1706cf57e3f.png",
     "static/media/pharma3.png": "/static/media/pharma3.b9d8542efcc17174b322.png",
     "static/media/gitStar5.png": "/static/media/gitStar5.80801478f8bb510affda.png",
@@ -91,10 +91,10 @@
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "index.html": "/index.html",
     "main.e2620940.css.map": "/static/css/main.e2620940.css.map",
-    "main.ba19a080.js.map": "/static/js/main.ba19a080.js.map"
+    "main.56a119a9.js.map": "/static/js/main.56a119a9.js.map"
   },
   "entrypoints": [
     "static/css/main.e2620940.css",
-    "static/js/main.ba19a080.js"
+    "static/js/main.56a119a9.js"
   ]
 }
