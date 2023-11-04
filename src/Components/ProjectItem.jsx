@@ -1,10 +1,11 @@
 import { FaGithub, FaLink } from "react-icons/fa";
 import "../Styles/Projects.css";
+import { Box } from "@chakra-ui/react";
 
 const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo, deployedLink }) => {
     return (
         <>
-            <div className={id%2 !== 0 ? "projectItem project-card" : "projectItem1 project-card"}>
+            <div className={id % 2 !== 0 ? "projectItem project-card" : "projectItem1 project-card"}>
                 <div className="projectImage">
                     <h2 className="project-type project-title">
                         <span>☆</span> {title}{" "}
@@ -27,9 +28,17 @@ const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo,
                                     teck_stacks.map((elem, i) => {
                                         return (
                                             <div className="languages" key={i}>
-                                                <div>
-                                                    <img src={elem.img} alt={elem.name} />
-                                                </div>
+                                                {
+                                                    elem?.img ? (
+                                                        <div>
+                                                            <img src={elem.img} alt={elem.name} />
+                                                        </div>
+                                                    ) : (
+                                                        <Box m={'auto'} >
+                                                            {elem.icon}
+                                                        </Box>
+                                                    )
+                                                }
                                                 <div>
                                                     <p>{elem.name}</p>
                                                 </div>
@@ -44,26 +53,39 @@ const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo,
                         <div className="btn">
                             <button>
                                 <h3>
-                                    <a
-                                        href={githubRepo}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="project-github-link"
-                                    >
-                                        <FaGithub /> GitHub Repo
-                                    </a>
+                                    {
+                                        githubRepo ? (
+                                            <a
+                                                href={githubRepo}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="project-github-link"
+                                            >
+                                                <FaGithub /> GitHub Repo
+                                            </a>
+                                        ) : (
+                                            <span style={{ color: 'gray' }}><FaGithub /> Closed</span>
+                                        )
+                                    }
+
                                 </h3>
                             </button>
                             <button>
                                 <h3>
-                                    <a
-                                        href={deployedLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="project-deployed-link"
-                                    >
-                                        <FaLink /> Diployed Link
-                                    </a>
+                                    {
+                                        deployedLink ? (
+                                            <a
+                                                href={deployedLink}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="project-deployed-link"
+                                            >
+                                                <FaLink /> Diployed Link
+                                            </a>
+                                        ) : (
+                                            <span style={{ color: 'gray' }}><FaGithub /> Closed</span>
+                                        )
+                                    }
                                 </h3>
                             </button>
                         </div>

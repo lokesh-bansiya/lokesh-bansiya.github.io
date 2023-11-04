@@ -21,11 +21,130 @@ import { Calculator } from "./Calculator";
 import { AssessmentTest } from "./AssessmentTest";
 import { BeautyBebo } from "./BeautyBebo";
 import { GitStar } from "./GitStar";
+import { FaLaravel } from "react-icons/fa";
+import { SiAmazonaws } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { PinkApron } from "./PinkApron";
+import { LiveStream } from "./LiveStream";
 
 
 export const ProjectItems = [
     {
         "id": 1,
+        "title": "Live Streaming Admin Panel",
+        "carousel": <LiveStream />,
+        "type": "Live Project",
+        "desc": "Poppo live, high appearance hosts interact with you online!!! Live Upgrade not only video live broadcast, but actually more ways to play! Online Party looking for friends, high appearance hosts, a variety of ways to play in online party!",
+        "teck_stacks": [
+            {
+                "img": css,
+                "name": "CSS"
+            },
+            {
+                "img": javascript,
+                "name": "JavaScript"
+            },
+            {
+                "img": vercel,
+                "name": "Vercel"
+            },
+            {
+                "img": react,
+                "name": "React.js"
+            },
+            {
+                "img": chakraui,
+                "name": "Chakra UI"
+            },
+            {
+                "img": nodejs,
+                "name": "Node.js"
+            },
+            {
+                "img": expressjs,
+                "name": "Express.js"
+            },
+            {
+                "icon": <SiAmazonaws color="blue" fontSize={'150%'} />,
+                "name": "AWS"
+            },
+            {
+                "img": mongodb,
+                "name": "Mongo DB"
+            },
+            {
+                "img": npm,
+                "name": "NPM"
+            },
+            {
+                "img": vscode,
+                "name": "VS-Code"
+            },
+            {
+                "img": github,
+                "name": "GitHub"
+            },
+        ],
+        "githubRepo": "",
+        "deployedLink": "",
+    },
+    {
+        "id": 2,
+        "title": "Pink Apron Admin Panel",
+        "carousel": <PinkApron />,
+        "type": "Live Project",
+        "desc": "Founded in 2021, Pinkapron LLP is a renowned Tiffin Service provider in Navi Mumbai and Mumbai. With a commitment to culinary excellence, they offer a diverse menu catering to various tastes and dietary preferences. Using the finest ingredients and upholding strict hygiene standards, Pinkapron LLP ensures the safe and delightful dining experience of its customers. Their efficient delivery services make it convenient for residents and professionals to enjoy gourmet-quality meals in the comfort of their homes or workplaces.",
+        "teck_stacks": [
+            {
+                "img": css,
+                "name": "CSS"
+            },
+            {
+                "img": javascript,
+                "name": "JavaScript"
+            },
+            {
+                "img": vercel,
+                "name": "Vercel"
+            },
+            {
+                "img": react,
+                "name": "React.js"
+            },
+            {
+                "img": chakraui,
+                "name": "Chakra UI"
+            },
+            {
+                "icon": <FaLaravel fontSize={'150%'} />,
+                "name": "Laravel"
+            },
+            {
+                "icon": <SiAmazonaws color="blue" fontSize={'150%'} />,
+                "name": "AWS"
+            },
+            {
+                "icon": <GrMysql fontSize={'150%'} />,
+                "name": "SQL"
+            },
+            {
+                "img": npm,
+                "name": "NPM"
+            },
+            {
+                "img": vscode,
+                "name": "VS-Code"
+            },
+            {
+                "img": github,
+                "name": "GitHub"
+            },
+        ],
+        "githubRepo": "",
+        "deployedLink": "",
+    },
+    {
+        "id": 3,
         "title": "Grocery Mart",
         "carousel": <Grocery />,
         "type": "Individual Project",
@@ -84,7 +203,7 @@ export const ProjectItems = [
         "deployedLink": "https://web-taskit-kan3.vercel.app/",
     },
     {
-        "id": 2,
+        "id": 4,
         "title": "WebTaskit website",
         "carousel": <Webtaskit />,
         "type": "Collaborative Project",
@@ -131,7 +250,7 @@ export const ProjectItems = [
         "deployedLink": "https://web-taskit-ynzg.vercel.app/",
     },
     {
-        "id": 3,
+        "id": 5,
         "title": "pharmeasy.in website",
         "carousel": <PharmaEasy />,
         "type": "Collaborative Project",
@@ -186,7 +305,7 @@ export const ProjectItems = [
         "deployedLink": "https://pharmeasy-in.vercel.app/",
     },
     {
-        "id": 4,
+        "id": 6,
         "title": "getharvest.com",
         "carousel": <GetHarvest />,
         "type": "Collaborative Project",
@@ -221,7 +340,7 @@ export const ProjectItems = [
         "deployedLink": "https://getharvest-com.vercel.app/",
     },
     {
-        "id": 5,
+        "id": 7,
         "title": "Figmatic Calculator App",
         "carousel": <Calculator />,
         "type": "Individual Project",
@@ -276,7 +395,7 @@ export const ProjectItems = [
         "deployedLink": "https://figmatic-llp-legz.vercel.app",
     },
     {
-        "id": 6,
+        "id": 8,
         "title": "Assessment-test Quiz-App",
         "carousel": <AssessmentTest />,
         "type": "Individual Project",
@@ -315,7 +434,7 @@ export const ProjectItems = [
         "deployedLink": "https://quiz-app-lokesh-patidar.vercel.app/",
     },
     {
-        "id": 7,
+        "id": 9,
         "title": "beautybebo.com website",
         "carousel": <BeautyBebo />,
         "type": "Individual Project",
@@ -353,7 +472,7 @@ export const ProjectItems = [
         "deployedLink": "https://beautybebo-website-clone.netlify.app/",
     },
     {
-        "id": 8,
+        "id": 10,
         "title": "GitStar App",
         "carousel": <GitStar />,
         "type": "Individual Project",
