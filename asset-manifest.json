@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ceb80778.css",
-    "main.js": "/static/js/main.7fdfc7ab.js",
+    "main.js": "/static/js/main.6ff71235.js",
     "static/media/grocery3.png": "/static/media/grocery3.4fe5a6605d714c508933.png",
     "static/media/beautybebo6.png": "/static/media/beautybebo6.17099deff7e1777b5769.png",
     "static/media/beautybebo4.png": "/static/media/beautybebo4.e51d55f3c90131481a1e.png",
@@ -99,6 +99,7 @@
     "static/media/figmatic3.png": "/static/media/figmatic3.0f059c6916b153429cc9.png",
     "static/media/figmatic2.png": "/static/media/figmatic2.09eab819b10d7478ff00.png",
     "static/media/assessment5.png": "/static/media/assessment5.69f1d2939336e2c6c274.png",
+    "static/media/lokesh.jpg": "/static/media/lokesh.a68e3d7ae93b98559e73.jpg",
     "static/media/assessment7.png": "/static/media/assessment7.f45540e9dd7d13b18d90.png",
     "static/media/assessment6.png": "/static/media/assessment6.814fce8cf366e24af120.png",
     "static/media/harvest10.png": "/static/media/harvest10.a79e9261877a12fea2f8.png",
@@ -112,7 +113,6 @@
     "static/media/git.png": "/static/media/git.7e19ced30f7817541e65.png",
     "static/media/mongodb.png": "/static/media/mongodb.95ebe78cca60e67709b4.png",
     "static/media/json.png": "/static/media/json.bb35ed1f3a88398b8d72.png",
-    "static/media/lokesh_profile.jpg": "/static/media/lokesh_profile.2237434d79dda70e39e9.jpg",
     "static/media/nodejs.png": "/static/media/nodejs.d99c5decced4a0d78a9b.png",
     "static/media/expressjs.png": "/static/media/expressjs.39a0f4c3d981885c64f8.png",
     "static/media/javascript.png": "/static/media/javascript.edc1b02f51f37057cb88.png",
@@ -122,10 +122,10 @@
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "index.html": "/index.html",
     "main.ceb80778.css.map": "/static/css/main.ceb80778.css.map",
-    "main.7fdfc7ab.js.map": "/static/js/main.7fdfc7ab.js.map"
+    "main.6ff71235.js.map": "/static/js/main.6ff71235.js.map"
   },
   "entrypoints": [
     "static/css/main.ceb80778.css",
-    "static/js/main.7fdfc7ab.js"
+    "static/js/main.6ff71235.js"
   ]
 }
