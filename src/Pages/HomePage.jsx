@@ -6,7 +6,7 @@ import {
 import Typical from "react-typical";
 import Lokesh_Patidar_Resume from "../download/Lokesh-Patidar-Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons';
-import lokesh from "../Image/lokesh_profile.jpg";
+import lokesh from "../Image/lokesh.jpg";
 
 const HomePage = () => {
 
