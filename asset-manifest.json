@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ceb80778.css",
-    "main.js": "/static/js/main.6ff71235.js",
+    "main.js": "/static/js/main.f5d8f6a8.js",
     "static/media/grocery3.png": "/static/media/grocery3.4fe5a6605d714c508933.png",
     "static/media/beautybebo6.png": "/static/media/beautybebo6.17099deff7e1777b5769.png",
     "static/media/beautybebo4.png": "/static/media/beautybebo4.e51d55f3c90131481a1e.png",
@@ -46,7 +46,7 @@
     "static/media/liveStream-3.png": "/static/media/liveStream-3.d06158a239b5ece66f78.png",
     "static/media/harvest11.png": "/static/media/harvest11.e2eae7adb2c7fa913f48.png",
     "static/media/liveStream-2.png": "/static/media/liveStream-2.78cf2d359a4635315777.png",
-    "static/media/Lokesh-Patidar-Resume.pdf": "/static/media/Lokesh-Patidar-Resume.11a178d939141638fc8a.pdf",
+    "static/media/Lokesh-Patidar-Resume.pdf": "/static/media/Lokesh-Patidar-Resume.2c6d14920feb2755942e.pdf",
     "static/media/webtaskit8.png": "/static/media/webtaskit8.512dc899f1706cf57e3f.png",
     "static/media/pinkapron-14.png": "/static/media/pinkapron-14.7de3ddeff410724dec28.png",
     "static/media/pharma3.png": "/static/media/pharma3.b9d8542efcc17174b322.png",
@@ -122,10 +122,10 @@
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "index.html": "/index.html",
     "main.ceb80778.css.map": "/static/css/main.ceb80778.css.map",
-    "main.6ff71235.js.map": "/static/js/main.6ff71235.js.map"
+    "main.f5d8f6a8.js.map": "/static/js/main.f5d8f6a8.js.map"
   },
   "entrypoints": [
     "static/css/main.ceb80778.css",
-    "static/js/main.6ff71235.js"
+    "static/js/main.f5d8f6a8.js"
   ]
 }
