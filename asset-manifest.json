@@ -1,28 +1,34 @@
 {
   "files": {
     "main.css": "/static/css/main.ceb80778.css",
-    "main.js": "/static/js/main.f5d8f6a8.js",
+    "main.js": "/static/js/main.93675af8.js",
     "static/media/grocery3.png": "/static/media/grocery3.4fe5a6605d714c508933.png",
     "static/media/beautybebo6.png": "/static/media/beautybebo6.17099deff7e1777b5769.png",
     "static/media/beautybebo4.png": "/static/media/beautybebo4.e51d55f3c90131481a1e.png",
     "static/media/harvest4.png": "/static/media/harvest4.5dff6b956b5d1a2d5b02.png",
+    "static/media/bitgert1.png": "/static/media/bitgert1.d160083ef8001024f584.png",
     "static/media/harvest5.png": "/static/media/harvest5.3ea8f4be67fed4264d50.png",
     "static/media/beautybebo1.png": "/static/media/beautybebo1.7adff04ebfbe0a68962a.png",
     "static/media/beautybebo5.png": "/static/media/beautybebo5.f5defebe9030b1b6aae8.png",
     "static/media/beautybebo2.png": "/static/media/beautybebo2.f3fa8a7716eea7373ca9.png",
+    "static/media/bitgert4.png": "/static/media/bitgert4.3a7ae44436dd66008818.png",
     "static/media/grocery5.png": "/static/media/grocery5.2c288e8f8daa15bfa718.png",
     "static/media/pharma5.png": "/static/media/pharma5.cd66e2933143a9f76edb.png",
     "static/media/beautybebo3.png": "/static/media/beautybebo3.8ca11393b5c2a5bfd613.png",
     "static/media/webtaskit3.png": "/static/media/webtaskit3.a8e2c23321bfc8b502fc.png",
     "static/media/harvest3.png": "/static/media/harvest3.110dd7a9f0538aea5a8c.png",
+    "static/media/bitgert5.png": "/static/media/bitgert5.f1ae8b42eef6c1cd4b6b.png",
     "static/media/grocery4.png": "/static/media/grocery4.eb86bf3e014f282aeb75.png",
     "static/media/grocery8.png": "/static/media/grocery8.ce315e6fbf4fd4fec129.png",
     "static/media/pinkapron-12.png": "/static/media/pinkapron-12.701f0ddc8ae6f358697a.png",
+    "static/media/bitgert2.png": "/static/media/bitgert2.a43f249e1af37f9b8d87.png",
     "static/media/grocery10.png": "/static/media/grocery10.f52cd330ae4e19ac3351.png",
     "static/media/pharma4.png": "/static/media/pharma4.c453843cf81783afd503.png",
     "static/media/grocery1.png": "/static/media/grocery1.7babf98398903f730d40.png",
+    "static/media/bitgert6.png": "/static/media/bitgert6.51d9cc67ff734ba40335.png",
     "static/media/pharma1.png": "/static/media/pharma1.408463d4cf899d611f9c.png",
     "static/media/webtaskit2.png": "/static/media/webtaskit2.a0a5f099da62a355d8ff.png",
+    "static/media/bitgert3.png": "/static/media/bitgert3.2cecccce33dc186d93da.png",
     "static/media/grocery11.png": "/static/media/grocery11.f3b80b463fb8746e05de.png",
     "static/media/grocery7.png": "/static/media/grocery7.8829995b5f0b93632229.png",
     "static/media/pharma6.png": "/static/media/pharma6.36c1d285b5111d0a9726.png",
@@ -46,7 +52,6 @@
     "static/media/liveStream-3.png": "/static/media/liveStream-3.d06158a239b5ece66f78.png",
     "static/media/harvest11.png": "/static/media/harvest11.e2eae7adb2c7fa913f48.png",
     "static/media/liveStream-2.png": "/static/media/liveStream-2.78cf2d359a4635315777.png",
-    "static/media/Lokesh-Patidar-Resume.pdf": "/static/media/Lokesh-Patidar-Resume.2c6d14920feb2755942e.pdf",
     "static/media/webtaskit8.png": "/static/media/webtaskit8.512dc899f1706cf57e3f.png",
     "static/media/pinkapron-14.png": "/static/media/pinkapron-14.7de3ddeff410724dec28.png",
     "static/media/pharma3.png": "/static/media/pharma3.b9d8542efcc17174b322.png",
@@ -110,6 +115,7 @@
     "static/media/react.png": "/static/media/react.65ca18b4e9841f85a691.png",
     "static/media/deployment.png": "/static/media/deployment.2b64ff5c6124b725b8ab.png",
     "static/media/vscode.png": "/static/media/vscode.646e6af675679fc4fca3.png",
+    "static/media/Lokesh-Patidar-Resume.pdf": "/static/media/Lokesh-Patidar-Resume.13c678be18dfdb62dc24.pdf",
     "static/media/git.png": "/static/media/git.7e19ced30f7817541e65.png",
     "static/media/mongodb.png": "/static/media/mongodb.95ebe78cca60e67709b4.png",
     "static/media/json.png": "/static/media/json.bb35ed1f3a88398b8d72.png",
@@ -122,10 +128,10 @@
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "index.html": "/index.html",
     "main.ceb80778.css.map": "/static/css/main.ceb80778.css.map",
-    "main.f5d8f6a8.js.map": "/static/js/main.f5d8f6a8.js.map"
+    "main.93675af8.js.map": "/static/js/main.93675af8.js.map"
   },
   "entrypoints": [
     "static/css/main.ceb80778.css",
-    "static/js/main.f5d8f6a8.js"
+    "static/js/main.93675af8.js"
   ]
 }
