@@ -23,7 +23,7 @@ const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo,
                     <div className="techStacks">
                         <div className="tech-stacks">
                             <h3>Tech-Stacks & Tools used</h3>
-                            <div className="project-tech-stack">
+                            <div>
                                 {
                                     teck_stacks.map((elem, i) => {
                                         return (
@@ -34,14 +34,11 @@ const ProjectItem = ({ id, title, carousel, type, desc, teck_stacks, githubRepo,
                                                             <img src={elem.img} alt={elem.name} />
                                                         </div>
                                                     ) : (
-                                                        <Box m={'auto'} >
+                                                        <Box m={'auto'}>
                                                             {elem.icon}
                                                         </Box>
                                                     )
                                                 }
-                                                <div>
-                                                    <p>{elem.name}</p>
-                                                </div>
                                             </div>
                                         )
                                     })

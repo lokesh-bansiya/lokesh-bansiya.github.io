@@ -8,7 +8,6 @@ import {
 } from "react-icons/fa";
 import "../Styles//Navbar.css";
 import { Link } from "react-scroll";
-import Lokesh_Patidar_Resume from "../download/Lokesh-Patidar-Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons';
 
 
@@ -68,7 +67,7 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
               alt="Resume"
-              href={Lokesh_Patidar_Resume}
+              href="/download/Lokesh-Patidar-Resume.pdf"
               download={true}
               onClick={onClickhandler}
             >
@@ -107,7 +106,7 @@ const Navbar = () => {
           </div>
           <div className="nav-link resume">
             <a
-              href={Lokesh_Patidar_Resume}
+              href="/download/Lokesh-Patidar-Resume.pdf"
               download={true}
               onClick={onClickhandler}
               target="_blank"
@@ -159,7 +158,7 @@ const Navbar = () => {
             </div>
             <div onClick={updateMenu} className="nav-link resume">
               <a
-                href={Lokesh_Patidar_Resume}
+                href="/download/Lokesh-Patidar-Resume.pdf"
                 download={true}
                 onClick={onClickhandler}
                 target="_blank"

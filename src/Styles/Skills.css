@@ -1,5 +1,6 @@
 #skills {
-    padding-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
 .skillContainer {
@@ -24,7 +25,7 @@
     grid-template-columns: repeat(6, 1fr);
     width: 85%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .skillsBox>div {
@@ -33,8 +34,8 @@
     height: auto;
     cursor: pointer;
     background-color: white;
-    border-radius: 15px;
-    border: 5px solid rgb(11, 1, 102);
+    border-radius: 5px;
+    border: 3px solid rgb(11, 1, 102);
     margin: 4%;
     animation: shake 2s infinite;
     animation-direction: alternate;
@@ -81,71 +82,6 @@
     color: rgb(133, 22, 22);
 }
 
-.tools {
-    padding-bottom: 8%;
-    margin-top: 5%;
-}
-
-.tools>h4 {
-    font-size: 30px;
-    text-align: center;
-    width: 10%;
-    font-family: "Courgette", cursive;
-    padding: 1%;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    background-color: rgb(87, 15, 65);
-    font-weight: bolder;
-    color: rgb(244, 237, 243);
-    border: 1px solid rgb(198, 154, 8);
-}
-
-.toolsBox {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    width: 85%;
-    margin: auto;
-}
-
-.toolsBox>div {
-    text-align: center;
-    margin: auto;
-    width: 85%;
-    height: auto;
-    border-radius: 20px;
-    background-color: white;
-    margin: 4%;
-    border: 5px solid rgb(132, 3, 59);
-    box-shadow: rgba(251, 249, 249, 0.853) 0px -23px 25px 0px inset,
-        rgba(252, 247, 247, 0.913) 0px -36px 30px 0px inset,
-        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-        rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-        rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-.toolsBox>div:hover {
-    cursor: pointer;
-    transform: scale(1.07);
-    transition: 0.6s ease-in;
-    border-radius: 0px;
-    border: 5px solid rgb(30, 4, 126);
-}
-
-.toolsBox>div>img {
-    width: 30%;
-    margin: 5%;
-    margin-top: 10%;
-}
-
-.toolsBox>div>h3 {
-    font-size: 15px;
-    margin-bottom: 10%;
-    color: rgb(133, 22, 22);
-    padding: 1%;
-}
-
 @media all and (min-width: 601px) and (max-width: 900px) {
     .skillContainer {
         display: flex;
@@ -165,8 +101,8 @@
     }
 
     .skillsBox>div {
-        border-radius: 10px;
-        border: 3px solid rgb(1, 1, 101);
+        border-radius: 5px;
+        border: 2px solid rgb(1, 1, 101);
         height: fit-content;
         width: 90%;
     }
@@ -176,55 +112,12 @@
     }
 
     .skillsBox>div>img {
-        width: 30%;
+        width: 40%;
     }
 
     .skillsBox>div>h3 {
         font-size: 14px;
         margin-bottom: 7%;
-    }
-
-    .tools {
-        padding-bottom: 14%;
-    }
-
-    .tools>h4 {
-        font-size: 25px;
-        text-align: center;
-        width: 10%;
-        font-family: "Courgette", cursive;
-        padding: 1%;
-        border-radius: 10px;
-        margin: auto;
-        margin-bottom: 3%;
-        background-color: rgb(87, 15, 65);
-        font-weight: bolder;
-        color: rgb(244, 237, 243);
-        border: 1px solid rgb(198, 154, 8);
-    }
-
-    .toolsBox {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        width: 85%;
-        margin: auto;
-    }
-
-    .toolsBox>div {
-        border-radius: 10px;
-        width: 85%;
-        height: auto;
-        border: 3px solid rgb(104, 2, 2);
-    }
-
-    .toolsBox>div>img {
-        width: 50%;
-        margin: auto;
-        margin-top: 8%;
-    }
-
-    .toolsBox>div>h3 {
-        font-size: 17px;
     }
 }
 
@@ -250,8 +143,8 @@
 
     .skillsBox>div {
         width: 85%;
-        border-radius: 10px;
-        border: 3px solid rgb(3, 1, 90);
+        border-radius: 5px;
+        border: 2px solid rgb(3, 1, 90);
         height: fit-content;
     }
 
@@ -260,45 +153,13 @@
     }
 
     .skillsBox>div>img {
-        width: 30%;
+        width: 35%;
         margin-bottom: 5%;
         margin-top: 10%;
     }
 
     .skillsBox>div>h3 {
         font-size: 15px;
-        margin-bottom: 7%;
-    }
-
-    .tools>h4 {
-        font-size: 18px;
-        margin-top: 1%;
-        width: 20%;
-        margin-bottom: 7%;
-    }
-
-    .toolsBox {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .toolsBox>div {
-        border: 3px solid rgb(85, 1, 1);
-        border-radius: 10px;
-    }
-
-    .toolsBox>div:hover {
-        border: 3px solid rgb(30, 4, 126);
-    }
-
-    .toolsBox>div>img {
-        width: 30%;
-        margin-bottom: 2%;
-        margin-top: 10%;
-    }
-
-    .toolsBox>div>h3 {
-        font-size: 15px;
-        margin-top: 2%;
         margin-bottom: 7%;
     }
 }
@@ -325,9 +186,8 @@
 
     .skillsBox>div {
         font-size: 70px;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 3px solid rgb(3, 1, 90);
-        height: auto;
     }
 
     .skillsBox>div:hover {
@@ -335,49 +195,13 @@
     }
 
     .skillsBox>div>img {
-        width: 30%;
+        width: 50%;
         margin-top: 0%;
         margin-bottom: 1%;
     }
 
     .skillsBox>div>h3 {
-        font-size: 15px;
-    }
-
-    .skillContainer .tools {
-        margin-top: 5%;
-    }
-
-    .tools>h4 {
-        font-size: 18px;
-        margin-top: 5%;
-        width: 20%;
-        margin-bottom: 7%;
-    }
-
-    .toolsBox {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .toolsBox>div {
-        border: 3px solid rgb(85, 1, 1);
-        border-radius: 10px;
-    }
-
-    .toolsBox>div:hover {
-        border: 3px solid rgb(30, 4, 126);
-    }
-
-    .toolsBox>div>img {
-        width: 30%;
-        margin-bottom: 2%;
-        margin-top: 5%;
-    }
-
-    .toolsBox>div>h3 {
-        font-size: 11px;
-        margin-top: 2%;
-        margin-bottom: 7%;
+        font-size: 10px;
     }
 }
 
@@ -386,30 +210,6 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 35%;
-    }
-
-    .toolsBox {
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 1%;
-        width: 80%;
-    }
-
-    .tools>h4 {
-        font-size: 15px;
-        margin-top: 10%;
-        width: 20%;
-        margin-bottom: 7%;
-    }
-
-    .toolsBox>div {
-        padding: 2%;
-        border: 3px solid rgb(105, 1, 1);
-    }
-
-    .toolsBox>div>img {
-        width: 50%;
-        margin: auto;
-        margin-top: 5%;
     }
 
     .skillsBox {

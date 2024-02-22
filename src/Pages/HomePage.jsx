@@ -4,18 +4,16 @@ import {
     FaGithub,
 } from "react-icons/fa";
 import Typical from "react-typical";
-import Lokesh_Patidar_Resume from "../download/Lokesh-Patidar-Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons';
-import lokesh from "../Image/lokesh.jpg";
 
 const HomePage = () => {
 
-    const onClickhandler = () => {
-        return window.open(
-            "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
-            "_blank"
-        );
-    };
+    // const onClickhandler = () => {
+    //     return window.open(
+    //         "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
+    //         "_blank"
+    //     );
+    // };
 
 
     return (
@@ -83,9 +81,9 @@ const HomePage = () => {
                                 <a
                                     target="_blank"
                                     alt="Resume"
-                                    href={Lokesh_Patidar_Resume}
+                                    href="/download/Lokesh-Patidar-Resume.pdf"
                                     download={true}
-                                    onClick={onClickhandler}
+                                    // onClick={onClickhandler}
                                     id="resume-link-1"
                                     rel="noreferrer"
                                 >
@@ -100,7 +98,7 @@ const HomePage = () => {
                         <div className="profile-picture">
                             <div className="profile-picture-background">
                                 <img
-                                    src={lokesh}
+                                    src="/Image/lokesh.jpg"
                                     className='home-img'
                                     alt="lokesh-patidar"
                                 />

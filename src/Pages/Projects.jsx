@@ -1,9 +1,12 @@
 import React from "react";
 import "../Styles/Projects.css";
-import { ProjectItems } from "../Components/ProjectItems";
 import { ProjectItem } from "../Components/ProjectItem";
+import { ProjectItems } from "../constants/index";
 
 export const Projects = () => {
+
+  console.log({ProjectItems});
+
   return (
     <div id="Projects" className="nav-link projects">
       <div className="projectsContainer">

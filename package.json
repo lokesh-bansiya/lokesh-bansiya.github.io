@@ -18,7 +18,7 @@
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.3.4",
     "react-icons": "^4.6.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "react-tooltip": "^4.4.3",
