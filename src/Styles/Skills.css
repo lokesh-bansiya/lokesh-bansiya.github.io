@@ -13,7 +13,7 @@
     font-family: "Courgette", cursive;
     font-weight: bolder;
     font-size: 45px;
-    width: 170px;
+    width: fit-content;
     margin: auto;
     border-bottom: 2px solid rgb(19, 5, 70);
     color: rgb(19, 5, 70);
@@ -90,7 +90,7 @@
 
     .skillContainer>div>h1 {
         font-size: 35px;
-        width: 100px;
+        width: fit-content;
     }
 
     .skillsBox {
@@ -130,7 +130,7 @@
 
     .skillContainer>div>h1 {
         font-size: 35px;
-        width: 100px;
+        width: fit-content;
     }
 
     .skillsBox {
@@ -173,7 +173,7 @@
 
     .skillContainer>div>h1 {
         font-size: 35px;
-        width: 100px;
+        width: fit-content;
     }
 
     .skillsBox {

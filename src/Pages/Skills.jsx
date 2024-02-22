@@ -7,7 +7,7 @@ export const Skills = () => {
   return (
     <div id="skills" className="nav-link skills">
       <div className="skillContainer">
-        <div><h1>Skills</h1></div>
+        <div><h1>Skills & Tools</h1></div>
         <div className="skillsBox">
           {
             SkillItems.map((skill, i) => {

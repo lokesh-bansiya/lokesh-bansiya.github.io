@@ -1,6 +1,7 @@
 import "../Styles/AboutMe.css";
 import React from "react";
 import { DownloadIcon } from "@chakra-ui/icons";
+import { Box, Text } from "@chakra-ui/react";
 
 export const AboutMe = () => {
 
@@ -47,6 +48,24 @@ export const AboutMe = () => {
             </div>
           </div>
         </div>
+        <Box p="5%" bg="white" mt="3%" pt="3%" display='flex' flexDirection="column">
+          <Text display="flex" justifyContent="center" p="1%" bg="#edf0ee" fontWeight={500} color="#0a0c82">PROFESSIONAL EXPERIENCE</Text>
+          <Box mt="1%">
+            <Box display="flex" flexWrap="wrap">
+              <Text as={"h6"} pr="1%" w='fit-content' color="black">MERN-Stack Developer</Text>
+              <Text as={"h6"} color="teal" w='fit-content'>{"( Webient Technologies )"}</Text>
+            </Box>
+            <Box mt="2%" justifyContent="left">
+              May 2023 – Nov 2023 | Gurgaon, Haryana Highly skilled MERN-Stack Developer with a proven track
+              record of success during a dedicated six-month tenure at
+              Webient Technologies in Gurgaon, Haryana. Proficient in
+              crafting robust admin panels tailored to the needs of various
+              applications, including Pink Apron, Ub-Factory, and The St
+              Lucian Hub-HubLA Admin Panel. Successfully executed a
+              significant web3 project leveraging React.js for Bitgert.
+            </Box>
+          </Box>
+        </Box>
       </div>
     </div>
   );
