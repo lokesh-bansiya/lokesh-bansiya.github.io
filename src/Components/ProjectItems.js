@@ -26,9 +26,69 @@ import { SiAmazonaws } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { PinkApron } from "./PinkApron";
 import { LiveStream } from "./LiveStream";
+import { Bitgert } from "./Bitgert";
 
 
 export const ProjectItems = [
+    {
+        "id": 0,
+        "title": "Bitgert",
+        "carousel": <Bitgert />,
+        "type": "Live Project",
+        "desc": "The real estate marketplace is an online platform that links clients with realtors, brokers, and property managers. Because a marketplace is multi-channel e-commerce, its primary function is facilitating seamless transactions and service exchange Tech-Stacks & Tools used: CSS, React.Js, Chakra UI, NPM, Blockchain, Web3, Thirdweb, VS-Code, GitHub.",
+        "teck_stacks": [
+            {
+                "img": css,
+                "name": "CSS"
+            },
+            {
+                "img": javascript,
+                "name": "JavaScript"
+            },
+            {
+                "img": vercel,
+                "name": "Vercel"
+            },
+            {
+                "img": react,
+                "name": "React.js"
+            },
+            {
+                "img": chakraui,
+                "name": "Chakra UI"
+            },
+            {
+                "img": nodejs,
+                "name": "Node.js"
+            },
+            {
+                "img": expressjs,
+                "name": "Express.js"
+            },
+            {
+                "icon": <SiAmazonaws color="blue" fontSize={'150%'} />,
+                "name": "AWS"
+            },
+            {
+                "img": mongodb,
+                "name": "Mongo DB"
+            },
+            {
+                "img": npm,
+                "name": "NPM"
+            },
+            {
+                "img": vscode,
+                "name": "VS-Code"
+            },
+            {
+                "img": github,
+                "name": "GitHub"
+            },
+        ],
+        "githubRepo": "",
+        "deployedLink": "https://realestate.bitgert.market/",
+    },
     {
         "id": 1,
         "title": "Live Streaming Admin Panel",
@@ -207,7 +267,7 @@ export const ProjectItems = [
         "title": "WebTaskit website",
         "carousel": <Webtaskit />,
         "type": "Collaborative Project",
-        "desc": " Here is the task tracking website in this website I worked in a team of 5 members And I made a dynamic task management functionality so that users can manage their tasks and can plan accordingly, On our website calendar events are also there with will help full for users to tack date and month planning as well.",
+        "desc": "Here is the task tracking website in this website I worked in a team of 5 members And I made a dynamic task management functionality so that users can manage their tasks and can plan accordingly, On our website calendar events are also there with will help full for users to tack date and month planning as well.",
         "teck_stacks": [
             {
                 "img": css,
@@ -438,7 +498,8 @@ export const ProjectItems = [
         "title": "beautybebo.com website",
         "carousel": <BeautyBebo />,
         "type": "Individual Project",
-        "desc": "Beauty Bebo is India's fastest-growing online retail store for day-to-day and special occasion needs of Makeup, Skincare, Hair care, Personal care, Mom and Baby care, Fragrance, and Ayurveda products. This is the clone of the beautybebo.com website (an e-commerce website) here I have implemented some functionality and the best UI of the original website.", "teck_stacks": [
+        "desc": "Beauty Bebo is India's fastest-growing online retail store for day-to-day and special occasion needs of Makeup, Skincare, Hair care, Personal care, Mom and Baby care, Fragrance, and Ayurveda products. This is the clone of the beautybebo.com website (an e-commerce website) here I have implemented some functionality and the best UI of the original website.",
+        "teck_stacks": [
             {
                 "img": html,
                 "name": "HTML"
