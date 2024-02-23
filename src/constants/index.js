@@ -815,6 +815,14 @@ export const SkillItems = [
           "name": "Chakra-UI"
      },
      {
+          "img": "assets/tailwindcss.png",
+          "name": "Tailwind"
+     },
+     {
+          "img": "assets/next-js.svg",
+          "name": "Next.js"
+     },
+     {
           "img": "assets/axios.png",
           "name": "Axios"
      },
