@@ -5,8 +5,6 @@ import { ProjectItems } from "../constants/index";
 
 export const Projects = () => {
 
-  console.log({ProjectItems});
-
   return (
     <div id="Projects" className="nav-link projects">
       <div className="projectsContainer">
