@@ -59,8 +59,9 @@ export const AboutMe = () => {
                     <Text as={"h6"} pr="1%" w='fit-content' color="black">{expItem.heading}</Text>
                     <Text as={"h6"} color="teal" w='fit-content'>{`( ${expItem.company} )`}</Text>
                   </Box>
-                  <Box mt="2%" justifyContent="left">
-                    <span style={{ marginRight: "2%" }}>{expItem.timePeriod}</span>{expItem.description}
+                  <Box justifyContent="left" display='flex' flexDir='column'>
+                    <span style={{ marginRight: "2%", color: "teal", marginBottom: '1%' }}>{expItem.timePeriod}</span>
+                    <div>{expItem.description}</div>
                   </Box>
                 </Box>
               )

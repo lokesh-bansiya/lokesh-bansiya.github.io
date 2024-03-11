@@ -899,7 +899,7 @@ export const Experience = [
           company: "Webient Technologies",
           role: "MERN-Stack Developer",
           timePeriod: "May 2023 – Nov 2023",
-          description: "Gurgaon, Haryana Highly skilled MERN-Stack Developer with a proven track record of success during a dedicated six-month tenure at Webient Technologies in Gurgaon, Haryana. Proficient in crafting robust admin panels tailored to the needs of various applications, including Pink Apron, Ub-Factory, and The St Lucian Hub-HubLA Admin Panel. Successfully executed a significant web3 project leveraging React.js for Bitgert.",
+          description: "Highly skilled MERN-Stack Developer with a proven track record of success during a dedicated six-month tenure at Webient Technologies in Gurgaon, Haryana. Proficient in crafting robust admin panels tailored to the needs of various applications, including Pink Apron, Ub-Factory, and The St Lucian Hub-HubLA Admin Panel. Successfully executed a significant web3 project leveraging React.js for Bitgert.",
 
      },
 ];
