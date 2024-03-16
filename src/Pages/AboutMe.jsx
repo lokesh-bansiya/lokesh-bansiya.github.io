@@ -22,10 +22,10 @@ export const AboutMe = () => {
             <img src="assets/img_about_me.webp" alt="developers img" />
           </div>
           <div className="MyDescription">
-            <h3 id="user-detail-name">My name is Lokesh Patidar</h3>
-            <h4>Mern-Stack developer</h4>
+            <h3 id="user-detail-name">My self Lokesh Patidar</h3>
+            {/* <h4>Mern-Stack developer</h4> */}
             <div className="aboutmeDetails" id="user-detail-intro">
-              I'm a passionate Full Stack Web developer skilled in MERN stack, who likes to do experiments, and is always ready to learn new things. I focus on writing clean, elegant, and efficient code. I have completed web development at Masai school. At Masai, I did 15 hours of daily coding and logic in data structure & algorithms with an aspiration to build new features ideation to production and implementation of frameworks design flows that enable users to have a seamless experience. I take into consideration writing reusable and efficient code. I have passionately combined good design, technology, and innovation in all my projects.
+              As a passionate Full Stack Web developer skilled in the <span style={{ color: "#05579e" }}>MERN-Stack</span>, I thrive on experimentation and continual learning. My journey includes completing web development at Masai School, where I dedicated myself to coding, logic in data structures & algorithms, and the development of new features from ideation to production. My focus lies in crafting clean, elegant, and efficient code, always prioritizing reusability and performance. Throughout my projects, I've seamlessly blended good design, technology, and innovation to deliver exceptional user experiences.
             </div>
             <div className="buttons">
               <button>

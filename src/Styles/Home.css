@@ -51,7 +51,7 @@
 h6 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
-  font-size: 100%;
+  font-size: 130%;
 }
 
 .profile-tag-line {
@@ -67,8 +67,9 @@ h6 {
   padding: 2% 3%;
   background-color: orangered;
   color: white;
+  font-size: larger;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 12px;
 }
 
 .highlighted-btn:hover {
@@ -86,8 +87,9 @@ h6 {
   cursor: pointer;
   background-color: white;
   color: black;
+  font-size: larger;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 12px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
@@ -134,7 +136,7 @@ h6 {
 .primary-text {
   font-family: 'Source Serif Pro', serif;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 50px;
   padding: 0%;
   margin: 0%;
   color: rgb(19, 5, 70);
@@ -480,6 +482,7 @@ h6 {
     font-size: 23px;
     background-color: rgb(29, 25, 25);
     color: rgb(250, 105, 1);
+    margin-bottom: -20px;
   }
 
   h6 {

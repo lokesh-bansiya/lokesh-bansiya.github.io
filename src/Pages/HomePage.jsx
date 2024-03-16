@@ -71,12 +71,12 @@ const HomePage = () => {
                                         />
                                     </>
                                 </span>
-                                <span className="profile-tag-line">
+                                {/* <span className="profile-tag-line">
                                     I am a MERN-Stack (MongoDB, Express, React, Node), I have completed Full Stack Web Development at Masai School Bangaluru, KARNATAKA
-                                </span>
+                                </span> */}
                             </div>
 
-                            <div>
+                            <div className='buttonBackground'>
                                 <a href='#contactSection'><button className="btn primary-btn"> Hire Me </button></a>
                                 <a
                                     target="_blank"
