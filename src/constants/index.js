@@ -883,7 +883,7 @@ export const Experience = [
           company: "Freelance",
           role: "Full-Stack Developer",
           timePeriod: "February 2024 - Present",
-          description: "Contributed to the maintenance of Accpal, an accountant software, maintinace work of five modules worked on both frontend and backend functionalities ensuring its stability and reliability. Engaged in debugging and troubleshooting to address issues promptly and efficiently.",
+          description: "Contributed to the maintenance of Accpal, an accountant software, maintenance work of five modules worked on both frontend and backend functionalities ensuring its stability and reliability. Engaged in debugging and troubleshooting to address issues promptly and efficiently.",
      },
      {
           id: 2,
@@ -899,7 +899,7 @@ export const Experience = [
           company: "Webient Technologies",
           role: "MERN-Stack Developer",
           timePeriod: "May 2023 – Nov 2023",
-          description: "Highly skilled MERN-Stack Developer with a proven track record of success during a dedicated six-month tenure at Webient Technologies in Gurgaon, Haryana. Proficient in crafting robust admin panels tailored to the needs of various applications, including Pink Apron, Ub-Factory, and The St Lucian Hub-HubLA Admin Panel. Successfully executed a significant web3 project leveraging React.js for Bitgert.",
+          description: "Highly skilled MERN-Stack Developer with a proven track record of success during a dedicated seven-month tenure at Webient Technologies in Gurgaon, Haryana. Proficient in crafting robust admin panels tailored to the needs of various applications, including Pink Apron, Ub-Factory, and The St Lucian Hub-HubLA Admin Panel. Successfully executed a significant web3 project leveraging React.js for Bitgert.",
 
      },
 ];
