@@ -17,10 +17,10 @@ const Navbar = () => {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
 
   const onClickhandler = () => {
-    return window.open(
-      "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
-      "_blank"
-    );
+    // return window.open(
+    //   "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
+    //   "_blank"
+    // );
   };
 
   const updateMenu = () => {
