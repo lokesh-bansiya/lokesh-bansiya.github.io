@@ -879,18 +879,18 @@ export const SkillItems = [
 export const Experience = [
      {
           id: 1,
-          heading: "Accpal",
-          company: "Freelance",
+          heading: "Codeformers",
+          company: "Part-time",
           role: "Full-Stack Developer",
-          timePeriod: "February 2024 - Present",
+          timePeriod: "Feb 2024 - Present",
           description: "Contributed to the maintenance of Accpal, an accountant software, maintenance work of five modules worked on both frontend and backend functionalities ensuring its stability and reliability. Engaged in debugging and troubleshooting to address issues promptly and efficiently.",
      },
      {
           id: 2,
-          heading: "Dashmed-web",
-          company: "Freelance",
+          heading: "Dashmed",
+          company: "Part-time",
           role: "Frontend Developer",
-          timePeriod: "Dec 2023 - Feb 2024",
+          timePeriod: "Dec 2023 - Present",
           description: "Implemented authentication features for Dashmed-web using Next.js, enhancing user authentication flow and experience. Collaborated with the team to ensure seamless integration of frontend components with backend functionalities.",
      },
      {
