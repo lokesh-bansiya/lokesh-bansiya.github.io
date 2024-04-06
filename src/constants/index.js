@@ -879,16 +879,16 @@ export const SkillItems = [
 export const Experience = [
      {
           id: 1,
-          heading: "Codeformers",
-          company: "Part-time",
+          heading: "Full-Stack Developer",
+          company: "Codeformers",
           role: "Full-Stack Developer",
           timePeriod: "Feb 2024 - Present",
           description: "Contributed to the maintenance of Accpal, an accountant software, maintenance work of five modules worked on both frontend and backend functionalities ensuring its stability and reliability. Engaged in debugging and troubleshooting to address issues promptly and efficiently.",
      },
      {
           id: 2,
-          heading: "Dashmed",
-          company: "Part-time",
+          heading: "Frontend Developer",
+          company: "Dashmed",
           role: "Frontend Developer",
           timePeriod: "Dec 2023 - Present",
           description: "Implemented authentication features for Dashmed-web using Next.js, enhancing user authentication flow and experience. Collaborated with the team to ensure seamless integration of frontend components with backend functionalities.",
