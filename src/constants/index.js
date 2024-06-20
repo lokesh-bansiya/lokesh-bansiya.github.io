@@ -607,7 +607,7 @@ export const ProjectItems = [
       },
     ],
     githubRepo: "https://github.com/lokesh-patidar/GroceryMarket",
-    deployedLink: "https://web-taskit-kan3.vercel.app/",
+    deployedLink: "https://grocery-market-neon.vercel.app/",
   },
   {
     id: 9,
