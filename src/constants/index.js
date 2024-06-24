@@ -965,7 +965,7 @@ export const Experience = [
     heading: "Frontend Developer",
     company: "Dashmed",
     role: "Frontend Developer",
-    timePeriod: "Dec 2023 - Present",
+    timePeriod: "Dec 2023 - Feb 2024",
     description:
       "Implemented authentication features for Dashmed-web using Next.js, enhancing user authentication flow and experience. Collaborated with the team to ensure seamless integration of frontend components with backend functionalities.",
   },
