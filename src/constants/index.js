@@ -956,27 +956,41 @@ export const Experience = [
     heading: "Full-Stack Developer",
     company: "Codeformers",
     role: "Full-Stack Developer",
-    timePeriod: "Feb 2024 - Present",
-    description:
-      "Contributed to the development of Accpal, an accounting software, and worked on modules like Clients, Quotes, Binding (Quality Control), Tax clearance, Income tax, Assessment, Objection, Correspondence, Tax dashboard and Secretarial section, both frontend and backend functionalities ensuring its stability and reliability. Engaged in debugging and troubleshooting to address issues promptly and efficiently.",
+    timePeriod: "Dec 2023 - Present",
+    description: [
+      "Oversaw maintenance of Accpal, ensuring stability and reliability through proactive management and effective troubleshooting.",
+      "Contributed to both frontend and backend functionalities in Accpal, showcasing versatility and proficiency across the software development stack.",
+      "Utilized debugging and troubleshooting techniques to promptly resolve issues, ensuring seamless functionality and user satisfaction in Accpal.",
+      // "Contributed to the development of Accpal, an accounting software, and worked on modules like Clients, Quotes, Binding (Quality Control), Tax clearance, Income tax, Assessment, Objection, Correspondence, Tax dashboard and Secretarial section, both frontend and backend functionalities ensuring its stability and reliability. Engaged in debugging and troubleshooting to address issues promptly and efficiently.",
+    ],
   },
   {
     id: 2,
-    heading: "Frontend Developer",
-    company: "Dashmed",
-    role: "Frontend Developer",
-    timePeriod: "Dec 2023 - Feb 2024",
-    description:
-      "Implemented authentication features for Dashmed-web using Next.js, enhancing user authentication flow and experience. Collaborated with the team to ensure seamless integration of frontend components with backend functionalities.",
-  },
-  {
-    id: 3,
     heading: "MERN-Stack Developer",
     company: "Webient Technologies",
     role: "MERN-Stack Developer",
-    timePeriod: "May 2022 – Nov 2023",
-    description:
-      "Highly skilled MERN-Stack Developer with a proven track record of success during a dedicated seven-month tenure at Webient Technologies in Gurgaon, Haryana. Proficient in crafting robust admin panels tailored to the needs of various applications, including Pink Apron, Ub-Factory, and The St Lucian Hub-HubLA Admin Panel. Successfully executed a significant web3 project leveraging React.js for Bitgert.",
+    timePeriod: "May 2023 – Nov 2023",
+    description: [
+      "Developed robust admin panels for Pink Apron, Ub-Factory, and The St. Lucian Hub-HubLA Admin Panel, showcasing proficiency in software development.",
+      "Created a live streaming application utilizing the MERN Stack, demonstrating comprehensive expertise in full-stack development.",
+      "Executed a significant web3 project using React.js for Bitgert, showcasing advanced skills in modern web technologies.",
+      // "Highly skilled MERN-Stack Developer with a proven track record of success during a dedicated seven-month tenure at Webient Technologies in Gurgaon, Haryana. Proficient in crafting robust admin panels tailored to the needs of various applications, including Pink Apron, Ub-Factory, and The St Lucian Hub-HubLA Admin Panel. Successfully executed a significant web3 project leveraging React.js for Bitgert.",
+    ],
+  },
+  {
+    id: 3,
+    heading: "MERN-Stack Developer / Frontend Developer",
+    company: "Dashmed",
+    role: "MERN-Stack Developer / Frontend Developer",
+    timePeriod: "Apr 2022 – May 2023",
+    description: [
+      "Implemented authentication features within Dashmed using Next.js, enhancing user authentication flow and overall experience.",
+      "Developed and maintained web applications using MongoDB, Express.js, React, and Node.js",
+      "Assisted in designing and implementing RESTful APIs",
+      "Collaborated with UI/UX designers to create responsive and user-friendly interfaces",
+      "Debugged and optimized code for improved performance",
+      "Participated in code reviews and team meetings to ensure project alignment",
+    ],
   },
   // {
   //      id: 4,

@@ -70,6 +70,11 @@ h6 {
   font-size: larger;
   font-weight: bold;
   border-radius: 12px;
+
+
+  animation: shake 3s infinite;
+  animation-direction: alternate;
+  transform: skew(1deg);
 }
 
 .highlighted-btn:hover {
@@ -91,6 +96,10 @@ h6 {
   font-weight: bold;
   border-radius: 12px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+
+  animation: shake 3s infinite;
+  animation-direction: alternate;
+  transform: skew(1deg);
 }
 
 .primary-btn:hover {
@@ -112,6 +121,7 @@ h6 {
   cursor: pointer;
   border-radius: 50%;
   margin: 0px 0px 0px 25px;
+
 }
 
 .profile-picture-background {
@@ -176,6 +186,16 @@ h6 {
   transition: 0.5s ease-in;
 }
 
+
+@keyframes shake {
+  0% {
+    transform: skewY(2deg);
+  }
+
+  100% {
+    transform: skewY(-2deg);
+  }
+}
 
 
 @media all and (min-width: 1501px) and (max-width: 2000px) {

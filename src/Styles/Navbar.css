@@ -42,11 +42,11 @@
 }
 
 .nav>div {
-    border: 1px solid rgb(247, 5, 5);
+    /* border: 1px solid rgb(247, 5, 5); */
     cursor: pointer;
     background-color: white;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     display: block;
     text-align: center;
     padding-top: 5%;

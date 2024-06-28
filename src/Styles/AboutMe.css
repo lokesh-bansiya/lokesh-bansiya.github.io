@@ -65,6 +65,10 @@
     border: 1px solid rgb(4, 0, 3);
     border-radius: 5px;
     font-weight: bolder;
+
+    animation: shake 3s infinite;
+    animation-direction: alternate;
+    transform: skew(1deg);
 }
 
 .aboutMeContainer .aboutMeDecription .MyDescription>.buttons>button:hover {
@@ -97,6 +101,17 @@
     margin-top: 1%;
     text-align: justify;
     font-weight: 500;
+}
+
+
+@keyframes shake {
+    0% {
+        transform: skewY(2deg);
+    }
+
+    100% {
+        transform: skewY(-2deg);
+    }
 }
 
 @media all and (min-width: 701px) and (max-width: 1000px) {
