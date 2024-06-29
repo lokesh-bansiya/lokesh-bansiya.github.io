@@ -1,12 +1,12 @@
-import './App.css';
-import HomePage from './Pages/HomePage';
+import "./App.css";
+import HomePage from "./Pages/HomePage";
 import Navbar from "./Pages/Navbar";
-import { Projects } from './Pages/Projects';
+import { Projects } from "./Pages/Projects";
 import { AboutMe } from "./Pages/AboutMe";
-import { Skills } from './Pages/Skills';
-import { Calendar } from './GitHub/Calendar';
-import { Stats } from './GitHub/Stats';
-import { Contact } from './Pages/Contact';
+import { Skills } from "./Pages/Skills";
+import { Calendar } from "./GitHub/Calendar";
+import { Stats } from "./GitHub/Stats";
+import { Contact } from "./Pages/Contact";
 
 function App() {
   return (
@@ -25,13 +25,13 @@ function App() {
         <Stats />
         <Calendar />
       </section>
-      <section id="projects" >
+      <section id="projects">
         <Projects />
       </section>
       <section id="contact">
         <Contact />
       </section>
-      
+
       <a
         href="https://wa.me/+919993977820"
         className="whatsapp_float"

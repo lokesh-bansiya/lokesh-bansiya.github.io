@@ -32,9 +32,8 @@ export const AboutMe = () => {
               structures & algorithms, and developing new features from ideation
               to production. My focus lies in crafting clean, elegant, and
               efficient code, always prioritizing reusability and performance.
-              Throughout my projects, I've seamlessly blended good design,
-              technology, and innovation to deliver exceptional user
-              experiences.
+              I've seamlessly blended good design, technology, and innovation
+              throughout my projects to deliver exceptional user experiences.
             </div>
             <div className="buttons">
               <button>

@@ -223,7 +223,7 @@ export const ProjectItems = [
         name: "GitHub",
       },
     ],
-    githubRepo: "https://github.com/lokesh-patidar/QuantumApp",
+    githubRepo: "https://github.com/lokesh-bansiya/QuantumApp",
     deployedLink: "https://quantum-app-pink.vercel.app/",
   },
   {
@@ -270,7 +270,7 @@ export const ProjectItems = [
         name: "GitHub",
       },
     ],
-    githubRepo: "https://github.com/lokesh-patidar/GitStar",
+    githubRepo: "https://github.com/lokesh-bansiya/GitStar",
     deployedLink: "https://git-star-six.vercel.app/",
   },
   {
@@ -309,7 +309,7 @@ export const ProjectItems = [
         name: "GitHub",
       },
     ],
-    githubRepo: "https://github.com/lokesh-patidar/beautybebo.com",
+    githubRepo: "https://github.com/lokesh-bansiya/beautybebo.com",
     deployedLink: "https://beautybebo-website-clone.netlify.app/",
   },
   {
@@ -350,8 +350,8 @@ export const ProjectItems = [
         name: "GitHub",
       },
     ],
-    githubRepo: "https://github.com/lokesh-patidar/Assessment_test_quiz-App",
-    deployedLink: "https://quiz-app-lokesh-patidar.vercel.app/",
+    githubRepo: "https://github.com/lokesh-bansiya/Assessment_test_quiz-App",
+    deployedLink: "https://quiz-app-lokesh-bansiya.vercel.app/",
   },
   {
     id: 4,
@@ -406,7 +406,7 @@ export const ProjectItems = [
       },
     ],
     githubRepo:
-      "https://github.com/lokesh-patidar/Figmatic_LLP/tree/main/Assignment-1",
+      "https://github.com/lokesh-bansiya/Figmatic_LLP/tree/main/Assignment-1",
     deployedLink: "https://figmatic-llp-legz.vercel.app",
   },
   {
@@ -441,7 +441,7 @@ export const ProjectItems = [
         name: "GitHub",
       },
     ],
-    githubRepo: "https://github.com/lokesh-patidar/getharvest.com",
+    githubRepo: "https://github.com/lokesh-bansiya/getharvest.com",
     deployedLink: "https://getharvest-com.vercel.app/",
   },
   {
@@ -496,7 +496,7 @@ export const ProjectItems = [
         name: "GitHub",
       },
     ],
-    githubRepo: "https://github.com/lokesh-patidar/pharmeasy.in",
+    githubRepo: "https://github.com/lokesh-bansiya/pharmeasy.in",
     deployedLink: "https://pharmeasy-in.vercel.app/",
   },
   {
@@ -547,7 +547,7 @@ export const ProjectItems = [
         name: "Redux",
       },
     ],
-    githubRepo: "https://github.com/lokesh-patidar/WebTaskit",
+    githubRepo: "https://github.com/lokesh-bansiya/WebTaskit",
     deployedLink: "https://web-taskit-ynzg.vercel.app/",
   },
   {
@@ -606,7 +606,7 @@ export const ProjectItems = [
         name: "GitHub",
       },
     ],
-    githubRepo: "https://github.com/lokesh-patidar/GroceryMarket",
+    githubRepo: "https://github.com/lokesh-bansiya/GroceryMarket",
     deployedLink: "https://grocery-market-neon.vercel.app/",
   },
   {
