@@ -26,7 +26,7 @@ export const AboutMe = () => {
             <div className="aboutmeDetails" id="user-detail-intro">
               As a passionate Full Stack Web Developer skilled in the{" "}
               <span style={{ color: "#05579e" }}>MERN-Stack</span> with more
-              than 2 years of experience, I thrive on experimentation and
+              than 3 years of experience, I thrive on experimentation and
               continual learning. My journey includes completing web development
               at Masai School, where I dedicated myself to coding, logic in data
               structures & algorithms, and developing new features from ideation
