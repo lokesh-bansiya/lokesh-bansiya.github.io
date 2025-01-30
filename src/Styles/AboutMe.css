@@ -14,10 +14,10 @@
     color: rgb(19, 5, 70);
 }
 
-.aboutMeDecription {
+.aboutMeDescription {
     margin: auto;
     margin-top: 3%;
-    width: 85%;
+    width: 90%;
     border-radius: 20px;
     background-color: whitesmoke;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -26,13 +26,13 @@
     padding-right: 3%;
 }
 
-.aboutMeDecription:hover {
+.aboutMeDescription:hover {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     transform: scale(1.03);
     transition: 0.5s ease-in;
 }
 
-.aboutMeContainer .aboutMeDecription .MyDescription>h3 {
+.aboutMeContainer .aboutMeDescription .MyDescription>h3 {
     font-size: 30px;
     margin-bottom: 0.5%;
     padding-bottom: 0.5%;
@@ -40,23 +40,23 @@
     color: rgb(95, 7, 7);
 }
 
-.aboutMeContainer .aboutMeDecription .MyDescription>h4 {
+.aboutMeContainer .aboutMeDescription .MyDescription>h4 {
     font-size: 25px;
     margin: 0.2%;
     padding: 0.2%;
 }
 
-.aboutMeContainer .aboutMeDecription .MyDescription>.buttons {
+.aboutMeContainer .aboutMeDescription .MyDescription>.buttons {
     display: flex;
-    padding: 3%;
+    padding: 0.5%;
 }
 
-.aboutMeContainer .aboutMeDecription .MyDescription>.buttons>button>a {
+.aboutMeContainer .aboutMeDescription .MyDescription>.buttons>button>a {
     text-decoration: none;
     color: inherit;
 }
 
-.aboutMeContainer .aboutMeDecription .MyDescription>.buttons>button {
+.aboutMeContainer .aboutMeDescription .MyDescription>.buttons>button {
     padding: 1% 2% 1% 2%;
     margin: 2%;
     background-color: rgb(130, 19, 19);
@@ -65,13 +65,12 @@
     border: 1px solid rgb(4, 0, 3);
     border-radius: 5px;
     font-weight: bolder;
-
     animation: shake 3s infinite;
     animation-direction: alternate;
     transform: skew(1deg);
 }
 
-.aboutMeContainer .aboutMeDecription .MyDescription>.buttons>button:hover {
+.aboutMeContainer .aboutMeDescription .MyDescription>.buttons>button:hover {
     background-color: rgb(245, 249, 249);
     color: rgb(123, 1, 86);
     transform: scale(1.06);
@@ -92,15 +91,16 @@
 }
 
 .MyDescription {
-    width: 70%;
-    padding: 3%;
+    /* width: 70%; */
+    width: 100%;
+    padding: 1%;
 }
 
-.aboutmeDetails {
+.aboutMeDetails {
     padding-left: 0.2%;
     margin-top: 1%;
     text-align: justify;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -128,11 +128,11 @@
         margin-bottom: 5%;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>h3 {
+    .aboutMeContainer .aboutMeDescription .MyDescription>h3 {
         font-size: 25px;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>h4 {
+    .aboutMeContainer .aboutMeDescription .MyDescription>h4 {
         font-size: 20px;
     }
 
@@ -148,12 +148,7 @@
         border-radius: 5px;
     }
 
-    .MyDescription {
-        width: 70%;
-        padding: 3%;
-    }
-
-    .aboutmeDetails {
+    .aboutMeDetails {
         padding-left: 0.2%;
         margin-top: 1%;
         font-weight: 400;
@@ -176,17 +171,17 @@
         margin-bottom: 5%;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>h3 {
+    .aboutMeContainer .aboutMeDescription .MyDescription>h3 {
         font-size: 130%;
         margin: 2%;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>h4 {
+    .aboutMeContainer .aboutMeDescription .MyDescription>h4 {
         font-size: 20px;
         margin-bottom: 2%;
     }
 
-    .aboutMeDecription {
+    .aboutMeDescription {
         display: flex;
         padding: auto;
         padding-top: 4%;
@@ -207,17 +202,15 @@
         border-radius: 5px;
     }
 
-
     .MyDescription {
         width: fit-content;
-        padding: 3%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
 
-    .aboutmeDetails {
+    .aboutMeDetails {
         font-weight: 400;
         margin: auto;
         margin-top: 1%;
@@ -225,7 +218,7 @@
         font-size: 13px;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>.buttons {
+    .aboutMeContainer .aboutMeDescription .MyDescription>.buttons {
         display: flex;
         padding: 3%;
         width: 60%;
@@ -234,13 +227,13 @@
         justify-content: space-around;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>.buttons>button {
+    .aboutMeContainer .aboutMeDescription .MyDescription>.buttons>button {
         padding: 2% 3% 2% 3%;
         margin: 2%;
         font-size: 20px;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>.buttons>button:hover {
+    .aboutMeContainer .aboutMeDescription .MyDescription>.buttons>button:hover {
         background-color: rgb(27, 139, 130);
         color: rgb(244, 237, 242);
     }
@@ -262,17 +255,17 @@
         margin-bottom: 5%;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>h3 {
+    .aboutMeContainer .aboutMeDescription .MyDescription>h3 {
         font-size: 100%;
         margin: 2%;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>h4 {
+    .aboutMeContainer .aboutMeDescription .MyDescription>h4 {
         font-size: 12px;
         margin-bottom: 2%;
     }
 
-    .aboutMeDecription {
+    .aboutMeDescription {
         display: flex;
         padding: auto;
         padding-top: 4%;
@@ -303,7 +296,7 @@
         flex-direction: column;
     }
 
-    .aboutmeDetails {
+    .aboutMeDetails {
         font-weight: 400;
         margin: auto;
         margin-top: 1%;
@@ -311,7 +304,7 @@
         font-size: 11px;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>.buttons {
+    .aboutMeContainer .aboutMeDescription .MyDescription>.buttons {
         display: flex;
         padding: 3%;
         width: 60%;
@@ -320,13 +313,13 @@
         justify-content: space-around;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>.buttons>button {
+    .aboutMeContainer .aboutMeDescription .MyDescription>.buttons>button {
         padding: 2% 3% 2% 3%;
         margin: 2%;
         font-size: 15px;
     }
 
-    .aboutMeContainer .aboutMeDecription .MyDescription>.buttons>button:hover {
+    .aboutMeContainer .aboutMeDescription .MyDescription>.buttons>button:hover {
         background-color: rgb(27, 139, 130);
         color: rgb(244, 237, 242);
     }

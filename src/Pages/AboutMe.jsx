@@ -16,15 +16,15 @@ export const AboutMe = () => {
     <div id="aboutMe" className="nav-link about">
       <div className="aboutMeContainer">
         <h1>About Me</h1>
-        <div className="aboutMeDecription">
-          <div className="developerImage">
+        <div className="aboutMeDescription">
+          {/* <div className="developerImage">
             <img src="assets/img_about_me.webp" alt="developers img" />
-          </div>
+          </div> */}
           <div className="MyDescription">
             <h3 id="user-detail-name">My self Lokesh Patidar</h3>
             {/* <h4>Mern-Stack developer</h4> */}
-            <div className="aboutmeDetails" id="user-detail-intro">
-              As a passionate Full Stack Web Developer skilled in the{" "}
+            <div className="aboutMeDetails" id="user-detail-intro">
+              {/* As a passionate Full Stack Web Developer skilled in the{" "}
               <span style={{ color: "#05579e" }}>MERN-Stack</span> with more
               than 3 years of experience, I thrive on experimentation and
               continual learning. My journey includes completing web development
@@ -33,7 +33,61 @@ export const AboutMe = () => {
               to production. My focus lies in crafting clean, elegant, and
               efficient code, always prioritizing reusability and performance.
               I've seamlessly blended good design, technology, and innovation
-              throughout my projects to deliver exceptional user experiences.
+              throughout my projects to deliver exceptional user experiences. */}
+              A highly skilled MERN-Stack / Full Stack Developer with 3 years of
+              hands-on experience specializing in building dynamic, scalable,
+              and efficient web applications. My technology journey began with a
+              strong foundation in science, leading me to an intensive
+              full-stack development program at Masai School, where I mastered
+              MongoDB, Express.js, React.js, and Node.js through 1200+ hours of
+              coding and problem-solving.
+              <p>
+                Over the years, I have contributed to diverse projects,
+                including:
+              </p>
+              <ol>
+                <li>
+                  <span style={{ color: "#05579e" }}>Bitgert – </span>A real
+                  estate marketplace.
+                </li>
+                <li>
+                  <span style={{ color: "#05579e" }}>Zupport – </span>A customer
+                  support solution.
+                </li>
+                <li>
+                  <span style={{ color: "#05579e" }}>
+                    Order & Management –{" "}
+                  </span>{" "}
+                  A streamlined order management system.
+                </li>
+                <li>
+                  <span style={{ color: "#05579e" }}>Pink Apron – </span>An
+                  admin panel for efficient business management.
+                </li>
+              </ol>
+              <p>
+                Currently, I am a MERN-Stack Developer at{" "}
+                <span style={{ color: "#05579e" }}>Codeformers</span>, where I
+                have been instrumental in developing{" "}
+                <span style={{ color: "#05579e" }}>Accpal</span>—a cutting-edge
+                digital solution for automating Tax, Secretarial, and Financial
+                Quality Control processes. This system enhances operational
+                efficiency through automated workflows, real-time financial
+                updates, and proactive compliance management.
+              </p>
+              <p>
+                Beyond professional endeavours, I am continuously enhancing my
+                expertise and am currently pursuing a Bachelor of Computer
+                Applications (BCA) from Amity University, Noida. Passionate
+                about innovation, I thrive on solving complex problems and
+                delivering high-quality, user-centric applications.
+              </p>
+              <p>
+                I am always eager to explore new challenges, optimize workflows,
+                and contribute to impactful projects in the ever-evolving tech
+                landscape.
+              </p>
+              <p>📩 Let’s connect and build something amazing together!</p>
             </div>
             <div className="buttons">
               <button>

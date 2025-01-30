@@ -6,7 +6,7 @@ export default function CarouselSlider({ projectImgArr }) {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 4000,
+    speed: 10000,
     autoplaySpeed: 5,
     slidesToShow: 1,
     slidesToScroll: 1,
