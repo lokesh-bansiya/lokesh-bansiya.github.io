@@ -22,7 +22,7 @@ export const Projects = () => {
                   carousel={el.carousel}
                   type={el.type}
                   desc={el.desc}
-                  teck_stacks={el.teck_stacks}
+                  tech_stacks={el.tech_stacks}
                   githubRepo={el.githubRepo}
                   deployedLink={el.deployedLink}
                 />

@@ -21,7 +21,8 @@ export default function CarouselSlider({ projectImgArr }) {
             <Image
               width="100%"
               height="100%"
-              src={`/carousel-images/${el.img}`}
+              // src={`/carousel-images/${el.img}`}
+              src={el.img}
             />
           </div>
         );

@@ -8,7 +8,7 @@ const ProjectItem = ({
   carousel,
   type,
   desc,
-  teck_stacks,
+  tech_stacks,
   githubRepo,
   deployedLink,
 }) => {
@@ -39,12 +39,12 @@ const ProjectItem = ({
             <div className="tech-stacks">
               <h3>Tech-Stacks & Tools used</h3>
               <div>
-                {teck_stacks.map((elem, i) => {
+                {tech_stacks?.map((elem, i) => {
                   return (
                     <div className="languages" key={i}>
                       {elem?.img ? (
                         <div>
-                          <img src={elem.img} alt={elem.name} />
+                          <img src={elem?.img} alt={elem.name} />
                         </div>
                       ) : (
                         <Box m={"auto"}>{elem.icon}</Box>
