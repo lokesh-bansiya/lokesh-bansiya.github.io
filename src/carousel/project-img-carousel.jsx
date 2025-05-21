@@ -17,12 +17,11 @@ export default function CarouselSlider({ projectImgArr }) {
     <Slider {...settings}>
       {projectImgArr?.map((el) => {
         return (
-          <div key={el.img}>
+          <div key={el?.img}>
             <Image
               width="100%"
               height="100%"
-              // src={`/carousel-images/${el.img}`}
-              src={el.img}
+              src={`/carousel-images/${el.img}`}
             />
           </div>
         );

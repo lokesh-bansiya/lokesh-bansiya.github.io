@@ -12,433 +12,433 @@ import CarouselSlider from "../carousel/project-img-carousel";
 
 export const accpalProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal1.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal2.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal3.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal4.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal5.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal6.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal7.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal8.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal9.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal10.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal11.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal12.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal13.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal14.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal15.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal16.png?raw=true",
+    img: "accpal1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/accpal17.png?raw=true",
+    img: "accpal1.png",
   },
 ];
 
 export const bitgertProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/bitgert1.png?raw=true",
+    img: "bitgert1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/bitgert2.png?raw=true",
+    img: "bitgert2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/bitgert3.png?raw=true",
+    img: "bitgert3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/bitgert4.png?raw=true",
+    img: "bitgert4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/bitgert5.png?raw=true",
+    img: "bitgert5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/bitgert6.png?raw=true",
+    img: "bitgert6.png",
   },
 ];
 
 export const assessmentTestProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/assessment1.png?raw=true",
+    img: "assessment1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/assessment2.png?raw=true",
+    img: "assessment2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/assessment3.png?raw=true",
+    img: "assessment3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/assessment4.png?raw=true",
+    img: "assessment4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/assessment5.png?raw=true",
+    img: "assessment5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/assessment6.png?raw=true",
+    img: "assessment6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/assessment7.png?raw=true",
+    img: "assessment7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/assessment8.png?raw=true",
+    img: "assessment8.png",
   },
 ];
 
 export const beautybeboProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/beautybebo1.png?raw=true",
+    img: "beautybebo1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/beautybebo2.png?raw=true",
+    img: "beautybebo2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/beautybebo3.png?raw=true",
+    img: "beautybebo3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/beautybebo4.png?raw=true",
+    img: "beautybebo4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/beautybebo5.png?raw=true",
+    img: "beautybebo5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/beautybebo6.png?raw=true",
+    img: "beautybebo6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/beautybebo7.png?raw=true",
+    img: "beautybebo7.png",
   },
 ];
 
 export const figmaticProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/figmatic1.png?raw=true",
+    img: "figmatic1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/figmatic2.png?raw=true",
+    img: "figmatic2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/figmatic3.png?raw=true",
+    img: "figmatic3.png",
   },
 ];
 
 export const gitStarProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/gitStar1.png?raw=true",
+    img: "gitStar1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/gitStar2.png?raw=true",
+    img: "gitStar2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/gitStar3.png?raw=true",
+    img: "gitStar3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/gitStar4.png?raw=true",
+    img: "gitStar4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/gitStar5.png?raw=true",
+    img: "gitStar5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/gitStar6.png?raw=true",
+    img: "gitStar6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/gitStar7.png?raw=true",
+    img: "gitStar7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/gitStar8.png?raw=true",
+    img: "gitStar8.png",
   },
 ];
 
 export const groceryProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery1.png?raw=true",
+    img: "grocery1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery2.png?raw=true",
+    img: "grocery2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery3.png?raw=true",
+    img: "grocery3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery4.png?raw=true",
+    img: "grocery4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery5.png?raw=true",
+    img: "grocery5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery6.png?raw=true",
+    img: "grocery6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery7.png?raw=true",
+    img: "grocery7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery8.png?raw=true",
+    img: "grocery8.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery9.png?raw=true",
+    img: "grocery9.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/grocery10.png?raw=true",
+    img: "grocery10.png",
   },
 ];
 
 export const harvestProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest1.png?raw=true",
+    img: "harvest1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest2.png?raw=true",
+    img: "harvest2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest3.png?raw=true",
+    img: "harvest3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest4.png?raw=true",
+    img: "harvest4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest5.png?raw=true",
+    img: "harvest5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest6.png?raw=true",
+    img: "harvest6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest7.png?raw=true",
+    img: "harvest7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest8.png?raw=true",
+    img: "harvest8.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest9.png?raw=true",
+    img: "harvest9.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest10.png?raw=true",
+    img: "harvest10.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest11.png?raw=true",
+    img: "harvest11.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/harvest12.png?raw=true",
+    img: "harvest12.png",
   },
 ];
 
 export const liveStreamProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-1.png?raw=true",
+    img: "liveStream-1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-2.png?raw=true",
+    img: "liveStream-2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-3.png?raw=true",
+    img: "liveStream-3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-4.png?raw=true",
+    img: "liveStream-4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-5.png?raw=true",
+    img: "liveStream-5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-6.png?raw=true",
+    img: "liveStream-6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-7.png?raw=true",
+    img: "liveStream-7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-8.png?raw=true",
+    img: "liveStream-8.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-9.png?raw=true",
+    img: "liveStream-9.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-10.png?raw=true",
+    img: "liveStream-10.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-11.png?raw=true",
+    img: "liveStream-11.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/liveStream-12.png?raw=true",
+    img: "liveStream-12.png",
   },
 ];
 
 export const pharmaProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma1.png?raw=true",
+    img: "pharma1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma2.png?raw=true",
+    img: "pharma2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma3.png?raw=true",
+    img: "pharma3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma4.png?raw=true",
+    img: "pharma4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma5.png?raw=true",
+    img: "pharma5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma6.png?raw=true",
+    img: "pharma6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma7.png?raw=true",
+    img: "pharma7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma8.png?raw=true",
+    img: "pharma8.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma9.png?raw=true",
+    img: "pharma9.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pharma10.png?raw=true",
+    img: "pharma10.png",
   },
 ];
 
 export const pinkapronProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-1.png?raw=true",
+    img: "pinkapron-1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-2.png?raw=true",
+    img: "pinkapron-2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-3.png?raw=true",
+    img: "pinkapron-3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-20.png?raw=true",
+    img: "pinkapron-20.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-5.png?raw=true",
+    img: "pinkapron-5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-6.png?raw=true",
+    img: "pinkapron-6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-7.png?raw=true",
+    img: "pinkapron-7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-8.png?raw=true",
+    img: "pinkapron-8.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-9.png?raw=true",
+    img: "pinkapron-9.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-10.png?raw=true",
+    img: "pinkapron-10.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-11.png?raw=true",
+    img: "pinkapron-11.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-12.png?raw=true",
+    img: "pinkapron-12.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-13.png?raw=true",
+    img: "pinkapron-13.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-14.png?raw=true",
+    img: "pinkapron-14.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-15.png?raw=true",
+    img: "pinkapron-15.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/pinkapron-16.png?raw=true",
+    img: "pinkapron-16.png",
   },
 ];
 
 export const webTaskitProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit1.png?raw=true",
+    img: "webtaskit1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit2.png?raw=true",
+    img: "webtaskit2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit3.png?raw=true",
+    img: "webtaskit3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit4.png?raw=true",
+    img: "webtaskit4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit5.png?raw=true",
+    img: "webtaskit5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit6.png?raw=true",
+    img: "webtaskit6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit7.png?raw=true",
+    img: "webtaskit7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit8.png?raw=true",
+    img: "webtaskit8.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit9.png?raw=true",
+    img: "webtaskit9.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/webtaskit10.png?raw=true",
+    img: "webtaskit10.png",
   },
 ];
 
 export const quantumProjectImages = [
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum1.png?raw=true",
+    img: "quantum1.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum2.png?raw=true",
+    img: "quantum2.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum3.png?raw=true",
+    img: "quantum3.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum4.png?raw=true",
+    img: "quantum4.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum5.png?raw=true",
+    img: "quantum5.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum6.png?raw=true",
+    img: "quantum6.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum7.png?raw=true",
+    img: "quantum7.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum8.png?raw=true",
+    img: "quantum8.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum9.png?raw=true",
+    img: "quantum9.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum10.png?raw=true",
+    img: "quantum10.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum11.png?raw=true",
+    img: "quantum11.png",
   },
   {
-    img: "https://github.com/lokesh-bansiya/lokesh-bansiya.github.io/blob/master/public/carousel-images/quantum12.png?raw=true",
+    img: "quantum12.png",
   },
 ];
 
@@ -1065,6 +1065,7 @@ export const ProjectItems = [
   {
     id: 0,
     title: "QuantumApp",
+    projectImgArr: quantumProjectImages,
     carousel: <CarouselSlider projectImgArr={[...quantumProjectImages]} />,
     type: "Individual Project",
     desc: "Portfolio design for an startup and basic layout setup with React.js, Chakra-UI.",
