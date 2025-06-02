@@ -15,52 +15,52 @@ export const accpalProjectImages = [
     img: "accpal1.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal2.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal3.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal4.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal5.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal6.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal7.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal8.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal9.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal10.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal11.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal12.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal13.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal14.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal15.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal16.png",
   },
   {
-    img: "accpal1.png",
+    img: "accpal17.png",
   },
 ];
 
@@ -330,7 +330,7 @@ export const pinkapronProjectImages = [
     img: "pinkapron-3.png",
   },
   {
-    img: "pinkapron-20.png",
+    img: "pinkapron-4.png",
   },
   {
     img: "pinkapron-5.png",
@@ -367,6 +367,12 @@ export const pinkapronProjectImages = [
   },
   {
     img: "pinkapron-16.png",
+  },
+  {
+    img: "pinkapron-17.png",
+  },
+  {
+    img: "pinkapron-18.png",
   },
 ];
 
