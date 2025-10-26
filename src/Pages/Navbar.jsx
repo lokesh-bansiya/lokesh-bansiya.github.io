@@ -9,9 +9,9 @@ const Navbar = () => {
   const [menu_class, setMenuClass] = useState("menu hidden");
   const [isMenuClicked, setIsMenuClicked] = useState(false);
 
-  const onClickhandler = () => {
+  const onClickHandler = () => {
     return window.open(
-      "https://1drv.ms/b/c/e5a54242a0eca193/EfMik6XtvAJKpVgcSusDeU0BfrrnZFjrxnsPaCGEMzbTww?e=ew3CSm",
+      "https://1drv.ms/b/c/64b123e24b0d9024/EWHO4Oz1MwdIvDEhaDlzCc0BKvNZ6PulRiKIeuILn9CasA?e=D8xvuf",
       "_blank"
     );
   };
@@ -106,7 +106,7 @@ const Navbar = () => {
               alt="Resume"
               href="/download/Lokesh-Patidar-Resume.pdf"
               download={true}
-              onClick={onClickhandler}
+              onClick={onClickHandler}
             >
               <DownloadIcon /> Resume
             </a>
@@ -194,7 +194,7 @@ const Navbar = () => {
             <a
               href="/download/Lokesh-Patidar-Resume.pdf"
               download={true}
-              onClick={onClickhandler}
+              onClick={onClickHandler}
               target="_blank"
               rel="noreferrer"
               alt="Resume"
@@ -300,7 +300,7 @@ const Navbar = () => {
               <a
                 href="/download/Lokesh-Patidar-Resume.pdf"
                 download={true}
-                onClick={onClickhandler}
+                onClick={onClickHandler}
                 target="_blank"
                 rel="noreferrer"
                 alt="Resume"

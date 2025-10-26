@@ -4,12 +4,12 @@ import Typical from "react-typical";
 import { DownloadIcon } from "@chakra-ui/icons";
 
 const HomePage = () => {
-  // const onClickhandler = () => {
-  //     return window.open(
-  //         "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
-  //         "_blank"
-  //     );
-  // };
+  const onClickHandler = () => {
+    return window.open(
+      "https://1drv.ms/b/c/64b123e24b0d9024/EWHO4Oz1MwdIvDEhaDlzCc0BKvNZ6PulRiKIeuILn9CasA?e=D8xvuf",
+      "_blank"
+    );
+  };
 
   return (
     <div id="Home" className="nav-link home">
@@ -80,7 +80,7 @@ const HomePage = () => {
                   alt="Resume"
                   href="/download/Lokesh-Patidar-Resume.pdf"
                   download={true}
-                  // onClick={onClickhandler}
+                  onClick={onClickHandler}
                   id="resume-link-1"
                   rel="noreferrer"
                 >

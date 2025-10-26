@@ -1223,11 +1223,25 @@ export const SkillItems = [
 
 export const Experience = [
   {
+    id: 0,
+    heading: "Frontend Engineer",
+    company: "Vidyovate Pvt. Ltd.",
+    role: "Frontend Engineer",
+    timePeriod: "Jun 2025 - Present",
+    description: [
+      "Building Zekosoft, a cloud-based platform delivering accounting, payroll, invoicing, and financial management solutions for small businesses in Sweden.",
+      "Designing intuitive workflows that simplify daily operations and enhance business efficiency.",
+      "Enabling seamless collaboration between businesses and accountants through integrated tools and services.",
+      "Empowering clients to gain better financial visibility, make informed decisions, and focus on business growth.",
+      "Expanding the platform with a robust ecosystem of apps, integrations, and strategic partnerships.",
+    ],
+  },
+  {
     id: 1,
     heading: "Full-Stack Developer",
     company: "Codeformers",
     role: "Full-Stack Developer",
-    timePeriod: "Dec 2023 - Present",
+    timePeriod: "Dec 2023 - Jun 2025",
     description: [
       "Developed and maintained Accpal, a QOL system for South African tax firms, improving tax compliance workflows.",
       "Designed and optimized core modules, including tax correspondence automation, CRM, and reporting tools.",

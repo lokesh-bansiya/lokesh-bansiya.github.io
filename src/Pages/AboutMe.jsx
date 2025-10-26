@@ -5,12 +5,12 @@ import { Box, ListItem, Text, UnorderedList } from "@chakra-ui/react";
 import { Experience } from "../constants";
 
 export const AboutMe = () => {
-  // const onClickhandler = () => {
-  //   return window.open(
-  //     "https://1drv.ms/b/s!AiSQDUviI7FkaxKlaRjkZfvl3nM?e=RKg89O",
-  //     "_blank"
-  //   );
-  // };
+  const onClickHandler = () => {
+    return window.open(
+      "https://1drv.ms/b/c/64b123e24b0d9024/EWHO4Oz1MwdIvDEhaDlzCc0BKvNZ6PulRiKIeuILn9CasA?e=D8xvuf",
+      "_blank"
+    );
+  };
 
   return (
     <div id="aboutMe" className="nav-link about">
@@ -34,47 +34,60 @@ export const AboutMe = () => {
               efficient code, always prioritizing reusability and performance.
               I've seamlessly blended good design, technology, and innovation
               throughout my projects to deliver exceptional user experiences. */}
-              A highly skilled MERN-Stack / Full Stack Developer with 3 years of
-              hands-on experience specializing in building dynamic, scalable,
-              and efficient web applications. My technology journey began with a
-              strong foundation in science, leading me to an intensive
-              full-stack development program at Masai School, where I mastered
-              MongoDB, Express.js, React.js, and Node.js through 1200+ hours of
-              coding and problem-solving.
+              A highly skilled MERN-Stack / Full Stack Developer with 3 years
+              and 8 months of hands-on experience specializing in building
+              dynamic, scalable, and efficient web applications. My technology
+              journey began with a strong foundation in science, leading me to
+              an intensive full-stack development program at Masai School, where
+              I mastered MongoDB, Express.js, React.js, and Node.js through
+              1200+ hours of coding and problem-solving.
               <p>
                 Over the years, I have contributed to diverse projects,
                 including:
               </p>
               <ol>
                 <li>
+                  <span style={{ color: "#05579e" }}>Zekosoft – </span>An
+                  accounting software.
+                </li>
+                <li>
+                  <span style={{ color: "#05579e" }}>Accpal – </span>QOL System
+                  for Tax Firms
+                </li>
+                <li>
                   <span style={{ color: "#05579e" }}>Bitgert – </span>A real
                   estate marketplace.
-                </li>
-                <li>
-                  <span style={{ color: "#05579e" }}>Zupport – </span>A customer
-                  support solution.
-                </li>
-                <li>
-                  <span style={{ color: "#05579e" }}>
-                    Order & Management –{" "}
-                  </span>{" "}
-                  A streamlined order management system.
                 </li>
                 <li>
                   <span style={{ color: "#05579e" }}>Pink Apron – </span>An
                   admin panel for efficient business management.
                 </li>
               </ol>
-              <p>
+              {/* <p>
                 Currently, I am a MERN-Stack Developer at{" "}
-                <span style={{ color: "#05579e" }}>Codeformers</span>, where I
+                <span style={{ color: "#05579e" }}>
+                  Codeformers
+                  </span>, where I
                 have been instrumental in developing{" "}
                 <span style={{ color: "#05579e" }}>Accpal</span>—a cutting-edge
                 digital solution for automating Tax, Secretarial, and Financial
                 Quality Control processes. This system enhances operational
                 efficiency through automated workflows, real-time financial
                 updates, and proactive compliance management.
+              </p> */}
+              <p>
+                Currently, I am working as a Frontend engineer at{" "}
+                <span style={{ color: "#05579e" }}>Vidyovate Pvt. Ltd.</span>
+                in Delhi (India), where I have been instrumental in developing{" "}
+                <span style={{ color: "#05579e" }}>Zekosoft</span>—Developing -
+                a cloud-based platform offering accounting, payroll, invoicing,
+                and integrated financial services for small and micro businesses
+                in Sweden. Focused on streamlining workflows, enabling real-time
+                collaboration with accountants, and empowering clients with
+                tools to gain financial control, improve decision-making, and
+                scale efficiently through an ecosystem of apps and integrations.
               </p>
+              <p></p>
               <p>
                 Beyond professional endeavours, I am continuously enhancing my
                 expertise and am currently pursuing a Bachelor of Computer
@@ -99,7 +112,7 @@ export const AboutMe = () => {
                   alt="Resume"
                   href="/download/Lokesh-Patidar-Resume.pdf"
                   download={true}
-                  // onClick={onClickhandler}
+                  onClick={onClickHandler}
                   id="resume-link-2"
                   rel="noreferrer"
                 >
