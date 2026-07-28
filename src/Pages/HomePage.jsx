@@ -1,113 +1,95 @@
-import "../Styles/Home.css";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import Typical from "react-typical";
-import { DownloadIcon } from "@chakra-ui/icons";
+import {
+  FiArrowDownRight,
+  FiArrowUpRight,
+  FiCheckCircle,
+  FiGithub,
+  FiLinkedin,
+} from "react-icons/fi";
 
-const HomePage = () => {
-  const onClickHandler = () => {
-    return window.open(
-      "https://1drv.ms/b/c/64b123e24b0d9024/EWHO4Oz1MwdIvDEhaDlzCc0BKvNZ6PulRiKIeuILn9CasA?e=D8xvuf",
-      "_blank"
-    );
-  };
-
-  return (
-    <div id="Home" className="nav-link home">
-      <div className="container">
+const HomePage = () => (
+  <section id="home" className="hero section-shell">
+    <div className="hero-copy">
+      <div className="eyebrow">
+        <span /> Open to full-stack & frontend opportunities
+      </div>
+      <h1>
+        I turn complex ideas into
+        <em> products people love.</em>
+      </h1>
+      <p className="hero-intro">
+        Full-stack engineer with 4+ years of experience building scalable SaaS
+        products, workflow automation, and high-performance web applications.
+      </p>
+      <div className="hero-actions">
+        <a className="button button-primary" href="#projects">
+          Explore my work <FiArrowDownRight />
+        </a>
+        <a
+          className="button button-secondary"
+          href="mailto:bansiyalokesh29988@gmail.com"
+        >
+          Let’s talk <FiArrowUpRight />
+        </a>
+      </div>
+      <div className="hero-proof" aria-label="Career highlights">
         <div>
-          <div className="description">
-            <div className="profile-details">
-              <div className="colz">
-                <div className="colz-icon">
-                  <a
-                    href="https://www.linkedin.com/in/lokesh-patidar-aa45a0236/"
-                    target="_blank"
-                    alt="linked in"
-                    rel="noreferrer"
-                  >
-                    <i className="">
-                      <FaLinkedinIn className="icon-ease-out" />
-                    </i>
-                  </a>
-                  <a
-                    href="https://github.com/lokesh-bansiya"
-                    target="_blank"
-                    alt="github"
-                    rel="noreferrer"
-                  >
-                    <i className="">
-                      <FaGithub className="icon-ease-out" />
-                    </i>
-                  </a>
-                </div>
-              </div>
+          <strong>4+</strong>
+          <span>Years of experience</span>
+        </div>
+        <div>
+          <strong>10+</strong>
+          <span>Products delivered</span>
+        </div>
+        <div>
+          <strong>80%</strong>
+          <span>Manual work reduced</span>
+        </div>
+      </div>
+      <div className="social-row">
+        <a
+          href="https://github.com/lokesh-bansiya"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiGithub /> GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/lokesh-bansiya/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiLinkedin /> LinkedIn
+        </a>
+      </div>
+    </div>
 
-              <div className="profile-details-role">
-                <h6>
-                  Hello, I'm
-                  <span className="highlighted-text">
-                    &nbsp;{" Lokesh Patidar "}
-                  </span>
-                </h6>
-                <span className="primary-text">
-                  <>
-                    <Typical
-                      loop={Infinity}
-                      steps={[
-                        "Enthusiastic Developer",
-                        2000,
-                        "Full Stack Developer",
-                        2000,
-                        "Mern Stack Developer",
-                        2000,
-                        "React-Redux Developer",
-                        2000,
-                      ]}
-                    />
-                  </>
-                </span>
-                {/* <span className="profile-tag-line">
-                                    I am a MERN-Stack (MongoDB, Express, React, Node), I have completed Full Stack Web Development at Masai School Bangaluru, KARNATAKA
-                                </span> */}
-              </div>
-
-              <div className="buttonBackground">
-                <a href="#contactSection">
-                  <button className="btn primary-btn"> Hire Me </button>
-                </a>
-                <a
-                  target="_blank"
-                  alt="Resume"
-                  href="/download/Lokesh-Patidar-Resume.pdf"
-                  download={true}
-                  onClick={onClickHandler}
-                  id="resume-link-1"
-                  rel="noreferrer"
-                >
-                  <button className="btn highlighted-btn" id="resume-button-1">
-                    Get Resume
-                    <DownloadIcon />
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="imagebox">
-            <div className="profile-picture">
-              <div className="profile-picture-background">
-                <img
-                  src="/Image/lokesh.jpg"
-                  className="home-img"
-                  alt="lokesh-patidar"
-                />
-              </div>
-            </div>
+    <div className="hero-visual">
+      <div className="visual-orbit orbit-one" />
+      <div className="visual-orbit orbit-two" />
+      <div className="portrait-frame">
+        <div className="portrait-topline">
+          <span>Full-stack engineer</span>
+          <span>India · Remote</span>
+        </div>
+        <img src="/Image/lokesh.jpg" alt="Lokesh Patidar" />
+        <div className="portrait-note">
+          <FiCheckCircle />
+          <div>
+            <span>Currently building</span>
+            SaaS & financial platforms
           </div>
         </div>
       </div>
-      <hr color="black" id="aboutMePageSection" />
+      <div className="experience-badge">
+        <strong>4+</strong>
+        <span>
+          years building
+          <br />
+          for the web
+        </span>
+      </div>
     </div>
-  );
-};
+  </section>
+);
 
 export default HomePage;

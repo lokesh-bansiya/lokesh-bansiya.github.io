@@ -1,12 +1,18 @@
-import { FaGithub, FaReact, FaHtml5, FaNodeJs } from "react-icons/fa";
+import {
+  FaAws,
+  FaCss3Alt,
+  FaGithub,
+  FaHtml5,
+  FaLaravel,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
 import { TbBrandRedux, TbBrandVscode } from "react-icons/tb";
 import { ImNpm } from "react-icons/im";
-import { SiChakraui, SiCss3, SiMongodb, SiExpress } from "react-icons/si";
+import { SiChakraui, SiMongodb, SiExpress } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoNetlify } from "react-icons/bi";
-import { FaLaravel } from "react-icons/fa";
-import { SiAmazonaws } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import CarouselSlider from "../carousel/project-img-carousel";
 
@@ -456,7 +462,7 @@ export const ProjectItems = [
     desc: "An innovative digital solution designed exclusively by our firm to streamline and optimize your Tax, Secretarial, and Financial Quality Control needs. This system automates financial statements with streamlined workflows, delivering maximum efficiency and precision. Tax processes are meticulously mapped and optimized for enhanced control and operational efficiency, while system-driven client tax updates ensure proactive compliance and seamless management. Additionally, efficient client financial updates provide streamlined reporting and up-to-date financial visibility, empowering you with the tools to maintain accuracy and control effortlessly.",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -484,7 +490,7 @@ export const ProjectItems = [
         name: "Express.js",
       },
       {
-        icon: <SiAmazonaws />,
+        icon: <FaAws />,
         name: "AWS",
       },
       {
@@ -514,7 +520,7 @@ export const ProjectItems = [
     desc: "The real estate marketplace is an online platform that links clients with realtors, brokers, and property managers. Because a marketplace is multi-channel e-commerce, its primary function is facilitating seamless transactions and service exchange Tech-Stacks & Tools used: CSS, React.Js, Chakra UI, NPM, Blockchain, Web3, Thirdweb, VS-Code, GitHub.",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -542,7 +548,7 @@ export const ProjectItems = [
         name: "Express.js",
       },
       {
-        icon: <SiAmazonaws />,
+        icon: <FaAws />,
         name: "AWS",
       },
       {
@@ -572,7 +578,7 @@ export const ProjectItems = [
     desc: "Poppo live, high appearance hosts interact with you online!!! Live Upgrade not only video live broadcast, but actually more ways to play! Online Party looking for friends, high appearance hosts, a variety of ways to play in online party!",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -604,7 +610,7 @@ export const ProjectItems = [
         name: "Express.js",
       },
       {
-        icon: <SiAmazonaws />,
+        icon: <FaAws />,
         name: "AWS",
       },
       {
@@ -634,7 +640,7 @@ export const ProjectItems = [
     desc: "Founded in 2021, Pinkapron LLP is a renowned Tiffin Service provider in Navi Mumbai and Mumbai. With a commitment to culinary excellence, they offer a diverse menu catering to various tastes and dietary preferences. Using the finest ingredients and upholding strict hygiene standards, Pinkapron LLP ensures the safe and delightful dining experience of its customers. Their efficient delivery services make it convenient for residents and professionals to enjoy gourmet-quality meals in the comfort of their homes or workplaces.",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -662,7 +668,7 @@ export const ProjectItems = [
         name: "Laravel",
       },
       {
-        icon: <SiAmazonaws />,
+        icon: <FaAws />,
         name: "AWS",
       },
       {
@@ -693,7 +699,7 @@ export const ProjectItems = [
     desc: "GroceryMarket is an online food and grocery store. You will find everything you are looking for with products and brands in our catalogue. Right from fresh Fruits and Vegetables, Rice and Dals, Spices and Seasonings to Packaged products, Beverages, Personal care products, and Meat – we have it all. It is an Individual project built by me.",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -752,7 +758,7 @@ export const ProjectItems = [
     desc: "Here is the task tracking website in this website I worked in a team of 5 members And I made a dynamic task management functionality so that users can manage their tasks and can plan accordingly, On our website calendar events are also there with will help full for users to tack date and month planning as well.",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -803,7 +809,7 @@ export const ProjectItems = [
     desc: "PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home-delivered access to a wide range of prescription, OTC pharmaceuticals, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations, serving their healthcare needs.",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -862,7 +868,7 @@ export const ProjectItems = [
         name: "HTML",
       },
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -893,7 +899,7 @@ export const ProjectItems = [
     desc: "This is a Figmatic Calculator App that I made with the help of MERN tech stacks, here user can add more pages to the table and the total amount or the of all the pages will be displayed in the top right section and the total amount of particular page in that particular row. Users can also delete the page and update the status in that page section. Here I also implemented the pagination or displayed 5 table data per page.",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -951,7 +957,7 @@ export const ProjectItems = [
     desc: "IQ Test for kids from 7 to 16 years old, Here is the mini Quiz-App that I have created with the help of HTML, CSS, JavaScript, and React.js.",
     tech_stacks: [
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -994,7 +1000,7 @@ export const ProjectItems = [
         name: "HTML",
       },
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -1033,7 +1039,7 @@ export const ProjectItems = [
         name: "HTML",
       },
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -1081,7 +1087,7 @@ export const ProjectItems = [
         name: "HTML",
       },
       {
-        icon: <SiCss3 style={{ color: "#669ffa" }} />,
+        icon: <FaCss3Alt style={{ color: "#669ffa" }} />,
         name: "CSS",
       },
       {
@@ -1241,7 +1247,7 @@ export const Experience = [
     heading: "Full-Stack Developer",
     company: "Codeformers",
     role: "Full-Stack Developer",
-    timePeriod: "Dec 2023 - Jun 2025",
+    timePeriod: "Dec 2023 - Present",
     description: [
       "Developed and maintained Accpal, a QOL system for South African tax firms, improving tax compliance workflows.",
       "Designed and optimized core modules, including tax correspondence automation, CRM, and reporting tools.",
@@ -1284,11 +1290,11 @@ export const Experience = [
     ],
   },
   // {
-  //      id: 4,
-  //      heading: "Frontend Developer",
-  //      company: "YAV Technologies",
-  //      role: "Frontend Developer",
-  //      timePeriod: "Apr 2019 – Oct 2021",
-  //      description: "Stepping into the professional world as a JavaScript developer brought a mix of excitement and nervousness. Initial days involved orientations, introductions, and absorbing information rapidly. Witnessing my code come to life through implementing features, fixing bugs, and optimizing performance was highly rewarding.",
+  //   id: 4,
+  //   heading: "Frontend Developer",
+  //   company: "YAV Technologies",
+  //   role: "Frontend Developer",
+  //   timePeriod: "Apr 2019 – Oct 2021",
+  //   description: "Stepping into the professional world as a JavaScript developer brought a mix of excitement and nervousness. Initial days involved orientations, introductions, and absorbing information rapidly. Witnessing my code come to life through implementing features, fixing bugs, and optimizing performance was highly rewarding.",
   // },
 ];

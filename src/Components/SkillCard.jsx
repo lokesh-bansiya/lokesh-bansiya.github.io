@@ -1,12 +1,8 @@
-import "../Styles/Skills.css";
-
-const SkillCard = ({ img, name }) => {
-  return (
-    <div className="skills-card">
-      <img className="skills-card-img" src={img} alt="redux" />
-      <h3 className="skills-card-name">{name}</h3>
-    </div>
-  );
-};
+const SkillCard = ({ img, name }) => (
+  <div className="skill-card">
+    <img src={img.startsWith("/") ? img : `/${img}`} alt="" />
+    <span>{name}</span>
+  </div>
+);
 
 export { SkillCard };

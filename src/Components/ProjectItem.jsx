@@ -1,104 +1,78 @@
-import { FaGithub, FaLink } from "react-icons/fa";
-import "../Styles/Projects.css";
-import { Box } from "@chakra-ui/react";
+import { FiArrowUpRight, FiGithub, FiLock } from "react-icons/fi";
 
 const ProjectItem = ({
-  id,
   title,
-  carousel,
-  type,
   desc,
   tech_stacks,
   githubRepo,
   deployedLink,
+  carousel,
+  index,
 }) => {
+  const cleanTitle = title.replace("(Working...)", "").trim();
+  const recruiterSummaries = {
+    Accpal:
+      "A tax and financial operations platform that automates compliance workflows, reporting, client updates, and quality control for professional firms.",
+    Bitgert:
+      "A Web3-powered real-estate marketplace connecting buyers, brokers, and property managers through a responsive, transaction-ready experience.",
+    "Live Streaming Admin Panel":
+      "A scalable operations dashboard for managing hosts, live sessions, users, content, and platform activity in one streamlined workspace.",
+    "Pink Apron Admin Panel":
+      "An end-to-end food operations dashboard for managing menus, orders, customers, and delivery workflows across a growing meal service.",
+  };
+  const summary =
+    recruiterSummaries[cleanTitle] ||
+    (desc.length > 190 ? `${desc.slice(0, 187).trim()}…` : desc);
+  const technologies = [...new Set(tech_stacks.map((item) => item.name))].slice(
+    0,
+    5,
+  );
+
   return (
-    <>
-      <div
-        className={
-          id % 2 !== 0
-            ? "projectItem project-card"
-            : "projectItem1 project-card"
-        }
-      >
-        <div className="projectImage">
-          <h2 className="project-type project-title">
-            <span>☆</span> {title}{" "}
-          </h2>
-          {carousel}
+    <article className="project-card">
+      <div className="project-image">
+        <div className="project-carousel">{carousel}</div>
+        <span>{String(index).padStart(2, "0")}</span>
+      </div>
+      <div className="project-content">
+        <div className="project-topline">
+          <span>Case study</span>
+          {deployedLink && (
+            <a
+              href={deployedLink}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`Open ${cleanTitle}`}
+            >
+              <FiArrowUpRight />
+            </a>
+          )}
         </div>
-        <div className="projectDetails">
-          <h2>{type}</h2>
-          <div className="desc project-description">
-            <span>Description</span>
-            <br />
-            {desc}
-          </div>
-
-          <div className="techStacks">
-            <div className="tech-stacks">
-              <h3>Tech-Stacks & Tools used</h3>
-              <div>
-                {tech_stacks?.map((elem, i) => {
-                  return (
-                    <div className="languages" key={i}>
-                      {elem?.img ? (
-                        <div>
-                          <img src={elem?.img} alt={elem.name} />
-                        </div>
-                      ) : (
-                        <Box m={"auto"}>{elem.icon}</Box>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            <div className="btn">
-              <button>
-                <h3>
-                  {githubRepo ? (
-                    <a
-                      href={githubRepo}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="project-github-link"
-                    >
-                      <FaGithub /> GitHub Repo
-                    </a>
-                  ) : (
-                    <span style={{ color: "gray" }}>
-                      <FaGithub /> Closed
-                    </span>
-                  )}
-                </h3>
-              </button>
-              <button>
-                <h3>
-                  {deployedLink ? (
-                    <a
-                      href={deployedLink}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="project-deployed-link"
-                    >
-                      <FaLink /> Diployed Link
-                    </a>
-                  ) : (
-                    <span style={{ color: "gray" }}>
-                      <FaGithub /> Closed
-                    </span>
-                  )}
-                </h3>
-              </button>
-            </div>
-          </div>
+        <h3>{cleanTitle}</h3>
+        <p>{summary}</p>
+        <div className="tag-row">
+          {technologies.map((tech) => (
+            <span key={tech}>{tech}</span>
+          ))}
+        </div>
+        <div className="project-links">
+          {deployedLink ? (
+            <a href={deployedLink} target="_blank" rel="noreferrer">
+              View product <FiArrowUpRight />
+            </a>
+          ) : (
+            <span>
+              <FiLock /> Private product
+            </span>
+          )}
+          {githubRepo && (
+            <a href={githubRepo} target="_blank" rel="noreferrer">
+              <FiGithub /> Source
+            </a>
+          )}
         </div>
       </div>
-      <br />
-      <br />
-    </>
+    </article>
   );
 };
 
