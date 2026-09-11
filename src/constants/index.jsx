@@ -511,7 +511,7 @@ export const ProjectItems = [
       },
     ],
     githubRepo: "",
-    deployedLink: "https://accpal-dev.herokuapp.com/",
+    deployedLink: "",
   },
   {
     id: 11,
